@@ -8,6 +8,9 @@ require_once __DIR__.'/../vendor/autoload.php';
 use \Symfony\Component\HttpFoundation\Request;
 use CLAgg\ReadConfig;
 use CLAgg\Scraper;
+use CLAgg\Utils;
+
+Utils::$cache_url = __DIR__.'/../cache/';
 
 $app = new Silex\Application();
 

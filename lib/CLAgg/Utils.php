@@ -5,6 +5,8 @@ namespace CLAgg;
 class Utils
 {
 
+	public static $cache_url = './cache/';
+
 	public static function CURL($url, $post = null, $retries = 3)
 	{
 
@@ -70,7 +72,8 @@ class Utils
 		if (is_bool($expire))
 			$expire = 60 * 30;
 		$hash = sha1($location);
-		$file = "./cache/{$hash}";
+		$cacheDir = self::$cache_url;
+		$file = "{$cacheDir}{$hash}";
 		if (file_exists($file))
 		{
 			$file_content = file_get_contents($file);

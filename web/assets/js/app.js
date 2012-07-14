@@ -261,7 +261,7 @@ function process_data(json)
 	$('#buttons').show();
 	$('#search_btn').val('Search Craigslist');
 	$('#loader').hide();
-	$.getScript('/js/nav.js');
+	$.getScript('/assets/js/nav.js');
 
 }
 
