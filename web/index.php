@@ -10,7 +10,7 @@ use CLAgg\ReadConfig;
 use CLAgg\Scraper;
 use CLAgg\Utils;
 
-Utils::$cache_url = __DIR__.'/../cache/';
+Utils::$cache_url = __DIR__.'/../cache/data/';
 
 $app = new Silex\Application();
 
@@ -23,7 +23,10 @@ $sites = array(
 );
 
 $app->register(new Silex\Provider\TwigServiceProvider(), array(
-    'twig.path' => __DIR__.'/../views',
+    'twig.path'		=> __DIR__.'/../views',
+	'twig.options'	=> array(
+		'cache'=> __DIR__.'/../cache/twig/'
+	)
 ));
 
 $app->get('/', function(Request $req) use ($app, $sites)
