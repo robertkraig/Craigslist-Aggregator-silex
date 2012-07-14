@@ -4,7 +4,7 @@ set_time_limit(60*3);
 error_reporting(E_ALL);
 ini_set('error_log', './php_errors.log');
 
-require_once __DIR__.'/../vendor/autoload.php';
+require_once './../vendor/autoload.php';
 use \Symfony\Component\HttpFoundation\Request;
 use CLAgg\ReadConfig;
 use CLAgg\Scraper;
@@ -12,7 +12,7 @@ use CLAgg\Utils;
 use Silex\Application;
 use Silex\Provider\TwigServiceProvider;
 
-Utils::$cache_url = __DIR__.'/../cache/data/';
+Utils::$cache_url = './../cache/data/';
 
 $app = new Application();
 
@@ -25,9 +25,9 @@ $sites = array(
 );
 
 $app->register(new TwigServiceProvider(), array(
-    'twig.path'		=> __DIR__.'/../views',
+    'twig.path'		=> './../views',
 	'twig.options'	=> array(
-		'cache'=> __DIR__.'/../cache/twig/'
+		'cache'=> './../cache/twig/'
 	)
 ));
 
