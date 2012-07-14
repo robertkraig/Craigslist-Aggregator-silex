@@ -1,0 +1,70 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<script>
+	$(function(){
+		$.getJSON('/site',{site:'{{site}}'}, function(json)
+		{
+			buildFormList(json);
+		});
+	});
+	window.PHP_SELF = "/";
+</script>
+<form action="/" method="post" id="find_items">
+	<input type="hidden" name="site" id="site" value="{{pageType}}" />
+	<div id="change_size_container">
+		<div style="font-size: 20px;">{{pagetitle}}</div>
+
+		{% for field in fields %}
+
+			{%if field.argType == 'text' %}
+
+				<label class="fields" for="{{field.argId}}">{{field.argTitle}}</label>
+				<input class="fields" type="text" name="{{field.argName}}" id="{{field.argId}}" />
+				<br style="margin:0;padding:0; height:1px; clear: left;" />
+
+			{% elseif field.argType == 'radio' %}
+
+				{% for radio in field.radio %}
+
+				<label class="fields" for="{{radio.arg_name_id}}">{{radio.arg_name}}</label>
+				<input {{radio.checked}} class="fields" type="radio" name="{{field.argName}}" value="{{radio.arg}}" id="{{radio.arg_name_id}}" />
+				<br style="margin:0;padding:0; height:1px; clear: left;" />
+
+				{% endfor %}
+
+			{% elseif field.argType == 'checkbox' %}
+
+				<label class="fields" for="{{field.checkbox.arg_name}}"><?php echo $title; ?></label>
+				<input class="fields" type="checkbox" name="{{field.argName}}" value="{{field.checkbox.value}}" id="{{field.checkbox.arg_name}}" />
+				<br style="margin:0;padding:0; height:1px; clear: left;" />
+
+			{% endif %}
+
+		{% endfor %}
+
+		<cite>{{pagesearchexample}}</cite>
+		<div id="locations_container">
+			Region:&nbsp;&nbsp;<a id="region_list_disp">open</a>
+			<div id="region_list"></div><br />
+			Areas:&nbsp;&nbsp;<a id="areas_list_disp">open</a>s
+			<div id="areas_list"></div>
+		</div>
+		<a id="search_btn">Search</a>
+		<input type="submit" style="display:none;" />
+		<div><a id="donate" href="http://www.compubomb.net/pages/payme" target="_blank">Donate To Author</a></div>
+		<img alt="loader" id="loader" style="display:none; position: absolute; bottom: 0; right: 0; margin:10px; margin-bottom: 35px;" src="/img/loading.gif" />
+	</div>
+</form>
+<div id="content-container">
+	<div id="buttons">
+		<a id="toggle_disp" class="button">Close All</a>
+		<a id="show_search" class="button">Show Search</a>
+		<span id="open_windows"></span>
+		<div style="clear: left; height: 0px;"></div>
+	</div>
+	<div style="display:none;" id="link_content"></div>
+	<div style="display:none;" id="content"></div>
+</div>
+
+{% endblock %}
