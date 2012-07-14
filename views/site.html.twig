@@ -1,9 +1,9 @@
-{% extends 'index.html' %}
+{% extends 'index.html.twig' %}
 
 {% block content %}
 <script>
 	$(function(){
-		$.getJSON('/site',{site:'{{site}}'}, function(json)
+		$.getJSON('/sites/data',{site:'{{site}}'}, function(json)
 		{
 			buildFormList(json);
 		});
@@ -28,14 +28,14 @@
 				{% for radio in field.radio %}
 
 				<label class="fields" for="{{radio.arg_name_id}}">{{radio.arg_name}}</label>
-				<input {{radio.checked}} class="fields" type="radio" name="{{field.argName}}" value="{{radio.arg}}" id="{{radio.arg_name_id}}" />
+				<input {% if radio.checked %}checked="checked"{%endif%} class="fields" type="radio" name="{{field.argName}}" value="{{radio.arg}}" id="{{radio.arg_name_id}}" />
 				<br style="margin:0;padding:0; height:1px; clear: left;" />
 
 				{% endfor %}
 
 			{% elseif field.argType == 'checkbox' %}
 
-				<label class="fields" for="{{field.checkbox.arg_name}}"><?php echo $title; ?></label>
+				<label class="fields" for="{{field.checkbox.arg_name}}">{{field.checkbox.title}}</label>
 				<input class="fields" type="checkbox" name="{{field.argName}}" value="{{field.checkbox.value}}" id="{{field.checkbox.arg_name}}" />
 				<br style="margin:0;padding:0; height:1px; clear: left;" />
 

@@ -20,12 +20,12 @@ $sites = array(
 );
 
 $app->register(new Silex\Provider\TwigServiceProvider(), array(
-    'twig.path' => __DIR__.'/views',
+    'twig.path' => __DIR__.'/../views',
 ));
 
 $app->get('/', function(Request $req) use ($app, $sites)
 {
-	return $app['twig']->render('index.twig', array(
+	return $app['twig']->render('index.html.twig', array(
 		'title'			=>'My Kraigslist Search',
 		'server_name'	=>$_SERVER['SERVER_NAME'],
 		'sites'			=>$sites,
@@ -38,7 +38,7 @@ $app->get('/site', function(Request $req) use ($app, $sites)
 	if(!isset($sites[$site]))
 		$app->redirect('/');
 
-	$config = new ReadConfig("{$site}.locations.xml");
+	$config = new ReadConfig(__DIR__."/../sites/{$site}.locations.xml");
 
 	$fields = $config->getFields();
 	array_walk($fields, function(&$array){
@@ -57,7 +57,7 @@ $app->get('/site', function(Request $req) use ($app, $sites)
 			for($i = 0; $i < count($titles); $i++)
 			{
 				$array['radio'][] = array(
-					'checked'		=>($select[$i] == '1')?'checked="checked"':'',
+					'checked'		=>($select[$i] == '1'),
 					'arg_name'		=>$titles[$i],
 					'arg_name_id'	=>str_replace(' ', '_', $titles[$i]),
 					'arg'			=>$args[$i]
@@ -67,8 +67,8 @@ $app->get('/site', function(Request $req) use ($app, $sites)
 		}
 		elseif($array['argType'] == 'checkbox')
 		{
-			list($title,$value) = explode(':', $field['argTitle']);
-			$arg_name = str_replace(' ', '_', $field['argName']);
+			list($title, $value) = explode(':', $array['argTitle']);
+			$arg_name = str_replace(' ', '_', $array['argName']);
 			$array['checkbox'] = array(
 				'value'		=>$value,
 				'title'		=>$title,
@@ -77,10 +77,11 @@ $app->get('/site', function(Request $req) use ($app, $sites)
 		}
 	});
 
-	return $app['twig']->render('index.twig', array(
+	return $app['twig']->render('site.html.twig', array(
 		'title'			=>$config->getInfo()->title,
 		'server_name'	=>$_SERVER['SERVER_NAME'],
 		'sites'			=>$sites,
+		'site'			=>$site,
 		'page_type'		=>$config->getInfo()->pageType,
 		'page_title'	=>$config->getInfo()->pagetitle,
 		'search_example'=>$config->getInfo()->pagesearchexample,
@@ -102,7 +103,7 @@ $app->post('/', function(Request $req) use ($app, $sites)
 		), 500);
 	}
 
-	$config = new ReadConfig("{$site}.locations.xml");
+	$config = new ReadConfig(__DIR__."/../sites/{$site}.locations.xml");
 	$search_fields = $config->getFields();
 	$search_field_name = $search_fields[0]['argName'];
 
@@ -119,6 +120,46 @@ $app->post('/', function(Request $req) use ($app, $sites)
 		'status'=>false,
 		'message'=>'argument parameter not defined'
 	), 500);
+
+});
+
+$app->get('/sites/data', function(Request $req) use ($app, $sites)
+{
+	$site = $req->get('site','findjobs');
+
+	if(!isset($sites[$site]))
+	{
+		$app->json (array(
+			'status'=>false,
+			'message'=>'site not defined'
+		), 500);
+	}
+	$config = new ReadConfig(__DIR__."/../sites/{$site}.locations.xml");
+
+	return $app->json(array(
+		'page_info'		=>$config->getInfo(),
+		'region_list'	=>$config->getRegions(),
+		'area_list'		=>$config->getAreas(),
+		'form_fields'	=>$config->getFields()
+	));
+});
+
+$app->error(function (Exception $e, $code) use ($app)
+{
+    switch ($code)
+	{
+        case 404:
+            $message = 'The requested page could not be found.';
+            break;
+        default:
+            $message = 'We are sorry, but something went terribly wrong.';
+    }
+
+    return $app->json(array(
+		'status'=>false,
+		'message'=>$message,
+		'exception'=>$e->getMessage()
+	),$code);
 
 });
 

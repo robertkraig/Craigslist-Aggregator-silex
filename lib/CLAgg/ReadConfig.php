@@ -2,6 +2,8 @@
 
 namespace CLAgg;
 
+use CLAgg\CLAggException;
+
 class ReadConfig
 {
 	private $_cl_info = null;
@@ -10,20 +12,20 @@ class ReadConfig
 	 * @var SimpleXMLElement
 	 */
 	private $_xml = null;
-	private $_locations = null;
-	private $_areas = null;
-	private $_regions = null;
+	private $_locations = array();
+	private $_areas = array();
+	private $_regions = array();
 
 	function  __construct($fileLocation = null)
 	{
 		if(is_null($fileLocation))
-			throw new Exception('Must Enter your XML Configuration file.');
+			throw new CLAggException('Must Enter your XML Configuration file.');
 
 		if(!file_exists($fileLocation))
-			throw new Exception('Your XML Configuration must exist');
+			throw new CLAggException('Your XML Configuration must exist');
 
 		if(is_bool(strpos(strtolower($fileLocation),'.xml')))
-			throw new Exception('File must have .xml extention');
+			throw new CLAggException('File must have .xml extention');
 
 		$xmlstr = file_get_contents($fileLocation);
 		$this->_xml = simplexml_load_string($xmlstr, 'SimpleXMLElement', LIBXML_NOCDATA);
@@ -59,8 +61,6 @@ class ReadConfig
 
 	private function _build_areas()
 	{
-		$this->_locations = array();
-		$this->_areas = array();
 		$locations = array();
 		foreach($this->_xml->xpath('/clrepo/locations/location') as $location)
 		{
@@ -89,7 +89,6 @@ class ReadConfig
 
 	private function _build_regions()
 	{
-		$this->_regions = array();
 		$regions = array();
 		foreach($this->_xml->xpath('/clrepo/regions/region') as $region)
 		{
@@ -112,24 +111,16 @@ class ReadConfig
 
 	public function getAreas()
 	{
-		if(is_null($this->_areas))
-			throw new Exception('init() has not been run');
-
 		return $this->_areas;
 	}
 
 	public function getLocations()
 	{
-		if(is_null($this->_locations))
-			throw new Exception('init() has not been run');
 		return $this->_locations;
 	}
 
 	public function getRegions()
 	{
-		if(is_null($this->_regions))
-			throw new Exception('init() has not been run');
-
 		return $this->_regions;
 	}
 

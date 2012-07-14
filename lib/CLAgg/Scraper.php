@@ -4,7 +4,7 @@ namespace CLAgg;
 
 use CLAgg\Utils;
 use CLAgg\ReadConfig;
-use CLAgg\Exception;
+use CLAgg\CLAggException;
 
 /**
  * @author Robert S Kraig
@@ -24,7 +24,7 @@ class Scraper {
 		}
 		else
 		{
-			throw new Exception('config key[ReadConfig obj] was not defined');
+			throw new CLAggException('config key[ReadConfig obj] was not defined');
 		}
 
 		if(isset($options['include']))
@@ -33,7 +33,7 @@ class Scraper {
 		}
 		else
 		{
-			throw new Exception('Include key was not defined');
+			throw new CLAggException('Include key was not defined');
 		}
 	}
 

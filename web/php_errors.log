@@ -1,0 +1,599 @@
+[14-Jul-2012 10:49:42 UTC] PHP Fatal error:  Class 'Response' not found in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 136
+[14-Jul-2012 10:49:42 UTC] PHP Stack trace:
+[14-Jul-2012 10:49:42 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 10:49:42 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:139
+[14-Jul-2012 10:49:42 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 10:49:42 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 10:49:42 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleException() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:79
+[14-Jul-2012 10:49:42 UTC] PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:186
+[14-Jul-2012 10:49:42 UTC] PHP   7. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php:53
+[14-Jul-2012 10:49:42 UTC] PHP   8. call_user_func() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php:164
+[14-Jul-2012 10:49:42 UTC] PHP   9. Silex\Application->onKernelException() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php:0
+[14-Jul-2012 10:49:42 UTC] PHP  10. Symfony\Component\EventDispatcher\EventDispatcher->dispatch() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:638
+[14-Jul-2012 10:49:42 UTC] PHP  11. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php:53
+[14-Jul-2012 10:49:42 UTC] PHP  12. call_user_func() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php:164
+[14-Jul-2012 10:49:42 UTC] PHP  13. Silex\{closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php:0
+[14-Jul-2012 10:49:42 UTC] PHP  14. call_user_func() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:378
+[14-Jul-2012 10:49:42 UTC] PHP  15. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:0
+[14-Jul-2012 10:49:42 UTC] PHP Fatal error:  Class 'Response' not found in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 136
+[14-Jul-2012 10:49:42 UTC] PHP Stack trace:
+[14-Jul-2012 10:49:42 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 10:49:42 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:139
+[14-Jul-2012 10:49:42 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 10:49:42 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 10:49:42 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleException() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:79
+[14-Jul-2012 10:49:42 UTC] PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:186
+[14-Jul-2012 10:49:42 UTC] PHP   7. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php:53
+[14-Jul-2012 10:49:42 UTC] PHP   8. call_user_func() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php:164
+[14-Jul-2012 10:49:42 UTC] PHP   9. Silex\Application->onKernelException() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php:0
+[14-Jul-2012 10:49:42 UTC] PHP  10. Symfony\Component\EventDispatcher\EventDispatcher->dispatch() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:638
+[14-Jul-2012 10:49:42 UTC] PHP  11. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php:53
+[14-Jul-2012 10:49:42 UTC] PHP  12. call_user_func() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php:164
+[14-Jul-2012 10:49:42 UTC] PHP  13. Silex\{closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php:0
+[14-Jul-2012 10:49:42 UTC] PHP  14. call_user_func() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:378
+[14-Jul-2012 10:49:42 UTC] PHP  15. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:0
+[14-Jul-2012 10:49:45 UTC] PHP Fatal error:  Class 'Response' not found in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 136
+[14-Jul-2012 10:49:45 UTC] PHP Stack trace:
+[14-Jul-2012 10:49:45 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 10:49:45 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:139
+[14-Jul-2012 10:49:45 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 10:49:45 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 10:49:45 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleException() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:79
+[14-Jul-2012 10:49:45 UTC] PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:186
+[14-Jul-2012 10:49:45 UTC] PHP   7. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php:53
+[14-Jul-2012 10:49:45 UTC] PHP   8. call_user_func() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php:164
+[14-Jul-2012 10:49:45 UTC] PHP   9. Silex\Application->onKernelException() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php:0
+[14-Jul-2012 10:49:45 UTC] PHP  10. Symfony\Component\EventDispatcher\EventDispatcher->dispatch() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:638
+[14-Jul-2012 10:49:45 UTC] PHP  11. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php:53
+[14-Jul-2012 10:49:45 UTC] PHP  12. call_user_func() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php:164
+[14-Jul-2012 10:49:45 UTC] PHP  13. Silex\{closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php:0
+[14-Jul-2012 10:49:45 UTC] PHP  14. call_user_func() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:378
+[14-Jul-2012 10:49:45 UTC] PHP  15. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:0
+[14-Jul-2012 10:54:19 UTC] PHP Fatal error:  Class 'CLAgg\ReadConfig' not found in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 41
+[14-Jul-2012 10:54:19 UTC] PHP Stack trace:
+[14-Jul-2012 10:54:19 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 10:54:19 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:144
+[14-Jul-2012 10:54:19 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 10:54:19 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 10:54:19 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 10:54:19 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 10:54:19 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 10:56:22 UTC] PHP Fatal error:  Cannot declare class CLAgg\Exception because the name is already in use in /home/ubuntu/projects/Craigslist-Aggregator-silex/lib/CLAgg/Exception.php on line 6
+[14-Jul-2012 10:56:22 UTC] PHP Stack trace:
+[14-Jul-2012 10:56:22 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 10:56:22 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:144
+[14-Jul-2012 10:56:22 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 10:56:22 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 10:56:22 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 10:56:22 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 10:56:22 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 10:56:22 UTC] PHP   8. CLAgg\ReadConfig->__construct() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:41
+[14-Jul-2012 10:56:22 UTC] PHP   9. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/composer/ClassLoader.php:0
+[14-Jul-2012 11:03:24 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:24 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:24 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:24 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:24 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:24 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:24 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:24 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:24 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:24 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:24 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:24 UTC] PHP Notice:  Undefined offset: 1 in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:24 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:24 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:24 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:24 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:24 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:24 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:24 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:24 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:24 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:24 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:24 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 71
+[14-Jul-2012 11:03:24 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:24 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:24 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:24 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:24 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:24 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:24 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:24 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:24 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:24 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:25 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:25 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:25 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:25 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:25 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:25 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:25 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:25 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP Notice:  Undefined offset: 1 in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:25 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:25 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:25 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:25 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:25 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:25 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:25 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:25 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 71
+[14-Jul-2012 11:03:25 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:25 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:25 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:25 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:25 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:25 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:25 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:25 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:25 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:25 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:25 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:25 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:25 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:25 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:25 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:25 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP Notice:  Undefined offset: 1 in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:25 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:25 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:25 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:25 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:25 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:25 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:25 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:25 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 71
+[14-Jul-2012 11:03:25 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:25 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:25 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:25 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:25 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:25 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:25 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:25 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:25 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:25 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:25 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:25 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:25 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:25 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:25 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:25 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP Notice:  Undefined offset: 1 in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:25 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:25 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:25 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:25 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:25 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:25 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:25 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:25 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 71
+[14-Jul-2012 11:03:25 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:25 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:25 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:25 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:25 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:25 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:25 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:25 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:25 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:25 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:25 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:25 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:25 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:25 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:25 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:25 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP Notice:  Undefined offset: 1 in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:25 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:25 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:25 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:25 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:25 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:25 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:25 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:25 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 71
+[14-Jul-2012 11:03:25 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:25 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:25 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:25 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:25 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:25 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:25 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:25 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:25 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:25 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:25 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:25 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:25 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:25 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:25 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:25 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP Notice:  Undefined offset: 1 in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:25 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:25 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:25 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:25 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:25 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:25 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:25 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:25 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 71
+[14-Jul-2012 11:03:25 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:25 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:25 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:25 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:25 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:25 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:25 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:25 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:25 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:25 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:25 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:25 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:25 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:25 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:25 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:25 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP Notice:  Undefined offset: 1 in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:25 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:25 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:25 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:25 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:25 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:25 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:25 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:25 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 71
+[14-Jul-2012 11:03:25 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:25 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:25 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:25 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:25 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:25 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:25 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:25 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:25 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:25 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:25 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:25 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:25 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:25 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:25 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:25 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP Notice:  Undefined offset: 1 in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:25 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:25 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:25 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:25 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:25 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:25 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:25 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:25 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 71
+[14-Jul-2012 11:03:25 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:25 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:25 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:25 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:25 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:25 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:25 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:25 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:25 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:26 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:26 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:26 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:26 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:26 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:26 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:26 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:26 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:26 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:26 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:26 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:26 UTC] PHP Notice:  Undefined offset: 1 in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:26 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:26 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:26 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:26 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:26 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:26 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:26 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:26 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:26 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:26 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:26 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 71
+[14-Jul-2012 11:03:26 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:26 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:26 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:26 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:26 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:26 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:26 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:26 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:26 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:26 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:26 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:26 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:26 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:26 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:26 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:26 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:26 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:26 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:26 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:26 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:26 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:26 UTC] PHP Notice:  Undefined offset: 1 in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:26 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:26 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:26 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:26 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:26 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:26 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:26 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:26 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:26 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:26 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:26 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 71
+[14-Jul-2012 11:03:26 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:26 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:26 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:26 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:26 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:26 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:26 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:26 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:26 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:26 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:29 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:29 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:29 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:29 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:29 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:29 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:29 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:29 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP Notice:  Undefined offset: 1 in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:29 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:29 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:29 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:29 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:29 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:29 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:29 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:29 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 71
+[14-Jul-2012 11:03:29 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:29 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:29 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:29 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:29 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:29 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:29 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:29 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:29 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:29 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:29 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:29 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:29 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:29 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:29 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:29 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP Notice:  Undefined offset: 1 in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:29 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:29 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:29 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:29 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:29 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:29 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:29 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:29 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 71
+[14-Jul-2012 11:03:29 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:29 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:29 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:29 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:29 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:29 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:29 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:29 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:29 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:29 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:29 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:29 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:29 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:29 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:29 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:29 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP Notice:  Undefined offset: 1 in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:29 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:29 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:29 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:29 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:29 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:29 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:29 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:29 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 71
+[14-Jul-2012 11:03:29 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:29 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:29 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:29 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:29 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:29 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:29 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:29 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:29 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:29 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:29 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:29 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:29 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:29 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:29 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:29 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP Notice:  Undefined offset: 1 in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:29 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:29 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:29 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:29 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:29 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:29 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:29 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:29 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 71
+[14-Jul-2012 11:03:29 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:29 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:29 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:29 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:29 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:29 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:29 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:29 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:29 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:29 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:29 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:29 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:29 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:29 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:29 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:29 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP Notice:  Undefined offset: 1 in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:29 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:29 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:29 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:29 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:29 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:29 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:29 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:29 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 71
+[14-Jul-2012 11:03:29 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:29 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:29 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:29 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:29 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:29 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:29 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:29 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:29 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:29 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:29 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:29 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:29 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:29 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:29 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:29 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP Notice:  Undefined offset: 1 in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 70
+[14-Jul-2012 11:03:29 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:29 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:29 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:29 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:29 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:29 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:29 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:29 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP Notice:  Undefined variable: field in /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php on line 71
+[14-Jul-2012 11:03:29 UTC] PHP Stack trace:
+[14-Jul-2012 11:03:29 UTC] PHP   1. {main}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   2. Silex\Application->run() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:145
+[14-Jul-2012 11:03:29 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:484
+[14-Jul-2012 11:03:29 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/silex/silex/src/Silex/Application.php:509
+[14-Jul-2012 11:03:29 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:73
+[14-Jul-2012 11:03:29 UTC] PHP   6. call_user_func_array() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:129
+[14-Jul-2012 11:03:29 UTC] PHP   7. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php:0
+[14-Jul-2012 11:03:29 UTC] PHP   8. array_walk() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:78
+[14-Jul-2012 11:03:29 UTC] PHP   9. {closure}() /home/ubuntu/projects/Craigslist-Aggregator-silex/web/index.php:0
