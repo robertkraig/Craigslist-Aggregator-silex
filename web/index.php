@@ -9,10 +9,11 @@ use \Symfony\Component\HttpFoundation\Request;
 use CLAgg\ReadConfig;
 use CLAgg\Scraper;
 use CLAgg\Utils;
+use Silex\Application;
 
 Utils::$cache_url = __DIR__.'/../cache/data/';
 
-$app = new Silex\Application();
+$app = new Application();
 
 $sites = array(
 	'findstuff'		=>false,
