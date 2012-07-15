@@ -1,2 +1,3 @@
 /cache/data/*
 /cache/twig/*
+/vendor/
