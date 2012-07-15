@@ -101,7 +101,7 @@ $app->get('/site', function(Request $req) use ($app, $sites)
 $app->post('/', function(Request $req) use ($app, $sites)
 {
 	$site = $req->get('site','findjobs');
-	$include = $req->get('include',false);
+	$include = $req->get('include', false);
 
 	if(!isset($sites[$site]))
 	{
@@ -111,16 +111,14 @@ $app->post('/', function(Request $req) use ($app, $sites)
 		), 500);
 	}
 
-	$config = new ReadConfig(__DIR__."/../sites/{$site}.locations.xml");
-	$search_fields = $config->getFields();
-	$search_field_name = $search_fields[0]['argName'];
+	$config			= new ReadConfig(__DIR__."/../sites/{$site}.locations.xml");
+	$fields			= $config->getFields();
+	$locations		= $config->getLocations();
+	$search_field	= $req->get($fields[0]['argName'], FALSE);
 
-	if(isset($_POST[$search_field_name]))
+	if($search_field !== false)
 	{
-		$scraper = new Scraper(array(
-			'config'	=>$config,
-			'include'	=>$include
-		));
+		$scraper = new Scraper($_POST, $include, $locations, $fields);
 		return $app->json($scraper->getRecords());
 	}
 
