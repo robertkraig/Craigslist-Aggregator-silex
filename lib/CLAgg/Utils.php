@@ -10,20 +10,33 @@ class Utils
 	public static function CURL($url, $post = null, $retries = 3)
 	{
 
-//	file_put_contents('./requested_urls.txt', $url."\n", FILE_APPEND | LOCK_EX);
+		mt_srand();
+
+		$user_agents = array(
+			'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0',
+			'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:15.0) Gecko/20120427 Firefox/15.0a1',
+			'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.16) Gecko/20120421 Firefox/11.0',
+			'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.6 (KHTML, like Gecko) Chrome/20.0.1092.0 Safari/536.6',
+			'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_0) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1063.0 Safari/536.3',
+			'Opera/9.80 (Windows NT 6.1; U; es-ES) Presto/2.9.181 Version/12.00',
+			'Opera/9.80 (X11; Linux x86_64; U; fr) Presto/2.9.168 Version/11.50'
+		);
+		$randomize_user_agent = $user_agents[mt_rand(0, count($user_agents)-1)];
+
+//		file_put_contents('./requests.txt', $user_agents[mt_rand(0, count($user_agents)-1)]."\n", FILE_APPEND | LOCK_EX);
 
 		$curl = curl_init($url);
 
 		if (is_resource($curl) === true)
 		{
-			curl_setopt($curl, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows; U; Windows NT 5.1; rv:1.7.3) Gecko/20041001 Firefox/0.10.1");
+			curl_setopt($curl, CURLOPT_USERAGENT, $randomize_user_agent);
 			curl_setopt($curl, CURLOPT_FAILONERROR, true);
 			curl_setopt($curl, CURLOPT_ENCODING, 1);
 			curl_setopt($curl, CURLOPT_FOLLOWLOCATION, true);
 			curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 			curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
 			curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
-			curl_setopt($curl, CURLOPT_HTTPHEADER, array('Accept-Encoding: gzip,deflate'));
+			curl_setopt($curl, CURLOPT_HTTPHEADER, array('Accept-Encoding: gzip, deflate'));
 
 			if (null != $post)
 			{
