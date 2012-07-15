@@ -48,43 +48,6 @@ $app->get('/site', function(Request $req) use ($app, $sites)
 
 	$config = new ReadConfig(__DIR__."/../sites/{$site}.locations.xml");
 
-	$fields = $config->getFields();
-	array_walk($fields, function(&$array){
-		if(preg_match('/(string|int)/', $array['argType']))
-		{
-			$array['argType'] = 'text';
-		}
-		elseif($array['argType'] == 'radio')
-		{
-			$argList    = explode(':', $array['argTitle']);
-			$titles     = explode('|', $argList[0]);
-			$args       = explode('|', $argList[1]);
-			$select     = explode('|', $argList[2]);
-
-			$array['radio'] = array();
-			for($i = 0; $i < count($titles); $i++)
-			{
-				$array['radio'][] = array(
-					'checked'		=>($select[$i] == '1'),
-					'arg_name'		=>$titles[$i],
-					'arg_name_id'	=>str_replace(' ', '_', $titles[$i]),
-					'arg'			=>$args[$i]
-				);
-			}
-
-		}
-		elseif($array['argType'] == 'checkbox')
-		{
-			list($title, $value) = explode(':', $array['argTitle']);
-			$arg_name = str_replace(' ', '_', $array['argName']);
-			$array['checkbox'] = array(
-				'value'		=>$value,
-				'title'		=>$title,
-				'arg_name'	=>$arg_name
-			);
-		}
-	});
-
 	return $app['twig']->render('site.html.twig', array(
 		'title'			=>$config->getInfo()->title,
 		'server_name'	=>$_SERVER['SERVER_NAME'],
@@ -93,7 +56,7 @@ $app->get('/site', function(Request $req) use ($app, $sites)
 		'page_type'		=>$config->getInfo()->pageType,
 		'page_title'	=>$config->getInfo()->pagetitle,
 		'search_example'=>$config->getInfo()->pagesearchexample,
-		'fields'		=>$fields,
+		'fields'		=>$config->getFieldsArray(),
 	));
 
 });

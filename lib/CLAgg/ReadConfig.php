@@ -15,6 +15,8 @@ class ReadConfig
 	private $_locations = array();
 	private $_areas = array();
 	private $_regions = array();
+	private $_fields = null;
+	private $_fields_array = null;
 
 	function  __construct($fileLocation = null)
 	{
@@ -50,13 +52,64 @@ class ReadConfig
 
 	public function getFields()
 	{
+		if($this->_fields != null)
+			return $this->_fields;
+
 		$fields = $this->_xml->xpath('/clrepo/info/fields/argField');
-		$field_array = array();
+		$this->_fields = array();
 		foreach($fields as $field)
 		{
-			$field_array[] = get_object_vars($field);
+			$this->_fields[] = get_object_vars($field);
 		}
-		return $field_array;
+
+		return $this->_fields;
+	}
+
+	public function getFieldsArray()
+	{
+		if($this->_fields_array != null)
+			return $this->_fields_array;
+
+		$fields = $this->getFields();
+		array_walk($fields, function(&$array)
+		{
+			if(preg_match('/(string|int)/', $array['argType']))
+			{
+				$array['argType'] = 'text';
+			}
+			elseif($array['argType'] == 'radio')
+			{
+				$argList    = explode(':', $array['argTitle']);
+				$titles     = explode('|', $argList[0]);
+				$args       = explode('|', $argList[1]);
+				$select     = explode('|', $argList[2]);
+
+				$array['radio'] = array();
+				for($i = 0; $i < count($titles); $i++)
+				{
+					$array['radio'][] = array(
+						'checked'		=>($select[$i] == '1'),
+						'arg_name'		=>$titles[$i],
+						'arg_name_id'	=>str_replace(' ', '_', $titles[$i]),
+						'arg'			=>$args[$i]
+					);
+				}
+
+			}
+			elseif($array['argType'] == 'checkbox')
+			{
+				list($title, $value) = explode(':', $array['argTitle']);
+				$arg_name = str_replace(' ', '_', $array['argName']);
+				$array['checkbox'] = array(
+					'value'		=>$value,
+					'title'		=>$title,
+					'arg_name'	=>$arg_name
+				);
+			}
+		});
+		$this->_fields_array = $fields;
+
+		return $this->_fields_array;
 	}
 
 	private function _build_areas()
