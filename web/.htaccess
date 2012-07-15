@@ -6,3 +6,14 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
+
+# MIME Type Fixes
+AddType image/x-icon .ico
+AddType text/javascript .js
+AddType text/css .css
+#############################
+# Compress
+SetOutputFilter DEFLATE
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css
+AddOutputFilterByType DEFLATE text/javascript application/x-javascript application/javascript application/json
+#############################
