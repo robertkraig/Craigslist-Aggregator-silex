@@ -24,6 +24,22 @@
 	</info>
 	<regions>
 		<region>
+			<name><![CDATA[Alabama]]></name>
+			<type>alabama</type>
+		</region>
+		<region>
+			<name><![CDATA[Alaska]]></name>
+			<type>alaska</type>
+		</region>
+		<region>
+			<name><![CDATA[Arizona]]></name>
+			<type>arizona</type>
+		</region>
+		<region>
+			<name><![CDATA[Arkansas]]></name>
+			<type>arkansas</type>
+		</region>
+		<region>
 			<name><![CDATA[California / SoCal]]></name>
 			<type>socal</type>
 		</region>
@@ -36,229 +52,2577 @@
 			<type>norcal</type>
 		</region>
 		<region>
-			<name><![CDATA[Maryland]]></name>
-			<type>maryland</type>
-		</region>
-		<region>
-			<name><![CDATA[Texas]]></name>
-			<type>texas</type>
-		</region>
-		<region>
-			<name><![CDATA[Oragon]]></name>
-			<type>oragon</type>
-		</region>
-		<region>
-			<name><![CDATA[Washington]]></name>
-			<type>washington</type>
-		</region>
-		<region>
-			<name><![CDATA[Illinois]]></name>
-			<type>lllinois</type>
-		</region>
-		<region>
-			<name><![CDATA[New York]]></name>
-			<type>newyork</type>
-		</region>
-		<region>
-			<name><![CDATA[North Carolina]]></name>
-			<type>northcarolina</type>
-		</region>
-		<region>
-			<name><![CDATA[Indiana]]></name>
-			<type>indiana</type>
-		</region>
-		<region>
-			<name><![CDATA[Arizona]]></name>
-			<type>arizona</type>
+			<name><![CDATA[Colorado]]></name>
+			<type>colorado</type>
 		</region>
 		<region>
 			<name><![CDATA[Connecticut]]></name>
 			<type>connecticut</type>
 		</region>
 		<region>
-			<name><![CDATA[Colorado]]></name>
-			<type>colorado</type>
+			<name><![CDATA[Delaware]]></name>
+			<type>delaware</type>
 		</region>
 		<region>
-			<name><![CDATA[New Jersey]]></name>
-			<type>newjersey</type>
-		</region>
-		<region>
-			<name><![CDATA[Ohio]]></name>
-			<type>ohio</type>
-		</region>
-		<region>
-			<name><![CDATA[Pennsylvania]]></name>
-			<type>pennsylvania</type>
+			<name><![CDATA[District of Columbia]]></name>
+			<type>district_of_columbia</type>
 		</region>
 		<region>
 			<name><![CDATA[Florida]]></name>
 			<type>florida</type>
 		</region>
 		<region>
-			<name><![CDATA[Michigan]]></name>
-			<type>michigan</type>
+			<name><![CDATA[Georgia]]></name>
+			<type>georgia</type>
 		</region>
 		<region>
-			<name><![CDATA[Massachusetts]]></name>
-			<type>massachusetts</type>
+			<name><![CDATA[Hawaii]]></name>
+			<type>hawaii</type>
+		</region>
+		<region>
+			<name><![CDATA[Idaho]]></name>
+			<type>idaho</type>
+		</region>
+		<region>
+			<name><![CDATA[Illinois]]></name>
+			<type>illinois</type>
+		</region>
+		<region>
+			<name><![CDATA[Indiana]]></name>
+			<type>indiana</type>
 		</region>
 		<region>
 			<name><![CDATA[Iowa]]></name>
 			<type>iowa</type>
 		</region>
 		<region>
+			<name><![CDATA[Kansas]]></name>
+			<type>kansas</type>
+		</region>
+		<region>
+			<name><![CDATA[Kentucky]]></name>
+			<type>kentucky</type>
+		</region>
+		<region>
 			<name><![CDATA[Louisiana]]></name>
 			<type>louisiana</type>
+		</region>
+		<region>
+			<name><![CDATA[Maine]]></name>
+			<type>maine</type>
+		</region>
+		<region>
+			<name><![CDATA[Maryland]]></name>
+			<type>maryland</type>
+		</region>
+		<region>
+			<name><![CDATA[Massachusetts]]></name>
+			<type>massachusetts</type>
+		</region>
+		<region>
+			<name><![CDATA[Michigan]]></name>
+			<type>michigan</type>
+		</region>
+		<region>
+			<name><![CDATA[Minnesota]]></name>
+			<type>minnesota</type>
+		</region>
+		<region>
+			<name><![CDATA[Mississippi]]></name>
+			<type>mississippi</type>
+		</region>
+		<region>
+			<name><![CDATA[Missouri]]></name>
+			<type>missouri</type>
+		</region>
+		<region>
+			<name><![CDATA[Montana]]></name>
+			<type>montana</type>
+		</region>
+		<region>
+			<name><![CDATA[Nebraska]]></name>
+			<type>nebraska</type>
+		</region>
+		<region>
+			<name><![CDATA[Nevada]]></name>
+			<type>nevada</type>
+		</region>
+		<region>
+			<name><![CDATA[New Hampshire]]></name>
+			<type>new_hampshire</type>
+		</region>
+		<region>
+			<name><![CDATA[New Jersey]]></name>
+			<type>new_jersey</type>
+		</region>
+		<region>
+			<name><![CDATA[New Mexico]]></name>
+			<type>new_mexico</type>
+		</region>
+		<region>
+			<name><![CDATA[New York]]></name>
+			<type>new_york</type>
+		</region>
+		<region>
+			<name><![CDATA[North Carolina]]></name>
+			<type>north_carolina</type>
+		</region>
+		<region>
+			<name><![CDATA[North Dakota]]></name>
+			<type>north_dakota</type>
+		</region>
+		<region>
+			<name><![CDATA[Ohio]]></name>
+			<type>ohio</type>
+		</region>
+		<region>
+			<name><![CDATA[Oklahoma]]></name>
+			<type>oklahoma</type>
+		</region>
+		<region>
+			<name><![CDATA[Oregon]]></name>
+			<type>oregon</type>
+		</region>
+		<region>
+			<name><![CDATA[Pennsylvania]]></name>
+			<type>pennsylvania</type>
+		</region>
+		<region>
+			<name><![CDATA[Rhode Island]]></name>
+			<type>rhode_island</type>
+		</region>
+		<region>
+			<name><![CDATA[South Carolina]]></name>
+			<type>south_carolina</type>
+		</region>
+		<region>
+			<name><![CDATA[South Dakota]]></name>
+			<type>south_dakota</type>
+		</region>
+		<region>
+			<name><![CDATA[Tennessee]]></name>
+			<type>tennessee</type>
+		</region>
+		<region>
+			<name><![CDATA[Texas]]></name>
+			<type>texas</type>
+		</region>
+		<region>
+			<name><![CDATA[Utah]]></name>
+			<type>utah</type>
+		</region>
+		<region>
+			<name><![CDATA[Vermont]]></name>
+			<type>vermont</type>
+		</region>
+		<region>
+			<name><![CDATA[Virginia]]></name>
+			<type>virginia</type>
+		</region>
+		<region>
+			<name><![CDATA[Washington]]></name>
+			<type>washington</type>
+		</region>
+		<region>
+			<name><![CDATA[West Virginia]]></name>
+			<type>west_virginia</type>
+		</region>
+		<region>
+			<name><![CDATA[Wisconsin]]></name>
+			<type>wisconsin</type>
+		</region>
+		<region>
+			<name><![CDATA[Wyoming]]></name>
+			<type>wyoming</type>
 		</region>
 	</regions>
 	<locations>
 		<location>
-			<state>CA</state>
-			<type>socal</type>
-			<url><![CDATA[http://losangeles.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[losangeles.craigslist.org]]></partial>
-			<name><![CDATA[Los Angeles]]></name>
+			<state>AL</state>
+			<type>alabama</type>
+			<url><![CDATA[http://auburn.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[auburn.craigslist.org]]></partial>
+			<name><![CDATA[auburn]]></name>
 		</location>
 		<location>
-			<state>CA</state>
-			<type>socal</type>
-			<url><![CDATA[http://sandiego.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[sandiego.craigslist.org]]></partial>
-			<name><![CDATA[San Diego]]></name>
+			<state>AL</state>
+			<type>alabama</type>
+			<url><![CDATA[http://bham.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[bham.craigslist.org]]></partial>
+			<name><![CDATA[birmingham]]></name>
 		</location>
 		<location>
-			<state>CA</state>
-			<type>socal</type>
-			<url><![CDATA[http://orangecounty.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[orangecounty.craigslist.org]]></partial>
-			<name><![CDATA[Orange]]></name>
+			<state>AL</state>
+			<type>alabama</type>
+			<url><![CDATA[http://dothan.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[dothan.craigslist.org]]></partial>
+			<name><![CDATA[dothan]]></name>
 		</location>
 		<location>
-			<state>CA</state>
-			<type>socal</type>
-			<url><![CDATA[http://inlandempire.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[inlandempire.craigslist.org]]></partial>
-			<name><![CDATA[Inland Empire]]></name>
+			<state>AL</state>
+			<type>alabama</type>
+			<url><![CDATA[http://shoals.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[shoals.craigslist.org]]></partial>
+			<name><![CDATA[florence / muscle shoals]]></name>
 		</location>
 		<location>
-			<state>CA</state>
-			<type>norcal</type>
-			<url><![CDATA[http://sacramento.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[sacramento.craigslist.org]]></partial>
-			<name><![CDATA[Sacramento]]></name>
+			<state>AL</state>
+			<type>alabama</type>
+			<url><![CDATA[http://gadsden.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[gadsden.craigslist.org]]></partial>
+			<name><![CDATA[gadsden-anniston]]></name>
 		</location>
 		<location>
-			<state>CA</state>
-			<type>norcal</type>
-			<url><![CDATA[http://sfbay.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[sfbay.craigslist.org]]></partial>
-			<name><![CDATA[San Francisco / Bay Area]]></name>
+			<state>AL</state>
+			<type>alabama</type>
+			<url><![CDATA[http://huntsville.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[huntsville.craigslist.org]]></partial>
+			<name><![CDATA[huntsville / decatur]]></name>
 		</location>
 		<location>
-			<state>CA</state>
-			<type>norcal</type>
-			<url><![CDATA[http://monterey.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[monterey.craigslist.org]]></partial>
-			<name><![CDATA[Monterey Bay]]></name>
+			<state>AL</state>
+			<type>alabama</type>
+			<url><![CDATA[http://mobile.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[mobile.craigslist.org]]></partial>
+			<name><![CDATA[mobile]]></name>
 		</location>
 		<location>
-			<state>CA</state>
-			<type>cencal</type>
-			<url><![CDATA[http://fresno.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[fresno.craigslist.org]]></partial>
-			<name><![CDATA[Fresno]]></name>
+			<state>AL</state>
+			<type>alabama</type>
+			<url><![CDATA[http://montgomery.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[montgomery.craigslist.org]]></partial>
+			<name><![CDATA[montgomery]]></name>
 		</location>
 		<location>
-			<state>CA</state>
-			<type>cencal</type>
-			<url><![CDATA[http://slo.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[slo.craigslist.org]]></partial>
-			<name><![CDATA[San Luis Obispo]]></name>
+			<state>AL</state>
+			<type>alabama</type>
+			<url><![CDATA[http://tuscaloosa.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[tuscaloosa.craigslist.org]]></partial>
+			<name><![CDATA[tuscaloosa]]></name>
 		</location>
 		<location>
-			<state>CA</state>
-			<type>cencal</type>
-			<url><![CDATA[http://santabarbara.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[santabarbara.craigslist.org]]></partial>
-			<name><![CDATA[Santa Barbara]]></name>
+			<state>AK</state>
+			<type>alaska</type>
+			<url><![CDATA[http://anchorage.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[anchorage.craigslist.org]]></partial>
+			<name><![CDATA[anchorage / mat-su]]></name>
 		</location>
 		<location>
-			<state>CA</state>
-			<type>cencal</type>
-			<url><![CDATA[http://ventura.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[ventura.craigslist.org]]></partial>
-			<name><![CDATA[Ventura]]></name>
+			<state>AK</state>
+			<type>alaska</type>
+			<url><![CDATA[http://fairbanks.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[fairbanks.craigslist.org]]></partial>
+			<name><![CDATA[fairbanks]]></name>
+		</location>
+		<location>
+			<state>AK</state>
+			<type>alaska</type>
+			<url><![CDATA[http://kenai.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[kenai.craigslist.org]]></partial>
+			<name><![CDATA[kenai peninsula]]></name>
+		</location>
+		<location>
+			<state>AK</state>
+			<type>alaska</type>
+			<url><![CDATA[http://juneau.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[juneau.craigslist.org]]></partial>
+			<name><![CDATA[southeast alaska]]></name>
+		</location>
+		<location>
+			<state>AZ</state>
+			<type>arizona</type>
+			<url><![CDATA[http://flagstaff.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[flagstaff.craigslist.org]]></partial>
+			<name><![CDATA[flagstaff / sedona]]></name>
+		</location>
+		<location>
+			<state>AZ</state>
+			<type>arizona</type>
+			<url><![CDATA[http://mohave.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[mohave.craigslist.org]]></partial>
+			<name><![CDATA[mohave county]]></name>
+		</location>
+		<location>
+			<state>AZ</state>
+			<type>arizona</type>
+			<url><![CDATA[http://phoenix.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[phoenix.craigslist.org]]></partial>
+			<name><![CDATA[phoenix]]></name>
+		</location>
+		<location>
+			<state>AZ</state>
+			<type>arizona</type>
+			<url><![CDATA[http://prescott.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[prescott.craigslist.org]]></partial>
+			<name><![CDATA[prescott]]></name>
+		</location>
+		<location>
+			<state>AZ</state>
+			<type>arizona</type>
+			<url><![CDATA[http://showlow.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[showlow.craigslist.org]]></partial>
+			<name><![CDATA[show low]]></name>
+		</location>
+		<location>
+			<state>AZ</state>
+			<type>arizona</type>
+			<url><![CDATA[http://sierravista.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[sierravista.craigslist.org]]></partial>
+			<name><![CDATA[sierra vista]]></name>
+		</location>
+		<location>
+			<state>AZ</state>
+			<type>arizona</type>
+			<url><![CDATA[http://tucson.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[tucson.craigslist.org]]></partial>
+			<name><![CDATA[tucson]]></name>
+		</location>
+		<location>
+			<state>AZ</state>
+			<type>arizona</type>
+			<url><![CDATA[http://yuma.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[yuma.craigslist.org]]></partial>
+			<name><![CDATA[yuma]]></name>
+		</location>
+		<location>
+			<state>AR</state>
+			<type>arkansas</type>
+			<url><![CDATA[http://fayar.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[fayar.craigslist.org]]></partial>
+			<name><![CDATA[fayetteville ]]></name>
+		</location>
+		<location>
+			<state>AR</state>
+			<type>arkansas</type>
+			<url><![CDATA[http://fortsmith.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[fortsmith.craigslist.org]]></partial>
+			<name><![CDATA[fort smith]]></name>
+		</location>
+		<location>
+			<state>AR</state>
+			<type>arkansas</type>
+			<url><![CDATA[http://jonesboro.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[jonesboro.craigslist.org]]></partial>
+			<name><![CDATA[jonesboro]]></name>
+		</location>
+		<location>
+			<state>AR</state>
+			<type>arkansas</type>
+			<url><![CDATA[http://littlerock.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[littlerock.craigslist.org]]></partial>
+			<name><![CDATA[little rock]]></name>
+		</location>
+		<location>
+			<state>AR</state>
+			<type>arkansas</type>
+			<url><![CDATA[http://texarkana.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[texarkana.craigslist.org]]></partial>
+			<name><![CDATA[texarkana]]></name>
 		</location>
 		<location>
 			<state>CA</state>
 			<type>cencal</type>
 			<url><![CDATA[http://bakersfield.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[bakersfield.craigslist.org]]></partial>
-			<name><![CDATA[Bakersfield]]></name>
+			<name><![CDATA[bakersfield]]></name>
 		</location>
 		<location>
-			<state>NV</state>
-			<type></type>
-			<url><![CDATA[http://lasvegas.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[lasvegas.craigslist.org]]></partial>
-			<name><![CDATA[Las Vegas]]></name>
+			<state>CA</state>
+			<type>norcal</type>
+			<url><![CDATA[http://chico.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[chico.craigslist.org]]></partial>
+			<name><![CDATA[chico]]></name>
 		</location>
 		<location>
-			<state>MD</state>
-			<type></type>
-			<url><![CDATA[http://annapolis.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[annapolis.craigslist.org]]></partial>
-			<name><![CDATA[Annapolis]]></name>
+			<state>CA</state>
+			<type>cencal</type>
+			<url><![CDATA[http://fresno.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[fresno.craigslist.org]]></partial>
+			<name><![CDATA[fresno / madera]]></name>
 		</location>
 		<location>
-			<state>MD</state>
-			<type>maryland</type>
+			<state>CA</state>
+			<type>norcal</type>
+			<url><![CDATA[http://goldcountry.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[goldcountry.craigslist.org]]></partial>
+			<name><![CDATA[gold country]]></name>
+		</location>
+		<location>
+			<state>CA</state>
+			<type>cencal</type>
+			<url><![CDATA[http://hanford.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[hanford.craigslist.org]]></partial>
+			<name><![CDATA[hanford-corcoran]]></name>
+		</location>
+		<location>
+			<state>CA</state>
+			<type>norcal</type>
+			<url><![CDATA[http://humboldt.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[humboldt.craigslist.org]]></partial>
+			<name><![CDATA[humboldt county]]></name>
+		</location>
+		<location>
+			<state>CA</state>
+			<type>socal</type>
+			<url><![CDATA[http://imperial.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[imperial.craigslist.org]]></partial>
+			<name><![CDATA[imperial county]]></name>
+		</location>
+		<location>
+			<state>CA</state>
+			<type>socal</type>
+			<url><![CDATA[http://inlandempire.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[inlandempire.craigslist.org]]></partial>
+			<name><![CDATA[inland empire]]></name>
+		</location>
+		<location>
+			<state>CA</state>
+			<type>socal</type>
+			<url><![CDATA[http://losangeles.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[losangeles.craigslist.org]]></partial>
+			<name><![CDATA[los angeles]]></name>
+		</location>
+		<location>
+			<state>CA</state>
+			<type>norcal</type>
+			<url><![CDATA[http://mendocino.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[mendocino.craigslist.org]]></partial>
+			<name><![CDATA[mendocino county]]></name>
+		</location>
+		<location>
+			<state>CA</state>
+			<type>cencal</type>
+			<url><![CDATA[http://merced.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[merced.craigslist.org]]></partial>
+			<name><![CDATA[merced]]></name>
+		</location>
+		<location>
+			<state>CA</state>
+			<type>cencal</type>
+			<url><![CDATA[http://modesto.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[modesto.craigslist.org]]></partial>
+			<name><![CDATA[modesto]]></name>
+		</location>
+		<location>
+			<state>CA</state>
+			<type>cencal</type>
+			<url><![CDATA[http://monterey.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[monterey.craigslist.org]]></partial>
+			<name><![CDATA[monterey bay]]></name>
+		</location>
+		<location>
+			<state>CA</state>
+			<type>socal</type>
+			<url><![CDATA[http://orangecounty.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[orangecounty.craigslist.org]]></partial>
+			<name><![CDATA[orange county]]></name>
+		</location>
+		<location>
+			<state>CA</state>
+			<type>socal</type>
+			<url><![CDATA[http://palmsprings.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[palmsprings.craigslist.org]]></partial>
+			<name><![CDATA[palm springs]]></name>
+		</location>
+		<location>
+			<state>CA</state>
+			<type>norcal</type>
+			<url><![CDATA[http://redding.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[redding.craigslist.org]]></partial>
+			<name><![CDATA[redding]]></name>
+		</location>
+		<location>
+			<state>CA</state>
+			<type>norcal</type>
+			<url><![CDATA[http://sacramento.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[sacramento.craigslist.org]]></partial>
+			<name><![CDATA[sacramento]]></name>
+		</location>
+		<location>
+			<state>CA</state>
+			<type>socal</type>
+			<url><![CDATA[http://sandiego.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[sandiego.craigslist.org]]></partial>
+			<name><![CDATA[san diego]]></name>
+		</location>
+		<location>
+			<state>CA</state>
+			<type>norcal</type>
+			<url><![CDATA[http://sfbay.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[sfbay.craigslist.org]]></partial>
+			<name><![CDATA[san francisco bay area]]></name>
+		</location>
+		<location>
+			<state>CA</state>
+			<type>cencal</type>
+			<url><![CDATA[http://slo.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[slo.craigslist.org]]></partial>
+			<name><![CDATA[san luis obispo]]></name>
+		</location>
+		<location>
+			<state>CA</state>
+			<type>cencal</type>
+			<url><![CDATA[http://santabarbara.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[santabarbara.craigslist.org]]></partial>
+			<name><![CDATA[santa barbara]]></name>
+		</location>
+		<location>
+			<state>CA</state>
+			<type>cencal</type>
+			<url><![CDATA[http://santamaria.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[santamaria.craigslist.org]]></partial>
+			<name><![CDATA[santa maria]]></name>
+		</location>
+		<location>
+			<state>CA</state>
+			<type>norcal</type>
+			<url><![CDATA[http://siskiyou.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[siskiyou.craigslist.org]]></partial>
+			<name><![CDATA[siskiyou county]]></name>
+		</location>
+		<location>
+			<state>CA</state>
+			<type>cencal</type>
+			<url><![CDATA[http://stockton.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[stockton.craigslist.org]]></partial>
+			<name><![CDATA[stockton]]></name>
+		</location>
+		<location>
+			<state>CA</state>
+			<type>norcal</type>
+			<url><![CDATA[http://susanville.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[susanville.craigslist.org]]></partial>
+			<name><![CDATA[susanville]]></name>
+		</location>
+		<location>
+			<state>CA</state>
+			<type>socal</type>
+			<url><![CDATA[http://ventura.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[ventura.craigslist.org]]></partial>
+			<name><![CDATA[ventura county]]></name>
+		</location>
+		<location>
+			<state>CA</state>
+			<type>cencal</type>
+			<url><![CDATA[http://visalia.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[visalia.craigslist.org]]></partial>
+			<name><![CDATA[visalia-tulare]]></name>
+		</location>
+		<location>
+			<state>CA</state>
+			<type>norcal</type>
+			<url><![CDATA[http://yubasutter.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[yubasutter.craigslist.org]]></partial>
+			<name><![CDATA[yuba-sutter]]></name>
+		</location>
+		<location>
+			<state>CO</state>
+			<type>colorado</type>
+			<url><![CDATA[http://boulder.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[boulder.craigslist.org]]></partial>
+			<name><![CDATA[boulder]]></name>
+		</location>
+		<location>
+			<state>CO</state>
+			<type>colorado</type>
+			<url><![CDATA[http://cosprings.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[cosprings.craigslist.org]]></partial>
+			<name><![CDATA[colorado springs]]></name>
+		</location>
+		<location>
+			<state>CO</state>
+			<type>colorado</type>
+			<url><![CDATA[http://denver.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[denver.craigslist.org]]></partial>
+			<name><![CDATA[denver]]></name>
+		</location>
+		<location>
+			<state>CO</state>
+			<type>colorado</type>
+			<url><![CDATA[http://eastco.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[eastco.craigslist.org]]></partial>
+			<name><![CDATA[eastern CO]]></name>
+		</location>
+		<location>
+			<state>CO</state>
+			<type>colorado</type>
+			<url><![CDATA[http://fortcollins.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[fortcollins.craigslist.org]]></partial>
+			<name><![CDATA[fort collins / north CO]]></name>
+		</location>
+		<location>
+			<state>CO</state>
+			<type>colorado</type>
+			<url><![CDATA[http://rockies.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[rockies.craigslist.org]]></partial>
+			<name><![CDATA[high rockies]]></name>
+		</location>
+		<location>
+			<state>CO</state>
+			<type>colorado</type>
+			<url><![CDATA[http://pueblo.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[pueblo.craigslist.org]]></partial>
+			<name><![CDATA[pueblo]]></name>
+		</location>
+		<location>
+			<state>CO</state>
+			<type>colorado</type>
+			<url><![CDATA[http://westslope.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[westslope.craigslist.org]]></partial>
+			<name><![CDATA[western slope]]></name>
+		</location>
+		<location>
+			<state>CT</state>
+			<type>connecticut</type>
+			<url><![CDATA[http://newlondon.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[newlondon.craigslist.org]]></partial>
+			<name><![CDATA[eastern CT]]></name>
+		</location>
+		<location>
+			<state>CT</state>
+			<type>connecticut</type>
+			<url><![CDATA[http://hartford.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[hartford.craigslist.org]]></partial>
+			<name><![CDATA[hartford]]></name>
+		</location>
+		<location>
+			<state>CT</state>
+			<type>connecticut</type>
+			<url><![CDATA[http://newhaven.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[newhaven.craigslist.org]]></partial>
+			<name><![CDATA[new haven]]></name>
+		</location>
+		<location>
+			<state>CT</state>
+			<type>connecticut</type>
+			<url><![CDATA[http://nwct.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[nwct.craigslist.org]]></partial>
+			<name><![CDATA[northwest CT]]></name>
+		</location>
+		<location>
+			<state>DE</state>
+			<type>delaware</type>
+			<url><![CDATA[http://delaware.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[delaware.craigslist.org]]></partial>
+			<name><![CDATA[delaware]]></name>
+		</location>
+		<location>
+			<state>DC</state>
+			<type>district_of_columbia</type>
 			<url><![CDATA[http://washingtondc.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[washingtondc.craigslist.org]]></partial>
-			<name><![CDATA[Washington D.C.]]></name>
+			<name><![CDATA[washington]]></name>
+		</location>
+		<location>
+			<state>FL</state>
+			<type>florida</type>
+			<url><![CDATA[http://daytona.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[daytona.craigslist.org]]></partial>
+			<name><![CDATA[daytona beach]]></name>
+		</location>
+		<location>
+			<state>FL</state>
+			<type>florida</type>
+			<url><![CDATA[http://keys.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[keys.craigslist.org]]></partial>
+			<name><![CDATA[florida keys]]></name>
+		</location>
+		<location>
+			<state>FL</state>
+			<type>florida</type>
+			<url><![CDATA[http://fortlauderdale.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[fortlauderdale.craigslist.org]]></partial>
+			<name><![CDATA[fort lauderdale]]></name>
+		</location>
+		<location>
+			<state>FL</state>
+			<type>florida</type>
+			<url><![CDATA[http://fortmyers.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[fortmyers.craigslist.org]]></partial>
+			<name><![CDATA[ft myers / SW florida]]></name>
+		</location>
+		<location>
+			<state>FL</state>
+			<type>florida</type>
+			<url><![CDATA[http://gainesville.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[gainesville.craigslist.org]]></partial>
+			<name><![CDATA[gainesville]]></name>
+		</location>
+		<location>
+			<state>FL</state>
+			<type>florida</type>
+			<url><![CDATA[http://cfl.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[cfl.craigslist.org]]></partial>
+			<name><![CDATA[heartland florida]]></name>
+		</location>
+		<location>
+			<state>FL</state>
+			<type>florida</type>
+			<url><![CDATA[http://jacksonville.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[jacksonville.craigslist.org]]></partial>
+			<name><![CDATA[jacksonville]]></name>
+		</location>
+		<location>
+			<state>FL</state>
+			<type>florida</type>
+			<url><![CDATA[http://lakeland.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[lakeland.craigslist.org]]></partial>
+			<name><![CDATA[lakeland]]></name>
+		</location>
+		<location>
+			<state>FL</state>
+			<type>florida</type>
+			<url><![CDATA[http://lakecity.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[lakecity.craigslist.org]]></partial>
+			<name><![CDATA[north central FL]]></name>
+		</location>
+		<location>
+			<state>FL</state>
+			<type>florida</type>
+			<url><![CDATA[http://ocala.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[ocala.craigslist.org]]></partial>
+			<name><![CDATA[ocala]]></name>
+		</location>
+		<location>
+			<state>FL</state>
+			<type>florida</type>
+			<url><![CDATA[http://okaloosa.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[okaloosa.craigslist.org]]></partial>
+			<name><![CDATA[okaloosa / walton]]></name>
+		</location>
+		<location>
+			<state>FL</state>
+			<type>florida</type>
+			<url><![CDATA[http://orlando.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[orlando.craigslist.org]]></partial>
+			<name><![CDATA[orlando]]></name>
+		</location>
+		<location>
+			<state>FL</state>
+			<type>florida</type>
+			<url><![CDATA[http://panamacity.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[panamacity.craigslist.org]]></partial>
+			<name><![CDATA[panama city]]></name>
+		</location>
+		<location>
+			<state>FL</state>
+			<type>florida</type>
+			<url><![CDATA[http://pensacola.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[pensacola.craigslist.org]]></partial>
+			<name><![CDATA[pensacola]]></name>
+		</location>
+		<location>
+			<state>FL</state>
+			<type>florida</type>
+			<url><![CDATA[http://sarasota.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[sarasota.craigslist.org]]></partial>
+			<name><![CDATA[sarasota-bradenton]]></name>
+		</location>
+		<location>
+			<state>FL</state>
+			<type>florida</type>
+			<url><![CDATA[http://miami.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[miami.craigslist.org]]></partial>
+			<name><![CDATA[south florida]]></name>
+		</location>
+		<location>
+			<state>FL</state>
+			<type>florida</type>
+			<url><![CDATA[http://spacecoast.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[spacecoast.craigslist.org]]></partial>
+			<name><![CDATA[space coast]]></name>
+		</location>
+		<location>
+			<state>FL</state>
+			<type>florida</type>
+			<url><![CDATA[http://staugustine.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[staugustine.craigslist.org]]></partial>
+			<name><![CDATA[st augustine]]></name>
+		</location>
+		<location>
+			<state>FL</state>
+			<type>florida</type>
+			<url><![CDATA[http://tallahassee.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[tallahassee.craigslist.org]]></partial>
+			<name><![CDATA[tallahassee]]></name>
+		</location>
+		<location>
+			<state>FL</state>
+			<type>florida</type>
+			<url><![CDATA[http://tampa.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[tampa.craigslist.org]]></partial>
+			<name><![CDATA[tampa bay area]]></name>
+		</location>
+		<location>
+			<state>FL</state>
+			<type>florida</type>
+			<url><![CDATA[http://treasure.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[treasure.craigslist.org]]></partial>
+			<name><![CDATA[treasure coast]]></name>
+		</location>
+		<location>
+			<state>FL</state>
+			<type>florida</type>
+			<url><![CDATA[http://westpalmbeach.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[westpalmbeach.craigslist.org]]></partial>
+			<name><![CDATA[west palm beach]]></name>
+		</location>
+		<location>
+			<state>GA</state>
+			<type>georgia</type>
+			<url><![CDATA[http://albanyga.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[albanyga.craigslist.org]]></partial>
+			<name><![CDATA[albany ]]></name>
+		</location>
+		<location>
+			<state>GA</state>
+			<type>georgia</type>
+			<url><![CDATA[http://athensga.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[athensga.craigslist.org]]></partial>
+			<name><![CDATA[athens]]></name>
+		</location>
+		<location>
+			<state>GA</state>
+			<type>georgia</type>
+			<url><![CDATA[http://atlanta.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[atlanta.craigslist.org]]></partial>
+			<name><![CDATA[atlanta]]></name>
+		</location>
+		<location>
+			<state>GA</state>
+			<type>georgia</type>
+			<url><![CDATA[http://augusta.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[augusta.craigslist.org]]></partial>
+			<name><![CDATA[augusta]]></name>
+		</location>
+		<location>
+			<state>GA</state>
+			<type>georgia</type>
+			<url><![CDATA[http://brunswick.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[brunswick.craigslist.org]]></partial>
+			<name><![CDATA[brunswick]]></name>
+		</location>
+		<location>
+			<state>GA</state>
+			<type>georgia</type>
+			<url><![CDATA[http://columbusga.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[columbusga.craigslist.org]]></partial>
+			<name><![CDATA[columbus ]]></name>
+		</location>
+		<location>
+			<state>GA</state>
+			<type>georgia</type>
+			<url><![CDATA[http://macon.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[macon.craigslist.org]]></partial>
+			<name><![CDATA[macon / warner robins]]></name>
+		</location>
+		<location>
+			<state>GA</state>
+			<type>georgia</type>
+			<url><![CDATA[http://nwga.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[nwga.craigslist.org]]></partial>
+			<name><![CDATA[northwest GA]]></name>
+		</location>
+		<location>
+			<state>GA</state>
+			<type>georgia</type>
+			<url><![CDATA[http://savannah.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[savannah.craigslist.org]]></partial>
+			<name><![CDATA[savannah / hinesville]]></name>
+		</location>
+		<location>
+			<state>GA</state>
+			<type>georgia</type>
+			<url><![CDATA[http://statesboro.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[statesboro.craigslist.org]]></partial>
+			<name><![CDATA[statesboro]]></name>
+		</location>
+		<location>
+			<state>GA</state>
+			<type>georgia</type>
+			<url><![CDATA[http://valdosta.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[valdosta.craigslist.org]]></partial>
+			<name><![CDATA[valdosta]]></name>
+		</location>
+		<location>
+			<state>HI</state>
+			<type>hawaii</type>
+			<url><![CDATA[http://honolulu.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[honolulu.craigslist.org]]></partial>
+			<name><![CDATA[hawaii]]></name>
+		</location>
+		<location>
+			<state>ID</state>
+			<type>idaho</type>
+			<url><![CDATA[http://boise.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[boise.craigslist.org]]></partial>
+			<name><![CDATA[boise]]></name>
+		</location>
+		<location>
+			<state>ID</state>
+			<type>idaho</type>
+			<url><![CDATA[http://eastidaho.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[eastidaho.craigslist.org]]></partial>
+			<name><![CDATA[east idaho]]></name>
+		</location>
+		<location>
+			<state>ID</state>
+			<type>idaho</type>
+			<url><![CDATA[http://lewiston.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[lewiston.craigslist.org]]></partial>
+			<name><![CDATA[lewiston / clarkston]]></name>
+		</location>
+		<location>
+			<state>ID</state>
+			<type>idaho</type>
+			<url><![CDATA[http://twinfalls.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[twinfalls.craigslist.org]]></partial>
+			<name><![CDATA[twin falls]]></name>
+		</location>
+		<location>
+			<state>IL</state>
+			<type>illinois</type>
+			<url><![CDATA[http://bn.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[bn.craigslist.org]]></partial>
+			<name><![CDATA[bloomington-normal]]></name>
+		</location>
+		<location>
+			<state>IL</state>
+			<type>illinois</type>
+			<url><![CDATA[http://chambana.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[chambana.craigslist.org]]></partial>
+			<name><![CDATA[champaign urbana]]></name>
+		</location>
+		<location>
+			<state>IL</state>
+			<type>illinois</type>
+			<url><![CDATA[http://chicago.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[chicago.craigslist.org]]></partial>
+			<name><![CDATA[chicago]]></name>
+		</location>
+		<location>
+			<state>IL</state>
+			<type>illinois</type>
+			<url><![CDATA[http://decatur.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[decatur.craigslist.org]]></partial>
+			<name><![CDATA[decatur]]></name>
+		</location>
+		<location>
+			<state>IL</state>
+			<type>illinois</type>
+			<url><![CDATA[http://lasalle.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[lasalle.craigslist.org]]></partial>
+			<name><![CDATA[la salle co]]></name>
+		</location>
+		<location>
+			<state>IL</state>
+			<type>illinois</type>
+			<url><![CDATA[http://mattoon.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[mattoon.craigslist.org]]></partial>
+			<name><![CDATA[mattoon-charleston]]></name>
+		</location>
+		<location>
+			<state>IL</state>
+			<type>illinois</type>
+			<url><![CDATA[http://peoria.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[peoria.craigslist.org]]></partial>
+			<name><![CDATA[peoria]]></name>
+		</location>
+		<location>
+			<state>IL</state>
+			<type>illinois</type>
+			<url><![CDATA[http://rockford.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[rockford.craigslist.org]]></partial>
+			<name><![CDATA[rockford]]></name>
+		</location>
+		<location>
+			<state>IL</state>
+			<type>illinois</type>
+			<url><![CDATA[http://carbondale.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[carbondale.craigslist.org]]></partial>
+			<name><![CDATA[southern illinois]]></name>
+		</location>
+		<location>
+			<state>IL</state>
+			<type>illinois</type>
+			<url><![CDATA[http://springfieldil.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[springfieldil.craigslist.org]]></partial>
+			<name><![CDATA[springfield ]]></name>
+		</location>
+		<location>
+			<state>IL</state>
+			<type>illinois</type>
+			<url><![CDATA[http://quincy.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[quincy.craigslist.org]]></partial>
+			<name><![CDATA[western IL]]></name>
+		</location>
+		<location>
+			<state>IN</state>
+			<type>indiana</type>
+			<url><![CDATA[http://bloomington.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[bloomington.craigslist.org]]></partial>
+			<name><![CDATA[bloomington]]></name>
+		</location>
+		<location>
+			<state>IN</state>
+			<type>indiana</type>
+			<url><![CDATA[http://evansville.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[evansville.craigslist.org]]></partial>
+			<name><![CDATA[evansville]]></name>
+		</location>
+		<location>
+			<state>IN</state>
+			<type>indiana</type>
+			<url><![CDATA[http://fortwayne.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[fortwayne.craigslist.org]]></partial>
+			<name><![CDATA[fort wayne]]></name>
+		</location>
+		<location>
+			<state>IN</state>
+			<type>indiana</type>
+			<url><![CDATA[http://indianapolis.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[indianapolis.craigslist.org]]></partial>
+			<name><![CDATA[indianapolis]]></name>
+		</location>
+		<location>
+			<state>IN</state>
+			<type>indiana</type>
+			<url><![CDATA[http://kokomo.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[kokomo.craigslist.org]]></partial>
+			<name><![CDATA[kokomo]]></name>
+		</location>
+		<location>
+			<state>IN</state>
+			<type>indiana</type>
+			<url><![CDATA[http://tippecanoe.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[tippecanoe.craigslist.org]]></partial>
+			<name><![CDATA[lafayette / west lafayette]]></name>
+		</location>
+		<location>
+			<state>IN</state>
+			<type>indiana</type>
+			<url><![CDATA[http://muncie.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[muncie.craigslist.org]]></partial>
+			<name><![CDATA[muncie / anderson]]></name>
+		</location>
+		<location>
+			<state>IN</state>
+			<type>indiana</type>
+			<url><![CDATA[http://richmondin.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[richmondin.craigslist.org]]></partial>
+			<name><![CDATA[richmond ]]></name>
+		</location>
+		<location>
+			<state>IN</state>
+			<type>indiana</type>
+			<url><![CDATA[http://southbend.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[southbend.craigslist.org]]></partial>
+			<name><![CDATA[south bend / michiana]]></name>
+		</location>
+		<location>
+			<state>IN</state>
+			<type>indiana</type>
+			<url><![CDATA[http://terrehaute.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[terrehaute.craigslist.org]]></partial>
+			<name><![CDATA[terre haute]]></name>
+		</location>
+		<location>
+			<state>IA</state>
+			<type>iowa</type>
+			<url><![CDATA[http://ames.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[ames.craigslist.org]]></partial>
+			<name><![CDATA[ames]]></name>
+		</location>
+		<location>
+			<state>IA</state>
+			<type>iowa</type>
+			<url><![CDATA[http://cedarrapids.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[cedarrapids.craigslist.org]]></partial>
+			<name><![CDATA[cedar rapids]]></name>
+		</location>
+		<location>
+			<state>IA</state>
+			<type>iowa</type>
+			<url><![CDATA[http://desmoines.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[desmoines.craigslist.org]]></partial>
+			<name><![CDATA[des moines]]></name>
+		</location>
+		<location>
+			<state>IA</state>
+			<type>iowa</type>
+			<url><![CDATA[http://dubuque.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[dubuque.craigslist.org]]></partial>
+			<name><![CDATA[dubuque]]></name>
+		</location>
+		<location>
+			<state>IA</state>
+			<type>iowa</type>
+			<url><![CDATA[http://fortdodge.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[fortdodge.craigslist.org]]></partial>
+			<name><![CDATA[fort dodge]]></name>
+		</location>
+		<location>
+			<state>IA</state>
+			<type>iowa</type>
+			<url><![CDATA[http://iowacity.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[iowacity.craigslist.org]]></partial>
+			<name><![CDATA[iowa city]]></name>
+		</location>
+		<location>
+			<state>IA</state>
+			<type>iowa</type>
+			<url><![CDATA[http://masoncity.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[masoncity.craigslist.org]]></partial>
+			<name><![CDATA[mason city]]></name>
+		</location>
+		<location>
+			<state>IA</state>
+			<type>iowa</type>
+			<url><![CDATA[http://quadcities.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[quadcities.craigslist.org]]></partial>
+			<name><![CDATA[quad cities]]></name>
+		</location>
+		<location>
+			<state>IA</state>
+			<type>iowa</type>
+			<url><![CDATA[http://siouxcity.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[siouxcity.craigslist.org]]></partial>
+			<name><![CDATA[sioux city]]></name>
+		</location>
+		<location>
+			<state>IA</state>
+			<type>iowa</type>
+			<url><![CDATA[http://ottumwa.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[ottumwa.craigslist.org]]></partial>
+			<name><![CDATA[southeast IA]]></name>
+		</location>
+		<location>
+			<state>IA</state>
+			<type>iowa</type>
+			<url><![CDATA[http://waterloo.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[waterloo.craigslist.org]]></partial>
+			<name><![CDATA[waterloo / cedar falls]]></name>
+		</location>
+		<location>
+			<state>KS</state>
+			<type>kansas</type>
+			<url><![CDATA[http://lawrence.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[lawrence.craigslist.org]]></partial>
+			<name><![CDATA[lawrence]]></name>
+		</location>
+		<location>
+			<state>KS</state>
+			<type>kansas</type>
+			<url><![CDATA[http://ksu.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[ksu.craigslist.org]]></partial>
+			<name><![CDATA[manhattan]]></name>
+		</location>
+		<location>
+			<state>KS</state>
+			<type>kansas</type>
+			<url><![CDATA[http://nwks.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[nwks.craigslist.org]]></partial>
+			<name><![CDATA[northwest KS]]></name>
+		</location>
+		<location>
+			<state>KS</state>
+			<type>kansas</type>
+			<url><![CDATA[http://salina.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[salina.craigslist.org]]></partial>
+			<name><![CDATA[salina]]></name>
+		</location>
+		<location>
+			<state>KS</state>
+			<type>kansas</type>
+			<url><![CDATA[http://seks.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[seks.craigslist.org]]></partial>
+			<name><![CDATA[southeast KS]]></name>
+		</location>
+		<location>
+			<state>KS</state>
+			<type>kansas</type>
+			<url><![CDATA[http://swks.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[swks.craigslist.org]]></partial>
+			<name><![CDATA[southwest KS]]></name>
+		</location>
+		<location>
+			<state>KS</state>
+			<type>kansas</type>
+			<url><![CDATA[http://topeka.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[topeka.craigslist.org]]></partial>
+			<name><![CDATA[topeka]]></name>
+		</location>
+		<location>
+			<state>KS</state>
+			<type>kansas</type>
+			<url><![CDATA[http://wichita.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[wichita.craigslist.org]]></partial>
+			<name><![CDATA[wichita]]></name>
+		</location>
+		<location>
+			<state>KY</state>
+			<type>kentucky</type>
+			<url><![CDATA[http://bgky.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[bgky.craigslist.org]]></partial>
+			<name><![CDATA[bowling green]]></name>
+		</location>
+		<location>
+			<state>KY</state>
+			<type>kentucky</type>
+			<url><![CDATA[http://eastky.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[eastky.craigslist.org]]></partial>
+			<name><![CDATA[eastern kentucky]]></name>
+		</location>
+		<location>
+			<state>KY</state>
+			<type>kentucky</type>
+			<url><![CDATA[http://lexington.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[lexington.craigslist.org]]></partial>
+			<name><![CDATA[lexington]]></name>
+		</location>
+		<location>
+			<state>KY</state>
+			<type>kentucky</type>
+			<url><![CDATA[http://louisville.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[louisville.craigslist.org]]></partial>
+			<name><![CDATA[louisville]]></name>
+		</location>
+		<location>
+			<state>KY</state>
+			<type>kentucky</type>
+			<url><![CDATA[http://owensboro.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[owensboro.craigslist.org]]></partial>
+			<name><![CDATA[owensboro]]></name>
+		</location>
+		<location>
+			<state>KY</state>
+			<type>kentucky</type>
+			<url><![CDATA[http://westky.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[westky.craigslist.org]]></partial>
+			<name><![CDATA[western KY]]></name>
+		</location>
+		<location>
+			<state>LA</state>
+			<type>louisiana</type>
+			<url><![CDATA[http://batonrouge.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[batonrouge.craigslist.org]]></partial>
+			<name><![CDATA[baton rouge]]></name>
+		</location>
+		<location>
+			<state>LA</state>
+			<type>louisiana</type>
+			<url><![CDATA[http://cenla.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[cenla.craigslist.org]]></partial>
+			<name><![CDATA[central louisiana]]></name>
+		</location>
+		<location>
+			<state>LA</state>
+			<type>louisiana</type>
+			<url><![CDATA[http://houma.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[houma.craigslist.org]]></partial>
+			<name><![CDATA[houma]]></name>
+		</location>
+		<location>
+			<state>LA</state>
+			<type>louisiana</type>
+			<url><![CDATA[http://lafayette.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[lafayette.craigslist.org]]></partial>
+			<name><![CDATA[lafayette]]></name>
+		</location>
+		<location>
+			<state>LA</state>
+			<type>louisiana</type>
+			<url><![CDATA[http://lakecharles.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[lakecharles.craigslist.org]]></partial>
+			<name><![CDATA[lake charles]]></name>
+		</location>
+		<location>
+			<state>LA</state>
+			<type>louisiana</type>
+			<url><![CDATA[http://monroe.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[monroe.craigslist.org]]></partial>
+			<name><![CDATA[monroe]]></name>
+		</location>
+		<location>
+			<state>LA</state>
+			<type>louisiana</type>
+			<url><![CDATA[http://neworleans.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[neworleans.craigslist.org]]></partial>
+			<name><![CDATA[new orleans]]></name>
+		</location>
+		<location>
+			<state>LA</state>
+			<type>louisiana</type>
+			<url><![CDATA[http://shreveport.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[shreveport.craigslist.org]]></partial>
+			<name><![CDATA[shreveport]]></name>
+		</location>
+		<location>
+			<state>ME</state>
+			<type>maine</type>
+			<url><![CDATA[http://maine.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[maine.craigslist.org]]></partial>
+			<name><![CDATA[maine]]></name>
 		</location>
 		<location>
 			<state>MD</state>
 			<type>maryland</type>
-			<url><![CDATA[http://westmd.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[westmd.craigslist.org]]></partial>
-			<name><![CDATA[West Maryland]]></name>
-		</location>
-		<location>
-			<state>MD</state>
-			<type>maryland</type>
-			<url><![CDATA[http://smd.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[smd.craigslist.org]]></partial>
-			<name><![CDATA[South Maryland]]></name>
-		</location>
-		<location>
-			<state>MD</state>
-			<type>maryland</type>
-			<url><![CDATA[http://frederick.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[frederick.craigslist.org]]></partial>
-			<name><![CDATA[Frederick]]></name>
-		</location>
-		<location>
-			<state>MD</state>
-			<type>maryland</type>
-			<url><![CDATA[http://easternshore.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[easternshore.craigslist.org]]></partial>
-			<name><![CDATA[Eastern Shore Maryland]]></name>
-		</location>
-		<location>
-			<state>MD</state>
-			<type>maryland</type>
-			<url><![CDATA[http://chambersburg.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[chambersburg.craigslist.org]]></partial>
-			<name><![CDATA[Chambersburg]]></name>
+			<url><![CDATA[http://annapolis.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[annapolis.craigslist.org]]></partial>
+			<name><![CDATA[annapolis]]></name>
 		</location>
 		<location>
 			<state>MD</state>
 			<type>maryland</type>
 			<url><![CDATA[http://baltimore.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[baltimore.craigslist.org]]></partial>
-			<name><![CDATA[Baltimore Maryland]]></name>
+			<name><![CDATA[baltimore]]></name>
+		</location>
+		<location>
+			<state>MD</state>
+			<type>maryland</type>
+			<url><![CDATA[http://easternshore.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[easternshore.craigslist.org]]></partial>
+			<name><![CDATA[eastern shore]]></name>
+		</location>
+		<location>
+			<state>MD</state>
+			<type>maryland</type>
+			<url><![CDATA[http://frederick.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[frederick.craigslist.org]]></partial>
+			<name><![CDATA[frederick]]></name>
+		</location>
+		<location>
+			<state>MD</state>
+			<type>maryland</type>
+			<url><![CDATA[http://smd.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[smd.craigslist.org]]></partial>
+			<name><![CDATA[southern maryland]]></name>
+		</location>
+		<location>
+			<state>MD</state>
+			<type>maryland</type>
+			<url><![CDATA[http://westmd.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[westmd.craigslist.org]]></partial>
+			<name><![CDATA[western maryland]]></name>
+		</location>
+		<location>
+			<state>MA</state>
+			<type>massachusetts</type>
+			<url><![CDATA[http://boston.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[boston.craigslist.org]]></partial>
+			<name><![CDATA[boston]]></name>
+		</location>
+		<location>
+			<state>MA</state>
+			<type>massachusetts</type>
+			<url><![CDATA[http://capecod.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[capecod.craigslist.org]]></partial>
+			<name><![CDATA[cape cod / islands]]></name>
+		</location>
+		<location>
+			<state>MA</state>
+			<type>massachusetts</type>
+			<url><![CDATA[http://southcoast.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[southcoast.craigslist.org]]></partial>
+			<name><![CDATA[south coast]]></name>
+		</location>
+		<location>
+			<state>MA</state>
+			<type>massachusetts</type>
+			<url><![CDATA[http://westernmass.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[westernmass.craigslist.org]]></partial>
+			<name><![CDATA[western massachusetts]]></name>
+		</location>
+		<location>
+			<state>MA</state>
+			<type>massachusetts</type>
+			<url><![CDATA[http://worcester.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[worcester.craigslist.org]]></partial>
+			<name><![CDATA[worcester / central MA]]></name>
+		</location>
+		<location>
+			<state>MI</state>
+			<type>michigan</type>
+			<url><![CDATA[http://annarbor.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[annarbor.craigslist.org]]></partial>
+			<name><![CDATA[ann arbor]]></name>
+		</location>
+		<location>
+			<state>MI</state>
+			<type>michigan</type>
+			<url><![CDATA[http://battlecreek.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[battlecreek.craigslist.org]]></partial>
+			<name><![CDATA[battle creek]]></name>
+		</location>
+		<location>
+			<state>MI</state>
+			<type>michigan</type>
+			<url><![CDATA[http://centralmich.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[centralmich.craigslist.org]]></partial>
+			<name><![CDATA[central michigan]]></name>
+		</location>
+		<location>
+			<state>MI</state>
+			<type>michigan</type>
+			<url><![CDATA[http://detroit.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[detroit.craigslist.org]]></partial>
+			<name><![CDATA[detroit metro]]></name>
+		</location>
+		<location>
+			<state>MI</state>
+			<type>michigan</type>
+			<url><![CDATA[http://flint.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[flint.craigslist.org]]></partial>
+			<name><![CDATA[flint]]></name>
+		</location>
+		<location>
+			<state>MI</state>
+			<type>michigan</type>
+			<url><![CDATA[http://grandrapids.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[grandrapids.craigslist.org]]></partial>
+			<name><![CDATA[grand rapids]]></name>
+		</location>
+		<location>
+			<state>MI</state>
+			<type>michigan</type>
+			<url><![CDATA[http://holland.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[holland.craigslist.org]]></partial>
+			<name><![CDATA[holland]]></name>
+		</location>
+		<location>
+			<state>MI</state>
+			<type>michigan</type>
+			<url><![CDATA[http://jxn.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[jxn.craigslist.org]]></partial>
+			<name><![CDATA[jackson ]]></name>
+		</location>
+		<location>
+			<state>MI</state>
+			<type>michigan</type>
+			<url><![CDATA[http://kalamazoo.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[kalamazoo.craigslist.org]]></partial>
+			<name><![CDATA[kalamazoo]]></name>
+		</location>
+		<location>
+			<state>MI</state>
+			<type>michigan</type>
+			<url><![CDATA[http://lansing.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[lansing.craigslist.org]]></partial>
+			<name><![CDATA[lansing]]></name>
+		</location>
+		<location>
+			<state>MI</state>
+			<type>michigan</type>
+			<url><![CDATA[http://monroemi.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[monroemi.craigslist.org]]></partial>
+			<name><![CDATA[monroe ]]></name>
+		</location>
+		<location>
+			<state>MI</state>
+			<type>michigan</type>
+			<url><![CDATA[http://muskegon.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[muskegon.craigslist.org]]></partial>
+			<name><![CDATA[muskegon]]></name>
+		</location>
+		<location>
+			<state>MI</state>
+			<type>michigan</type>
+			<url><![CDATA[http://nmi.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[nmi.craigslist.org]]></partial>
+			<name><![CDATA[northern michigan]]></name>
+		</location>
+		<location>
+			<state>MI</state>
+			<type>michigan</type>
+			<url><![CDATA[http://porthuron.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[porthuron.craigslist.org]]></partial>
+			<name><![CDATA[port huron]]></name>
+		</location>
+		<location>
+			<state>MI</state>
+			<type>michigan</type>
+			<url><![CDATA[http://saginaw.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[saginaw.craigslist.org]]></partial>
+			<name><![CDATA[saginaw-midland-baycity]]></name>
+		</location>
+		<location>
+			<state>MI</state>
+			<type>michigan</type>
+			<url><![CDATA[http://swmi.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[swmi.craigslist.org]]></partial>
+			<name><![CDATA[southwest michigan]]></name>
+		</location>
+		<location>
+			<state>MI</state>
+			<type>michigan</type>
+			<url><![CDATA[http://thumb.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[thumb.craigslist.org]]></partial>
+			<name><![CDATA[the thumb]]></name>
+		</location>
+		<location>
+			<state>MI</state>
+			<type>michigan</type>
+			<url><![CDATA[http://up.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[up.craigslist.org]]></partial>
+			<name><![CDATA[upper peninsula]]></name>
+		</location>
+		<location>
+			<state>MN</state>
+			<type>minnesota</type>
+			<url><![CDATA[http://bemidji.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[bemidji.craigslist.org]]></partial>
+			<name><![CDATA[bemidji]]></name>
+		</location>
+		<location>
+			<state>MN</state>
+			<type>minnesota</type>
+			<url><![CDATA[http://brainerd.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[brainerd.craigslist.org]]></partial>
+			<name><![CDATA[brainerd]]></name>
+		</location>
+		<location>
+			<state>MN</state>
+			<type>minnesota</type>
+			<url><![CDATA[http://duluth.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[duluth.craigslist.org]]></partial>
+			<name><![CDATA[duluth / superior]]></name>
+		</location>
+		<location>
+			<state>MN</state>
+			<type>minnesota</type>
+			<url><![CDATA[http://mankato.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[mankato.craigslist.org]]></partial>
+			<name><![CDATA[mankato]]></name>
+		</location>
+		<location>
+			<state>MN</state>
+			<type>minnesota</type>
+			<url><![CDATA[http://minneapolis.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[minneapolis.craigslist.org]]></partial>
+			<name><![CDATA[minneapolis / st paul]]></name>
+		</location>
+		<location>
+			<state>MN</state>
+			<type>minnesota</type>
+			<url><![CDATA[http://rmn.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[rmn.craigslist.org]]></partial>
+			<name><![CDATA[rochester ]]></name>
+		</location>
+		<location>
+			<state>MN</state>
+			<type>minnesota</type>
+			<url><![CDATA[http://marshall.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[marshall.craigslist.org]]></partial>
+			<name><![CDATA[southwest MN]]></name>
+		</location>
+		<location>
+			<state>MN</state>
+			<type>minnesota</type>
+			<url><![CDATA[http://stcloud.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[stcloud.craigslist.org]]></partial>
+			<name><![CDATA[st cloud]]></name>
+		</location>
+		<location>
+			<state>MS</state>
+			<type>mississippi</type>
+			<url><![CDATA[http://gulfport.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[gulfport.craigslist.org]]></partial>
+			<name><![CDATA[gulfport / biloxi]]></name>
+		</location>
+		<location>
+			<state>MS</state>
+			<type>mississippi</type>
+			<url><![CDATA[http://hattiesburg.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[hattiesburg.craigslist.org]]></partial>
+			<name><![CDATA[hattiesburg]]></name>
+		</location>
+		<location>
+			<state>MS</state>
+			<type>mississippi</type>
+			<url><![CDATA[http://jackson.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[jackson.craigslist.org]]></partial>
+			<name><![CDATA[jackson]]></name>
+		</location>
+		<location>
+			<state>MS</state>
+			<type>mississippi</type>
+			<url><![CDATA[http://meridian.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[meridian.craigslist.org]]></partial>
+			<name><![CDATA[meridian]]></name>
+		</location>
+		<location>
+			<state>MS</state>
+			<type>mississippi</type>
+			<url><![CDATA[http://northmiss.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[northmiss.craigslist.org]]></partial>
+			<name><![CDATA[north mississippi]]></name>
+		</location>
+		<location>
+			<state>MS</state>
+			<type>mississippi</type>
+			<url><![CDATA[http://natchez.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[natchez.craigslist.org]]></partial>
+			<name><![CDATA[southwest MS]]></name>
+		</location>
+		<location>
+			<state>MO</state>
+			<type>missouri</type>
+			<url><![CDATA[http://columbiamo.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[columbiamo.craigslist.org]]></partial>
+			<name><![CDATA[columbia / jeff city]]></name>
+		</location>
+		<location>
+			<state>MO</state>
+			<type>missouri</type>
+			<url><![CDATA[http://joplin.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[joplin.craigslist.org]]></partial>
+			<name><![CDATA[joplin]]></name>
+		</location>
+		<location>
+			<state>MO</state>
+			<type>missouri</type>
+			<url><![CDATA[http://kansascity.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[kansascity.craigslist.org]]></partial>
+			<name><![CDATA[kansas city]]></name>
+		</location>
+		<location>
+			<state>MO</state>
+			<type>missouri</type>
+			<url><![CDATA[http://kirksville.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[kirksville.craigslist.org]]></partial>
+			<name><![CDATA[kirksville]]></name>
+		</location>
+		<location>
+			<state>MO</state>
+			<type>missouri</type>
+			<url><![CDATA[http://loz.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[loz.craigslist.org]]></partial>
+			<name><![CDATA[lake of the ozarks]]></name>
+		</location>
+		<location>
+			<state>MO</state>
+			<type>missouri</type>
+			<url><![CDATA[http://semo.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[semo.craigslist.org]]></partial>
+			<name><![CDATA[southeast missouri]]></name>
+		</location>
+		<location>
+			<state>MO</state>
+			<type>missouri</type>
+			<url><![CDATA[http://springfield.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[springfield.craigslist.org]]></partial>
+			<name><![CDATA[springfield]]></name>
+		</location>
+		<location>
+			<state>MO</state>
+			<type>missouri</type>
+			<url><![CDATA[http://stjoseph.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[stjoseph.craigslist.org]]></partial>
+			<name><![CDATA[st joseph]]></name>
+		</location>
+		<location>
+			<state>MO</state>
+			<type>missouri</type>
+			<url><![CDATA[http://stlouis.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[stlouis.craigslist.org]]></partial>
+			<name><![CDATA[st louis]]></name>
+		</location>
+		<location>
+			<state>MT</state>
+			<type>montana</type>
+			<url><![CDATA[http://billings.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[billings.craigslist.org]]></partial>
+			<name><![CDATA[billings]]></name>
+		</location>
+		<location>
+			<state>MT</state>
+			<type>montana</type>
+			<url><![CDATA[http://bozeman.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[bozeman.craigslist.org]]></partial>
+			<name><![CDATA[bozeman]]></name>
+		</location>
+		<location>
+			<state>MT</state>
+			<type>montana</type>
+			<url><![CDATA[http://butte.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[butte.craigslist.org]]></partial>
+			<name><![CDATA[butte]]></name>
+		</location>
+		<location>
+			<state>MT</state>
+			<type>montana</type>
+			<url><![CDATA[http://greatfalls.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[greatfalls.craigslist.org]]></partial>
+			<name><![CDATA[great falls]]></name>
+		</location>
+		<location>
+			<state>MT</state>
+			<type>montana</type>
+			<url><![CDATA[http://helena.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[helena.craigslist.org]]></partial>
+			<name><![CDATA[helena]]></name>
+		</location>
+		<location>
+			<state>MT</state>
+			<type>montana</type>
+			<url><![CDATA[http://kalispell.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[kalispell.craigslist.org]]></partial>
+			<name><![CDATA[kalispell]]></name>
+		</location>
+		<location>
+			<state>MT</state>
+			<type>montana</type>
+			<url><![CDATA[http://missoula.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[missoula.craigslist.org]]></partial>
+			<name><![CDATA[missoula]]></name>
+		</location>
+		<location>
+			<state>MT</state>
+			<type>montana</type>
+			<url><![CDATA[http://montana.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[montana.craigslist.org]]></partial>
+			<name><![CDATA[montana (old)]]></name>
+		</location>
+		<location>
+			<state>NE</state>
+			<type>nebraska</type>
+			<url><![CDATA[http://grandisland.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[grandisland.craigslist.org]]></partial>
+			<name><![CDATA[grand island]]></name>
+		</location>
+		<location>
+			<state>NE</state>
+			<type>nebraska</type>
+			<url><![CDATA[http://lincoln.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[lincoln.craigslist.org]]></partial>
+			<name><![CDATA[lincoln]]></name>
+		</location>
+		<location>
+			<state>NE</state>
+			<type>nebraska</type>
+			<url><![CDATA[http://northplatte.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[northplatte.craigslist.org]]></partial>
+			<name><![CDATA[north platte]]></name>
+		</location>
+		<location>
+			<state>NE</state>
+			<type>nebraska</type>
+			<url><![CDATA[http://omaha.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[omaha.craigslist.org]]></partial>
+			<name><![CDATA[omaha / council bluffs]]></name>
+		</location>
+		<location>
+			<state>NE</state>
+			<type>nebraska</type>
+			<url><![CDATA[http://scottsbluff.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[scottsbluff.craigslist.org]]></partial>
+			<name><![CDATA[scottsbluff / panhandle]]></name>
+		</location>
+		<location>
+			<state>NV</state>
+			<type>nevada</type>
+			<url><![CDATA[http://elko.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[elko.craigslist.org]]></partial>
+			<name><![CDATA[elko]]></name>
+		</location>
+		<location>
+			<state>NV</state>
+			<type>nevada</type>
+			<url><![CDATA[http://lasvegas.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[lasvegas.craigslist.org]]></partial>
+			<name><![CDATA[las vegas]]></name>
+		</location>
+		<location>
+			<state>NV</state>
+			<type>nevada</type>
+			<url><![CDATA[http://reno.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[reno.craigslist.org]]></partial>
+			<name><![CDATA[reno / tahoe]]></name>
+		</location>
+		<location>
+			<state>NH</state>
+			<type>new_hampshire</type>
+			<url><![CDATA[http://nh.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[nh.craigslist.org]]></partial>
+			<name><![CDATA[new hampshire]]></name>
+		</location>
+		<location>
+			<state>NJ</state>
+			<type>new_jersey</type>
+			<url><![CDATA[http://cnj.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[cnj.craigslist.org]]></partial>
+			<name><![CDATA[central NJ]]></name>
+		</location>
+		<location>
+			<state>NJ</state>
+			<type>new_jersey</type>
+			<url><![CDATA[http://jerseyshore.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[jerseyshore.craigslist.org]]></partial>
+			<name><![CDATA[jersey shore]]></name>
+		</location>
+		<location>
+			<state>NJ</state>
+			<type>new_jersey</type>
+			<url><![CDATA[http://newjersey.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[newjersey.craigslist.org]]></partial>
+			<name><![CDATA[north jersey]]></name>
+		</location>
+		<location>
+			<state>NJ</state>
+			<type>new_jersey</type>
+			<url><![CDATA[http://southjersey.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[southjersey.craigslist.org]]></partial>
+			<name><![CDATA[south jersey]]></name>
+		</location>
+		<location>
+			<state>NM</state>
+			<type>new_mexico</type>
+			<url><![CDATA[http://albuquerque.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[albuquerque.craigslist.org]]></partial>
+			<name><![CDATA[albuquerque]]></name>
+		</location>
+		<location>
+			<state>NM</state>
+			<type>new_mexico</type>
+			<url><![CDATA[http://clovis.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[clovis.craigslist.org]]></partial>
+			<name><![CDATA[clovis / portales]]></name>
+		</location>
+		<location>
+			<state>NM</state>
+			<type>new_mexico</type>
+			<url><![CDATA[http://farmington.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[farmington.craigslist.org]]></partial>
+			<name><![CDATA[farmington]]></name>
+		</location>
+		<location>
+			<state>NM</state>
+			<type>new_mexico</type>
+			<url><![CDATA[http://lascruces.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[lascruces.craigslist.org]]></partial>
+			<name><![CDATA[las cruces]]></name>
+		</location>
+		<location>
+			<state>NM</state>
+			<type>new_mexico</type>
+			<url><![CDATA[http://roswell.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[roswell.craigslist.org]]></partial>
+			<name><![CDATA[roswell / carlsbad]]></name>
+		</location>
+		<location>
+			<state>NM</state>
+			<type>new_mexico</type>
+			<url><![CDATA[http://santafe.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[santafe.craigslist.org]]></partial>
+			<name><![CDATA[santa fe / taos]]></name>
+		</location>
+		<location>
+			<state>NY</state>
+			<type>new_york</type>
+			<url><![CDATA[http://albany.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[albany.craigslist.org]]></partial>
+			<name><![CDATA[albany]]></name>
+		</location>
+		<location>
+			<state>NY</state>
+			<type>new_york</type>
+			<url><![CDATA[http://binghamton.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[binghamton.craigslist.org]]></partial>
+			<name><![CDATA[binghamton]]></name>
+		</location>
+		<location>
+			<state>NY</state>
+			<type>new_york</type>
+			<url><![CDATA[http://buffalo.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[buffalo.craigslist.org]]></partial>
+			<name><![CDATA[buffalo]]></name>
+		</location>
+		<location>
+			<state>NY</state>
+			<type>new_york</type>
+			<url><![CDATA[http://catskills.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[catskills.craigslist.org]]></partial>
+			<name><![CDATA[catskills]]></name>
+		</location>
+		<location>
+			<state>NY</state>
+			<type>new_york</type>
+			<url><![CDATA[http://chautauqua.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[chautauqua.craigslist.org]]></partial>
+			<name><![CDATA[chautauqua]]></name>
+		</location>
+		<location>
+			<state>NY</state>
+			<type>new_york</type>
+			<url><![CDATA[http://elmira.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[elmira.craigslist.org]]></partial>
+			<name><![CDATA[elmira-corning]]></name>
+		</location>
+		<location>
+			<state>NY</state>
+			<type>new_york</type>
+			<url><![CDATA[http://fingerlakes.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[fingerlakes.craigslist.org]]></partial>
+			<name><![CDATA[finger lakes]]></name>
+		</location>
+		<location>
+			<state>NY</state>
+			<type>new_york</type>
+			<url><![CDATA[http://glensfalls.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[glensfalls.craigslist.org]]></partial>
+			<name><![CDATA[glens falls]]></name>
+		</location>
+		<location>
+			<state>NY</state>
+			<type>new_york</type>
+			<url><![CDATA[http://hudsonvalley.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[hudsonvalley.craigslist.org]]></partial>
+			<name><![CDATA[hudson valley]]></name>
+		</location>
+		<location>
+			<state>NY</state>
+			<type>new_york</type>
+			<url><![CDATA[http://ithaca.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[ithaca.craigslist.org]]></partial>
+			<name><![CDATA[ithaca]]></name>
+		</location>
+		<location>
+			<state>NY</state>
+			<type>new_york</type>
+			<url><![CDATA[http://longisland.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[longisland.craigslist.org]]></partial>
+			<name><![CDATA[long island]]></name>
+		</location>
+		<location>
+			<state>NY</state>
+			<type>new_york</type>
+			<url><![CDATA[http://newyork.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[newyork.craigslist.org]]></partial>
+			<name><![CDATA[new york city]]></name>
+		</location>
+		<location>
+			<state>NY</state>
+			<type>new_york</type>
+			<url><![CDATA[http://oneonta.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[oneonta.craigslist.org]]></partial>
+			<name><![CDATA[oneonta]]></name>
+		</location>
+		<location>
+			<state>NY</state>
+			<type>new_york</type>
+			<url><![CDATA[http://plattsburgh.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[plattsburgh.craigslist.org]]></partial>
+			<name><![CDATA[plattsburgh-adirondacks]]></name>
+		</location>
+		<location>
+			<state>NY</state>
+			<type>new_york</type>
+			<url><![CDATA[http://potsdam.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[potsdam.craigslist.org]]></partial>
+			<name><![CDATA[potsdam-canton-massena]]></name>
+		</location>
+		<location>
+			<state>NY</state>
+			<type>new_york</type>
+			<url><![CDATA[http://rochester.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[rochester.craigslist.org]]></partial>
+			<name><![CDATA[rochester]]></name>
+		</location>
+		<location>
+			<state>NY</state>
+			<type>new_york</type>
+			<url><![CDATA[http://syracuse.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[syracuse.craigslist.org]]></partial>
+			<name><![CDATA[syracuse]]></name>
+		</location>
+		<location>
+			<state>NY</state>
+			<type>new_york</type>
+			<url><![CDATA[http://twintiers.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[twintiers.craigslist.org]]></partial>
+			<name><![CDATA[twin tiers NY/PA]]></name>
+		</location>
+		<location>
+			<state>NY</state>
+			<type>new_york</type>
+			<url><![CDATA[http://utica.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[utica.craigslist.org]]></partial>
+			<name><![CDATA[utica-rome-oneida]]></name>
+		</location>
+		<location>
+			<state>NY</state>
+			<type>new_york</type>
+			<url><![CDATA[http://watertown.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[watertown.craigslist.org]]></partial>
+			<name><![CDATA[watertown]]></name>
+		</location>
+		<location>
+			<state>NC</state>
+			<type>north_carolina</type>
+			<url><![CDATA[http://asheville.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[asheville.craigslist.org]]></partial>
+			<name><![CDATA[asheville]]></name>
+		</location>
+		<location>
+			<state>NC</state>
+			<type>north_carolina</type>
+			<url><![CDATA[http://boone.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[boone.craigslist.org]]></partial>
+			<name><![CDATA[boone]]></name>
+		</location>
+		<location>
+			<state>NC</state>
+			<type>north_carolina</type>
+			<url><![CDATA[http://charlotte.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[charlotte.craigslist.org]]></partial>
+			<name><![CDATA[charlotte]]></name>
+		</location>
+		<location>
+			<state>NC</state>
+			<type>north_carolina</type>
+			<url><![CDATA[http://eastnc.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[eastnc.craigslist.org]]></partial>
+			<name><![CDATA[eastern NC]]></name>
+		</location>
+		<location>
+			<state>NC</state>
+			<type>north_carolina</type>
+			<url><![CDATA[http://fayetteville.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[fayetteville.craigslist.org]]></partial>
+			<name><![CDATA[fayetteville]]></name>
+		</location>
+		<location>
+			<state>NC</state>
+			<type>north_carolina</type>
+			<url><![CDATA[http://greensboro.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[greensboro.craigslist.org]]></partial>
+			<name><![CDATA[greensboro]]></name>
+		</location>
+		<location>
+			<state>NC</state>
+			<type>north_carolina</type>
+			<url><![CDATA[http://hickory.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[hickory.craigslist.org]]></partial>
+			<name><![CDATA[hickory / lenoir]]></name>
+		</location>
+		<location>
+			<state>NC</state>
+			<type>north_carolina</type>
+			<url><![CDATA[http://onslow.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[onslow.craigslist.org]]></partial>
+			<name><![CDATA[jacksonville ]]></name>
+		</location>
+		<location>
+			<state>NC</state>
+			<type>north_carolina</type>
+			<url><![CDATA[http://outerbanks.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[outerbanks.craigslist.org]]></partial>
+			<name><![CDATA[outer banks]]></name>
+		</location>
+		<location>
+			<state>NC</state>
+			<type>north_carolina</type>
+			<url><![CDATA[http://raleigh.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[raleigh.craigslist.org]]></partial>
+			<name><![CDATA[raleigh / durham / CH]]></name>
+		</location>
+		<location>
+			<state>NC</state>
+			<type>north_carolina</type>
+			<url><![CDATA[http://wilmington.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[wilmington.craigslist.org]]></partial>
+			<name><![CDATA[wilmington]]></name>
+		</location>
+		<location>
+			<state>NC</state>
+			<type>north_carolina</type>
+			<url><![CDATA[http://winstonsalem.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[winstonsalem.craigslist.org]]></partial>
+			<name><![CDATA[winston-salem]]></name>
+		</location>
+		<location>
+			<state>ND</state>
+			<type>north_dakota</type>
+			<url><![CDATA[http://bismarck.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[bismarck.craigslist.org]]></partial>
+			<name><![CDATA[bismarck]]></name>
+		</location>
+		<location>
+			<state>ND</state>
+			<type>north_dakota</type>
+			<url><![CDATA[http://fargo.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[fargo.craigslist.org]]></partial>
+			<name><![CDATA[fargo / moorhead]]></name>
+		</location>
+		<location>
+			<state>ND</state>
+			<type>north_dakota</type>
+			<url><![CDATA[http://grandforks.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[grandforks.craigslist.org]]></partial>
+			<name><![CDATA[grand forks]]></name>
+		</location>
+		<location>
+			<state>ND</state>
+			<type>north_dakota</type>
+			<url><![CDATA[http://nd.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[nd.craigslist.org]]></partial>
+			<name><![CDATA[north dakota]]></name>
+		</location>
+		<location>
+			<state>OH</state>
+			<type>ohio</type>
+			<url><![CDATA[http://akroncanton.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[akroncanton.craigslist.org]]></partial>
+			<name><![CDATA[akron / canton]]></name>
+		</location>
+		<location>
+			<state>OH</state>
+			<type>ohio</type>
+			<url><![CDATA[http://ashtabula.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[ashtabula.craigslist.org]]></partial>
+			<name><![CDATA[ashtabula]]></name>
+		</location>
+		<location>
+			<state>OH</state>
+			<type>ohio</type>
+			<url><![CDATA[http://athensohio.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[athensohio.craigslist.org]]></partial>
+			<name><![CDATA[athens ]]></name>
+		</location>
+		<location>
+			<state>OH</state>
+			<type>ohio</type>
+			<url><![CDATA[http://chillicothe.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[chillicothe.craigslist.org]]></partial>
+			<name><![CDATA[chillicothe]]></name>
+		</location>
+		<location>
+			<state>OH</state>
+			<type>ohio</type>
+			<url><![CDATA[http://cincinnati.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[cincinnati.craigslist.org]]></partial>
+			<name><![CDATA[cincinnati]]></name>
+		</location>
+		<location>
+			<state>OH</state>
+			<type>ohio</type>
+			<url><![CDATA[http://cleveland.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[cleveland.craigslist.org]]></partial>
+			<name><![CDATA[cleveland]]></name>
+		</location>
+		<location>
+			<state>OH</state>
+			<type>ohio</type>
+			<url><![CDATA[http://columbus.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[columbus.craigslist.org]]></partial>
+			<name><![CDATA[columbus]]></name>
+		</location>
+		<location>
+			<state>OH</state>
+			<type>ohio</type>
+			<url><![CDATA[http://dayton.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[dayton.craigslist.org]]></partial>
+			<name><![CDATA[dayton / springfield]]></name>
+		</location>
+		<location>
+			<state>OH</state>
+			<type>ohio</type>
+			<url><![CDATA[http://limaohio.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[limaohio.craigslist.org]]></partial>
+			<name><![CDATA[lima / findlay]]></name>
+		</location>
+		<location>
+			<state>OH</state>
+			<type>ohio</type>
+			<url><![CDATA[http://mansfield.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[mansfield.craigslist.org]]></partial>
+			<name><![CDATA[mansfield]]></name>
+		</location>
+		<location>
+			<state>OH</state>
+			<type>ohio</type>
+			<url><![CDATA[http://sandusky.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[sandusky.craigslist.org]]></partial>
+			<name><![CDATA[sandusky]]></name>
+		</location>
+		<location>
+			<state>OH</state>
+			<type>ohio</type>
+			<url><![CDATA[http://toledo.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[toledo.craigslist.org]]></partial>
+			<name><![CDATA[toledo]]></name>
+		</location>
+		<location>
+			<state>OH</state>
+			<type>ohio</type>
+			<url><![CDATA[http://tuscarawas.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[tuscarawas.craigslist.org]]></partial>
+			<name><![CDATA[tuscarawas co]]></name>
+		</location>
+		<location>
+			<state>OH</state>
+			<type>ohio</type>
+			<url><![CDATA[http://youngstown.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[youngstown.craigslist.org]]></partial>
+			<name><![CDATA[youngstown]]></name>
+		</location>
+		<location>
+			<state>OH</state>
+			<type>ohio</type>
+			<url><![CDATA[http://zanesville.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[zanesville.craigslist.org]]></partial>
+			<name><![CDATA[zanesville / cambridge]]></name>
+		</location>
+		<location>
+			<state>OK</state>
+			<type>oklahoma</type>
+			<url><![CDATA[http://lawton.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[lawton.craigslist.org]]></partial>
+			<name><![CDATA[lawton]]></name>
+		</location>
+		<location>
+			<state>OK</state>
+			<type>oklahoma</type>
+			<url><![CDATA[http://enid.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[enid.craigslist.org]]></partial>
+			<name><![CDATA[northwest OK]]></name>
+		</location>
+		<location>
+			<state>OK</state>
+			<type>oklahoma</type>
+			<url><![CDATA[http://oklahomacity.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[oklahomacity.craigslist.org]]></partial>
+			<name><![CDATA[oklahoma city]]></name>
+		</location>
+		<location>
+			<state>OK</state>
+			<type>oklahoma</type>
+			<url><![CDATA[http://stillwater.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[stillwater.craigslist.org]]></partial>
+			<name><![CDATA[stillwater]]></name>
+		</location>
+		<location>
+			<state>OK</state>
+			<type>oklahoma</type>
+			<url><![CDATA[http://tulsa.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[tulsa.craigslist.org]]></partial>
+			<name><![CDATA[tulsa]]></name>
+		</location>
+		<location>
+			<state>OR</state>
+			<type>oregon</type>
+			<url><![CDATA[http://bend.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[bend.craigslist.org]]></partial>
+			<name><![CDATA[bend]]></name>
+		</location>
+		<location>
+			<state>OR</state>
+			<type>oregon</type>
+			<url><![CDATA[http://corvallis.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[corvallis.craigslist.org]]></partial>
+			<name><![CDATA[corvallis/albany]]></name>
+		</location>
+		<location>
+			<state>OR</state>
+			<type>oregon</type>
+			<url><![CDATA[http://eastoregon.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[eastoregon.craigslist.org]]></partial>
+			<name><![CDATA[east oregon]]></name>
+		</location>
+		<location>
+			<state>OR</state>
+			<type>oregon</type>
+			<url><![CDATA[http://eugene.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[eugene.craigslist.org]]></partial>
+			<name><![CDATA[eugene]]></name>
+		</location>
+		<location>
+			<state>OR</state>
+			<type>oregon</type>
+			<url><![CDATA[http://klamath.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[klamath.craigslist.org]]></partial>
+			<name><![CDATA[klamath falls]]></name>
+		</location>
+		<location>
+			<state>OR</state>
+			<type>oregon</type>
+			<url><![CDATA[http://medford.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[medford.craigslist.org]]></partial>
+			<name><![CDATA[medford-ashland]]></name>
+		</location>
+		<location>
+			<state>OR</state>
+			<type>oregon</type>
+			<url><![CDATA[http://oregoncoast.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[oregoncoast.craigslist.org]]></partial>
+			<name><![CDATA[oregon coast]]></name>
+		</location>
+		<location>
+			<state>OR</state>
+			<type>oregon</type>
+			<url><![CDATA[http://portland.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[portland.craigslist.org]]></partial>
+			<name><![CDATA[portland]]></name>
+		</location>
+		<location>
+			<state>OR</state>
+			<type>oregon</type>
+			<url><![CDATA[http://roseburg.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[roseburg.craigslist.org]]></partial>
+			<name><![CDATA[roseburg]]></name>
+		</location>
+		<location>
+			<state>OR</state>
+			<type>oregon</type>
+			<url><![CDATA[http://salem.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[salem.craigslist.org]]></partial>
+			<name><![CDATA[salem]]></name>
+		</location>
+		<location>
+			<state>PA</state>
+			<type>pennsylvania</type>
+			<url><![CDATA[http://altoona.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[altoona.craigslist.org]]></partial>
+			<name><![CDATA[altoona-johnstown]]></name>
+		</location>
+		<location>
+			<state>PA</state>
+			<type>pennsylvania</type>
+			<url><![CDATA[http://chambersburg.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[chambersburg.craigslist.org]]></partial>
+			<name><![CDATA[cumberland valley]]></name>
+		</location>
+		<location>
+			<state>PA</state>
+			<type>pennsylvania</type>
+			<url><![CDATA[http://erie.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[erie.craigslist.org]]></partial>
+			<name><![CDATA[erie]]></name>
+		</location>
+		<location>
+			<state>PA</state>
+			<type>pennsylvania</type>
+			<url><![CDATA[http://harrisburg.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[harrisburg.craigslist.org]]></partial>
+			<name><![CDATA[harrisburg]]></name>
+		</location>
+		<location>
+			<state>PA</state>
+			<type>pennsylvania</type>
+			<url><![CDATA[http://lancaster.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[lancaster.craigslist.org]]></partial>
+			<name><![CDATA[lancaster]]></name>
+		</location>
+		<location>
+			<state>PA</state>
+			<type>pennsylvania</type>
+			<url><![CDATA[http://allentown.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[allentown.craigslist.org]]></partial>
+			<name><![CDATA[lehigh valley]]></name>
+		</location>
+		<location>
+			<state>PA</state>
+			<type>pennsylvania</type>
+			<url><![CDATA[http://meadville.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[meadville.craigslist.org]]></partial>
+			<name><![CDATA[meadville]]></name>
+		</location>
+		<location>
+			<state>PA</state>
+			<type>pennsylvania</type>
+			<url><![CDATA[http://philadelphia.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[philadelphia.craigslist.org]]></partial>
+			<name><![CDATA[philadelphia]]></name>
+		</location>
+		<location>
+			<state>PA</state>
+			<type>pennsylvania</type>
+			<url><![CDATA[http://pittsburgh.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[pittsburgh.craigslist.org]]></partial>
+			<name><![CDATA[pittsburgh]]></name>
+		</location>
+		<location>
+			<state>PA</state>
+			<type>pennsylvania</type>
+			<url><![CDATA[http://poconos.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[poconos.craigslist.org]]></partial>
+			<name><![CDATA[poconos]]></name>
+		</location>
+		<location>
+			<state>PA</state>
+			<type>pennsylvania</type>
+			<url><![CDATA[http://reading.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[reading.craigslist.org]]></partial>
+			<name><![CDATA[reading]]></name>
+		</location>
+		<location>
+			<state>PA</state>
+			<type>pennsylvania</type>
+			<url><![CDATA[http://scranton.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[scranton.craigslist.org]]></partial>
+			<name><![CDATA[scranton / wilkes-barre]]></name>
+		</location>
+		<location>
+			<state>PA</state>
+			<type>pennsylvania</type>
+			<url><![CDATA[http://pennstate.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[pennstate.craigslist.org]]></partial>
+			<name><![CDATA[state college]]></name>
+		</location>
+		<location>
+			<state>PA</state>
+			<type>pennsylvania</type>
+			<url><![CDATA[http://williamsport.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[williamsport.craigslist.org]]></partial>
+			<name><![CDATA[williamsport]]></name>
+		</location>
+		<location>
+			<state>PA</state>
+			<type>pennsylvania</type>
+			<url><![CDATA[http://york.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[york.craigslist.org]]></partial>
+			<name><![CDATA[york]]></name>
+		</location>
+		<location>
+			<state>RI</state>
+			<type>rhode_island</type>
+			<url><![CDATA[http://providence.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[providence.craigslist.org]]></partial>
+			<name><![CDATA[rhode island]]></name>
+		</location>
+		<location>
+			<state>SC</state>
+			<type>south_carolina</type>
+			<url><![CDATA[http://charleston.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[charleston.craigslist.org]]></partial>
+			<name><![CDATA[charleston]]></name>
+		</location>
+		<location>
+			<state>SC</state>
+			<type>south_carolina</type>
+			<url><![CDATA[http://columbia.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[columbia.craigslist.org]]></partial>
+			<name><![CDATA[columbia]]></name>
+		</location>
+		<location>
+			<state>SC</state>
+			<type>south_carolina</type>
+			<url><![CDATA[http://florencesc.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[florencesc.craigslist.org]]></partial>
+			<name><![CDATA[florence]]></name>
+		</location>
+		<location>
+			<state>SC</state>
+			<type>south_carolina</type>
+			<url><![CDATA[http://greenville.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[greenville.craigslist.org]]></partial>
+			<name><![CDATA[greenville / upstate]]></name>
+		</location>
+		<location>
+			<state>SC</state>
+			<type>south_carolina</type>
+			<url><![CDATA[http://hiltonhead.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[hiltonhead.craigslist.org]]></partial>
+			<name><![CDATA[hilton head]]></name>
+		</location>
+		<location>
+			<state>SC</state>
+			<type>south_carolina</type>
+			<url><![CDATA[http://myrtlebeach.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[myrtlebeach.craigslist.org]]></partial>
+			<name><![CDATA[myrtle beach]]></name>
+		</location>
+		<location>
+			<state>SD</state>
+			<type>south_dakota</type>
+			<url><![CDATA[http://nesd.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[nesd.craigslist.org]]></partial>
+			<name><![CDATA[northeast SD]]></name>
+		</location>
+		<location>
+			<state>SD</state>
+			<type>south_dakota</type>
+			<url><![CDATA[http://csd.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[csd.craigslist.org]]></partial>
+			<name><![CDATA[pierre / central SD]]></name>
+		</location>
+		<location>
+			<state>SD</state>
+			<type>south_dakota</type>
+			<url><![CDATA[http://rapidcity.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[rapidcity.craigslist.org]]></partial>
+			<name><![CDATA[rapid city / west SD]]></name>
+		</location>
+		<location>
+			<state>SD</state>
+			<type>south_dakota</type>
+			<url><![CDATA[http://siouxfalls.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[siouxfalls.craigslist.org]]></partial>
+			<name><![CDATA[sioux falls / SE SD]]></name>
+		</location>
+		<location>
+			<state>SD</state>
+			<type>south_dakota</type>
+			<url><![CDATA[http://sd.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[sd.craigslist.org]]></partial>
+			<name><![CDATA[south dakota]]></name>
+		</location>
+		<location>
+			<state>TN</state>
+			<type>tennessee</type>
+			<url><![CDATA[http://chattanooga.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[chattanooga.craigslist.org]]></partial>
+			<name><![CDATA[chattanooga]]></name>
+		</location>
+		<location>
+			<state>TN</state>
+			<type>tennessee</type>
+			<url><![CDATA[http://clarksville.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[clarksville.craigslist.org]]></partial>
+			<name><![CDATA[clarksville]]></name>
+		</location>
+		<location>
+			<state>TN</state>
+			<type>tennessee</type>
+			<url><![CDATA[http://cookeville.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[cookeville.craigslist.org]]></partial>
+			<name><![CDATA[cookeville]]></name>
+		</location>
+		<location>
+			<state>TN</state>
+			<type>tennessee</type>
+			<url><![CDATA[http://jacksontn.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[jacksontn.craigslist.org]]></partial>
+			<name><![CDATA[jackson  ]]></name>
+		</location>
+		<location>
+			<state>TN</state>
+			<type>tennessee</type>
+			<url><![CDATA[http://knoxville.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[knoxville.craigslist.org]]></partial>
+			<name><![CDATA[knoxville]]></name>
+		</location>
+		<location>
+			<state>TN</state>
+			<type>tennessee</type>
+			<url><![CDATA[http://memphis.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[memphis.craigslist.org]]></partial>
+			<name><![CDATA[memphis]]></name>
+		</location>
+		<location>
+			<state>TN</state>
+			<type>tennessee</type>
+			<url><![CDATA[http://nashville.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[nashville.craigslist.org]]></partial>
+			<name><![CDATA[nashville]]></name>
+		</location>
+		<location>
+			<state>TN</state>
+			<type>tennessee</type>
+			<url><![CDATA[http://tricities.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[tricities.craigslist.org]]></partial>
+			<name><![CDATA[tri-cities]]></name>
 		</location>
 		<location>
 			<state>TX</state>
@@ -335,21 +2699,21 @@
 			<type>texas</type>
 			<url><![CDATA[http://elpaso.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[elpaso.craigslist.org]]></partial>
-			<name><![CDATA[El paso]]></name>
+			<name><![CDATA[el paso]]></name>
 		</location>
 		<location>
 			<state>TX</state>
 			<type>texas</type>
 			<url><![CDATA[http://galveston.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[galveston.craigslist.org]]></partial>
-			<name><![CDATA[Galveston]]></name>
+			<name><![CDATA[galveston]]></name>
 		</location>
 		<location>
 			<state>TX</state>
 			<type>texas</type>
 			<url><![CDATA[http://houston.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[houston.craigslist.org]]></partial>
-			<name><![CDATA[Houston]]></name>
+			<name><![CDATA[houston]]></name>
 		</location>
 		<location>
 			<state>TX</state>
@@ -398,1480 +2762,385 @@
 			<type>texas</type>
 			<url><![CDATA[http://sanantonio.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[sanantonio.craigslist.org]]></partial>
-			<name><![CDATA[San Antonio]]></name>
+			<name><![CDATA[san antonio]]></name>
 		</location>
 		<location>
 			<state>TX</state>
 			<type>texas</type>
 			<url><![CDATA[http://sanmarcos.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[sanmarcos.craigslist.org]]></partial>
-			<name><![CDATA[San Marcos]]></name>
+			<name><![CDATA[san marcos]]></name>
 		</location>
 		<location>
 			<state>TX</state>
 			<type>texas</type>
 			<url><![CDATA[http://bigbend.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[bigbend.craigslist.org]]></partial>
-			<name><![CDATA[Southwest Texas]]></name>
-		</location>
-		<location>
-			<state>TX</state>
-			<type>texas</type>
-			<url><![CDATA[http://texarkana.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[texarkana.craigslist.org]]></partial>
-			<name><![CDATA[Texarkana]]></name>
+			<name><![CDATA[southwest TX]]></name>
 		</location>
 		<location>
 			<state>TX</state>
 			<type>texas</type>
 			<url><![CDATA[http://texoma.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[texoma.craigslist.org]]></partial>
-			<name><![CDATA[Texoma]]></name>
+			<name><![CDATA[texoma]]></name>
 		</location>
 		<location>
 			<state>TX</state>
 			<type>texas</type>
 			<url><![CDATA[http://easttexas.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[easttexas.craigslist.org]]></partial>
-			<name><![CDATA[Tyler / east Texas]]></name>
+			<name><![CDATA[tyler / east TX]]></name>
 		</location>
 		<location>
 			<state>TX</state>
 			<type>texas</type>
 			<url><![CDATA[http://victoriatx.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[victoriatx.craigslist.org]]></partial>
-			<name><![CDATA[Victoria]]></name>
+			<name><![CDATA[victoria ]]></name>
 		</location>
 		<location>
 			<state>TX</state>
 			<type>texas</type>
 			<url><![CDATA[http://waco.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[waco.craigslist.org]]></partial>
-			<name><![CDATA[Waco]]></name>
+			<name><![CDATA[waco]]></name>
 		</location>
 		<location>
 			<state>TX</state>
 			<type>texas</type>
 			<url><![CDATA[http://wichitafalls.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[wichitafalls.craigslist.org]]></partial>
-			<name><![CDATA[Wichita Falls]]></name>
-		</location>
-
-		<location>
-			<state>OR</state>
-			<type>oragon</type>
-			<url><![CDATA[http://bend.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[bend.craigslist.org]]></partial>
-			<name><![CDATA[Bend]]></name>
+			<name><![CDATA[wichita falls]]></name>
 		</location>
 		<location>
-			<state>OR</state>
-			<type>oragon</type>
-			<url><![CDATA[http://corvallis.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[corvallis.craigslist.org]]></partial>
-			<name><![CDATA[Corvallis/albany]]></name>
+			<state>UT</state>
+			<type>utah</type>
+			<url><![CDATA[http://logan.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[logan.craigslist.org]]></partial>
+			<name><![CDATA[logan]]></name>
 		</location>
 		<location>
-			<state>OR</state>
-			<type>oragon</type>
-			<url><![CDATA[http://eastoregon.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[eastoregon.craigslist.org]]></partial>
-			<name><![CDATA[East oregon]]></name>
+			<state>UT</state>
+			<type>utah</type>
+			<url><![CDATA[http://ogden.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[ogden.craigslist.org]]></partial>
+			<name><![CDATA[ogden-clearfield]]></name>
 		</location>
 		<location>
-			<state>OR</state>
-			<type>oragon</type>
-			<url><![CDATA[http://eugene.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[eugene.craigslist.org]]></partial>
-			<name><![CDATA[Eugene]]></name>
+			<state>UT</state>
+			<type>utah</type>
+			<url><![CDATA[http://provo.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[provo.craigslist.org]]></partial>
+			<name><![CDATA[provo / orem]]></name>
 		</location>
 		<location>
-			<state>OR</state>
-			<type>oragon</type>
-			<url><![CDATA[http://klamath.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[klamath.craigslist.org]]></partial>
-			<name><![CDATA[Klamath falls]]></name>
+			<state>UT</state>
+			<type>utah</type>
+			<url><![CDATA[http://saltlakecity.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[saltlakecity.craigslist.org]]></partial>
+			<name><![CDATA[salt lake city]]></name>
 		</location>
 		<location>
-			<state>OR</state>
-			<type>oragon</type>
-			<url><![CDATA[http://medford.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[medford.craigslist.org]]></partial>
-			<name><![CDATA[Medford-ashland]]></name>
+			<state>UT</state>
+			<type>utah</type>
+			<url><![CDATA[http://stgeorge.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[stgeorge.craigslist.org]]></partial>
+			<name><![CDATA[st george]]></name>
 		</location>
 		<location>
-			<state>OR</state>
-			<type>oragon</type>
-			<url><![CDATA[http://oregoncoast.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[oregoncoast.craigslist.org]]></partial>
-			<name><![CDATA[Oregon coast]]></name>
+			<state>VT</state>
+			<type>vermont</type>
+			<url><![CDATA[http://burlington.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[burlington.craigslist.org]]></partial>
+			<name><![CDATA[vermont]]></name>
 		</location>
 		<location>
-			<state>OR</state>
-			<type>oragon</type>
-			<url><![CDATA[http://portland.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[portland.craigslist.org]]></partial>
-			<name><![CDATA[Portland]]></name>
+			<state>VA</state>
+			<type>virginia</type>
+			<url><![CDATA[http://charlottesville.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[charlottesville.craigslist.org]]></partial>
+			<name><![CDATA[charlottesville]]></name>
 		</location>
 		<location>
-			<state>OR</state>
-			<type>oragon</type>
-			<url><![CDATA[http://roseburg.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[roseburg.craigslist.org]]></partial>
-			<name><![CDATA[Roseburg]]></name>
+			<state>VA</state>
+			<type>virginia</type>
+			<url><![CDATA[http://danville.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[danville.craigslist.org]]></partial>
+			<name><![CDATA[danville]]></name>
 		</location>
-		<location>  
-			<state>OR</state>
-			<type>oragon</type>
-			<url><![CDATA[http://salem.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[salem.craigslist.org]]></partial>
-			<name><![CDATA[Salem]]></name>
+		<location>
+			<state>VA</state>
+			<type>virginia</type>
+			<url><![CDATA[http://fredericksburg.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[fredericksburg.craigslist.org]]></partial>
+			<name><![CDATA[fredericksburg]]></name>
 		</location>
-
+		<location>
+			<state>VA</state>
+			<type>virginia</type>
+			<url><![CDATA[http://norfolk.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[norfolk.craigslist.org]]></partial>
+			<name><![CDATA[hampton roads]]></name>
+		</location>
+		<location>
+			<state>VA</state>
+			<type>virginia</type>
+			<url><![CDATA[http://harrisonburg.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[harrisonburg.craigslist.org]]></partial>
+			<name><![CDATA[harrisonburg]]></name>
+		</location>
+		<location>
+			<state>VA</state>
+			<type>virginia</type>
+			<url><![CDATA[http://lynchburg.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[lynchburg.craigslist.org]]></partial>
+			<name><![CDATA[lynchburg]]></name>
+		</location>
+		<location>
+			<state>VA</state>
+			<type>virginia</type>
+			<url><![CDATA[http://blacksburg.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[blacksburg.craigslist.org]]></partial>
+			<name><![CDATA[new river valley]]></name>
+		</location>
+		<location>
+			<state>VA</state>
+			<type>virginia</type>
+			<url><![CDATA[http://richmond.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[richmond.craigslist.org]]></partial>
+			<name><![CDATA[richmond]]></name>
+		</location>
+		<location>
+			<state>VA</state>
+			<type>virginia</type>
+			<url><![CDATA[http://roanoke.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[roanoke.craigslist.org]]></partial>
+			<name><![CDATA[roanoke]]></name>
+		</location>
+		<location>
+			<state>VA</state>
+			<type>virginia</type>
+			<url><![CDATA[http://swva.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[swva.craigslist.org]]></partial>
+			<name><![CDATA[southwest VA]]></name>
+		</location>
+		<location>
+			<state>VA</state>
+			<type>virginia</type>
+			<url><![CDATA[http://winchester.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[winchester.craigslist.org]]></partial>
+			<name><![CDATA[winchester]]></name>
+		</location>
 		<location>
 			<state>WA</state>
 			<type>washington</type>
 			<url><![CDATA[http://bellingham.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[bellingham.craigslist.org]]></partial>
-			<name><![CDATA[Bellingham]]></name>
+			<name><![CDATA[bellingham]]></name>
 		</location>
 		<location>
 			<state>WA</state>
 			<type>washington</type>
 			<url><![CDATA[http://kpr.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[kpr.craigslist.org]]></partial>
-			<name><![CDATA[Kennewick-Pasco-Richland]]></name>
-		</location>
-		<location>
-			<state>WA</state>
-			<type>washington</type>
-			<url><![CDATA[http://lewiston.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[lewiston.craigslist.org]]></partial>
-			<name><![CDATA[Lewiston / Clarkston]]></name>
+			<name><![CDATA[kennewick-pasco-richland]]></name>
 		</location>
 		<location>
 			<state>WA</state>
 			<type>washington</type>
 			<url><![CDATA[http://moseslake.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[moseslake.craigslist.org]]></partial>
-			<name><![CDATA[Moses Lake]]></name>
+			<name><![CDATA[moses lake]]></name>
 		</location>
 		<location>
 			<state>WA</state>
 			<type>washington</type>
 			<url><![CDATA[http://olympic.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[olympic.craigslist.org]]></partial>
-			<name><![CDATA[Olympic Peninsula]]></name>
+			<name><![CDATA[olympic peninsula]]></name>
 		</location>
 		<location>
 			<state>WA</state>
 			<type>washington</type>
 			<url><![CDATA[http://pullman.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[pullman.craigslist.org]]></partial>
-			<name><![CDATA[Pullman / Moscow]]></name>
+			<name><![CDATA[pullman / moscow]]></name>
 		</location>
 		<location>
 			<state>WA</state>
 			<type>washington</type>
 			<url><![CDATA[http://seattle.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[seattle.craigslist.org]]></partial>
-			<name><![CDATA[Seattle - Tacoma]]></name>
+			<name><![CDATA[seattle-tacoma]]></name>
 		</location>
 		<location>
 			<state>WA</state>
 			<type>washington</type>
 			<url><![CDATA[http://skagit.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[skagit.craigslist.org]]></partial>
-			<name><![CDATA[Skagit / Island / SJI]]></name>
+			<name><![CDATA[skagit / island / SJI]]></name>
 		</location>
 		<location>
 			<state>WA</state>
 			<type>washington</type>
 			<url><![CDATA[http://spokane.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[spokane.craigslist.org]]></partial>
-			<name><![CDATA[Spokane / coeur d'alene]]></name>
+			<name><![CDATA[spokane / coeur d'alene]]></name>
 		</location>
 		<location>
 			<state>WA</state>
 			<type>washington</type>
 			<url><![CDATA[http://wenatchee.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[wenatchee.craigslist.org]]></partial>
-			<name><![CDATA[Wenatchee]]></name>
+			<name><![CDATA[wenatchee]]></name>
 		</location>
 		<location>
 			<state>WA</state>
 			<type>washington</type>
 			<url><![CDATA[http://yakima.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[yakima.craigslist.org]]></partial>
-			<name><![CDATA[Yakima]]></name>
+			<name><![CDATA[yakima]]></name>
 		</location>
 		<location>
-			<state>WA</state>
-			<type>washington</type>
-			<url><![CDATA[http://portland.craigslist.org/search/jjj/clk?]]></url>
-			<partial><![CDATA[portland.craigslist.org+clk]]></partial>
-			<name><![CDATA[Clark Co / SW WA]]></name>
+			<state>WV</state>
+			<type>west_virginia</type>
+			<url><![CDATA[http://charlestonwv.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[charlestonwv.craigslist.org]]></partial>
+			<name><![CDATA[charleston ]]></name>
 		</location>
 		<location>
-			<state>IL</state>
-			<type>lllinois</type>
-			<url><![CDATA[http://bn.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[bn.craigslist.org]]></partial>
-			<name><![CDATA[Bloomington - Normal]]></name>
+			<state>WV</state>
+			<type>west_virginia</type>
+			<url><![CDATA[http://martinsburg.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[martinsburg.craigslist.org]]></partial>
+			<name><![CDATA[eastern panhandle]]></name>
 		</location>
 		<location>
-			<state>IL</state>
-			<type>lllinois</type>
-			<url><![CDATA[http://chambana.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[chambana.craigslist.org]]></partial>
-			<name><![CDATA[Champaign Urbana]]></name>
-		</location>
-		<location>
-			<state>IL</state>
-			<type>lllinois</type>
-			<url><![CDATA[http://chicago.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[chicago.craigslist.org]]></partial>
-			<name><![CDATA[Chicago]]></name>
-		</location>
-		<location>
-			<state>IL</state>
-			<type>lllinois</type>
-			<url><![CDATA[http://decatur.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[decatur.craigslist.org]]></partial>
-			<name><![CDATA[Decatur]]></name>
-		</location>
-		<location>
-			<state>IL</state>
-			<type>lllinois</type>
-			<url><![CDATA[http://lasalle.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[lasalle.craigslist.org]]></partial>
-			<name><![CDATA[La Salle Co]]></name>
-		</location>
-		<location>
-			<state>IL</state>
-			<type>lllinois</type>
-			<url><![CDATA[http://mattoon.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[mattoon.craigslist.org]]></partial>
-			<name><![CDATA[Mattoon - Charleston]]></name>
-		</location>
-		<location>
-			<state>IL</state>
-			<type>lllinois</type>
-			<url><![CDATA[http://peoria.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[peoria.craigslist.org]]></partial>
-			<name><![CDATA[Peoria]]></name>
-		</location>
-		<location>
-			<state>IL</state>
-			<type>lllinois</type>
-			<url><![CDATA[http://quadcities.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[quadcities.craigslist.org]]></partial>
-			<name><![CDATA[Quad cities, IA/IL]]></name>
-		</location>
-		<location>
-			<state>IL</state>
-			<type>lllinois</type>
-			<url><![CDATA[http://rockford.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[rockford.craigslist.org]]></partial>
-			<name><![CDATA[Rockford]]></name>
-		</location>
-		<location>
-			<state>IL</state>
-			<type>lllinois</type>
-			<url><![CDATA[http://carbondale.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[carbondale.craigslist.org]]></partial>
-			<name><![CDATA[Southern Illinois]]></name>
-		</location>
-		<location>
-			<state>IL</state>
-			<type>lllinois</type>
-			<url><![CDATA[http://springfieldil.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[springfieldil.craigslist.org]]></partial>
-			<name><![CDATA[Springfield]]></name>
-		</location>
-		<location>
-			<state>IL</state>
-			<type>lllinois</type>
-			<url><![CDATA[http://stlouis.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[stlouis.craigslist.org]]></partial>
-			<name><![CDATA[St louis, MO]]></name>
-		</location>
-		<location>
-			<state>IL</state>
-			<type>lllinois</type>
-			<url><![CDATA[http://quincy.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[quincy.craigslist.org]]></partial>
-			<name><![CDATA[western IL]]></name>
-		</location>
-		<location>
-			<state>NY</state>
-			<type>newyork</type>
-			<url><![CDATA[http://albany.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[albany.craigslist.org]]></partial>
-			<name><![CDATA[albany]]></name>
-		</location>
-		<location>
-			<state>NY</state>
-			<type>newyork</type>
-			<url><![CDATA[http://binghamton.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[binghamton.craigslist.org]]></partial>
-			<name><![CDATA[binghamton]]></name>
-		</location>
-		<location>
-			<state>NY</state>
-			<type>newyork</type>
-			<url><![CDATA[http://buffalo.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[buffalo.craigslist.org]]></partial>
-			<name><![CDATA[buffalo]]></name>
-		</location>
-		<location>
-			<state>NY</state>
-			<type>newyork</type>
-			<url><![CDATA[http://catskills.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[catskills.craigslist.org]]></partial>
-			<name><![CDATA[catskills]]></name>
-		</location>
-		<location>
-			<state>NY</state>
-			<type>newyork</type>
-			<url><![CDATA[http://chautauqua.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[chautauqua.craigslist.org]]></partial>
-			<name><![CDATA[chautauqua]]></name>
-		</location>
-		<location>
-			<state>NY</state>
-			<type>newyork</type>
-			<url><![CDATA[http://elmira.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[elmira.craigslist.org]]></partial>
-			<name><![CDATA[elmira-corning]]></name>
-		</location>
-		<location>
-			<state>NY</state>
-			<type>newyork</type>
-			<url><![CDATA[http://fingerlakes.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[fingerlakes.craigslist.org]]></partial>
-			<name><![CDATA[finger lakes]]></name>
-		</location>
-		<location>
-			<state>NY</state>
-			<type>newyork</type>
-			<url><![CDATA[http://glensfalls.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[glensfalls.craigslist.org]]></partial>
-			<name><![CDATA[glens falls]]></name>
-		</location>
-		<location>
-			<state>NY</state>
-			<type>newyork</type>
-			<url><![CDATA[http://hudsonvalley.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[hudsonvalley.craigslist.org]]></partial>
-			<name><![CDATA[hudson valley]]></name>
-		</location>
-		<location>
-			<state>NY</state>
-			<type>newyork</type>
-			<url><![CDATA[http://ithaca.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[ithaca.craigslist.org]]></partial>
-			<name><![CDATA[ithaca]]></name>
-		</location>
-		<location>
-			<state>NY</state>
-			<type>newyork</type>
-			<url><![CDATA[http://longisland.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[longisland.craigslist.org]]></partial>
-			<name><![CDATA[long island]]></name>
-		</location>
-		<location>
-			<state>NY</state>
-			<type>newyork</type>
-			<url><![CDATA[http://newyork.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[newyork.craigslist.org]]></partial>
-			<name><![CDATA[new york city]]></name>
-		</location>
-		<location>
-			<state>NY</state>
-			<type>newyork</type>
-			<url><![CDATA[http://oneonta.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[oneonta.craigslist.org]]></partial>
-			<name><![CDATA[oneonta]]></name>
-		</location>
-		<location>
-			<state>NY</state>
-			<type>newyork</type>
-			<url><![CDATA[http://plattsburgh.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[plattsburgh.craigslist.org]]></partial>
-			<name><![CDATA[plattsburgh-adirondacks]]></name>
-		</location>
-		<location>
-			<state>NY</state>
-			<type>newyork</type>
-			<url><![CDATA[http://potsdam.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[potsdam.craigslist.org]]></partial>
-			<name><![CDATA[potsdam-canton-massena]]></name>
-		</location>
-		<location>
-			<state>NY</state>
-			<type>newyork</type>
-			<url><![CDATA[http://rochester.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[rochester.craigslist.org]]></partial>
-			<name><![CDATA[rochester]]></name>
-		</location>
-		<location>
-			<state>NY</state>
-			<type>newyork</type>
-			<url><![CDATA[http://syracuse.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[syracuse.craigslist.org]]></partial>
-			<name><![CDATA[syracuse]]></name>
-		</location>
-		<location>
-			<state>NY</state>
-			<type>newyork</type>
-			<url><![CDATA[http://twintiers.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[twintiers.craigslist.org]]></partial>
-			<name><![CDATA[twin tiers NY/PA]]></name>
-		</location>
-		<location>
-			<state>NY</state>
-			<type>newyork</type>
-			<url><![CDATA[http://utica.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[utica.craigslist.org]]></partial>
-			<name><![CDATA[utica-rome-oneida]]></name>
-		</location>
-		<location>
-			<state>NY</state>
-			<type>newyork</type>
-			<url><![CDATA[http://watertown.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[watertown.craigslist.org]]></partial>
-			<name><![CDATA[watertown]]></name>
-		</location>
-		<location>
-			<state>NC</state>
-			<type>northcarolina</type>
-			<url><![CDATA[http://asheville.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[asheville.craigslist.org]]></partial>
-			<name><![CDATA[asheville]]></name>
-		</location>
-		<location>
-			<state>NC</state>
-			<type>northcarolina</type>
-			<url><![CDATA[http://boone.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[boone.craigslist.org]]></partial>
-			<name><![CDATA[boone]]></name>
-		</location>
-		<location>
-			<state>NC</state>
-			<type>northcarolina</type>
-			<url><![CDATA[http://charlotte.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[charlotte.craigslist.org]]></partial>
-			<name><![CDATA[charlotte]]></name>
-		</location>
-		<location>
-			<state>NC</state>
-			<type>northcarolina</type>
-			<url><![CDATA[http://eastnc.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[eastnc.craigslist.org]]></partial>
-			<name><![CDATA[eastern NC]]></name>
-		</location>
-		<location>
-			<state>NC</state>
-			<type>northcarolina</type>
-			<url><![CDATA[http://fayetteville.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[fayetteville.craigslist.org]]></partial>
-			<name><![CDATA[fayetteville]]></name>
-		</location>
-		<location>
-			<state>NC</state>
-			<type>northcarolina</type>
-			<url><![CDATA[http://greensboro.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[greensboro.craigslist.org]]></partial>
-			<name><![CDATA[greensboro]]></name>
-		</location>
-		<location>
-			<state>NC</state>
-			<type>northcarolina</type>
-			<url><![CDATA[http://hickory.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[hickory.craigslist.org]]></partial>
-			<name><![CDATA[hickory / lenoir]]></name>
-		</location>
-		<location>
-			<state>NC</state>
-			<type>northcarolina</type>
-			<url><![CDATA[http://onslow.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[onslow.craigslist.org]]></partial>
-			<name><![CDATA[jacksonville]]></name>
-		</location>
-		<location>
-			<state>NC</state>
-			<type>northcarolina</type>
-			<url><![CDATA[http://outerbanks.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[outerbanks.craigslist.org]]></partial>
-			<name><![CDATA[outer banks]]></name>
-		</location>
-		<location>
-			<state>NC</state>
-			<type>northcarolina</type>
-			<url><![CDATA[http://raleigh.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[raleigh.craigslist.org]]></partial>
-			<name><![CDATA[raleigh / durham / CH]]></name>
-		</location>
-		<location>
-			<state>NC</state>
-			<type>northcarolina</type>
-			<url><![CDATA[http://wilmington.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[wilmington.craigslist.org]]></partial>
-			<name><![CDATA[wilmington]]></name>
-		</location>
-		<location>
-			<state>NC</state>
-			<type>northcarolina</type>
-			<url><![CDATA[http://winstonsalem.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[winstonsalem.craigslist.org]]></partial>
-			<name><![CDATA[winston-salem]]></name>
-		</location>
-		<location>
-			<state>IN</state>
-			<type>indiana</type>
-			<url><![CDATA[http://bloomington.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[bloomington.craigslist.org]]></partial>
-			<name><![CDATA[bloomington]]></name>
-		</location>
-		<location>
-			<state>IN</state>
-			<type>indiana</type>
-			<url><![CDATA[http://evansville.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[evansville.craigslist.org]]></partial>
-			<name><![CDATA[evansville]]></name>
-		</location>
-		<location>
-			<state>IN</state>
-			<type>indiana</type>
-			<url><![CDATA[http://fortwayne.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[fortwayne.craigslist.org]]></partial>
-			<name><![CDATA[fort wayne]]></name>
-		</location>
-		<location>
-			<state>IN</state>
-			<type>indiana</type>
-			<url><![CDATA[http://indianapolis.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[indianapolis.craigslist.org]]></partial>
-			<name><![CDATA[indianapolis]]></name>
-		</location>
-		<location>
-			<state>IN</state>
-			<type>indiana</type>
-			<url><![CDATA[http://kokomo.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[kokomo.craigslist.org]]></partial>
-			<name><![CDATA[kokomo]]></name>
-		</location>
-		<location>
-			<state>IN</state>
-			<type>indiana</type>
-			<url><![CDATA[http://tippecanoe.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[tippecanoe.craigslist.org]]></partial>
-			<name><![CDATA[lafayette / west lafayette]]></name>
-		</location>
-		<location>
-			<state>IN</state>
-			<type>indiana</type>
-			<url><![CDATA[http://muncie.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[muncie.craigslist.org]]></partial>
-			<name><![CDATA[muncie / anderson]]></name>
-		</location>
-		<location>
-			<state>IN</state>
-			<type>indiana</type>
-			<url><![CDATA[http://richmondin.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[richmondin.craigslist.org]]></partial>
-			<name><![CDATA[richmond]]></name>
-		</location>
-		<location>
-			<state>IN</state>
-			<type>indiana</type>
-			<url><![CDATA[http://southbend.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[southbend.craigslist.org]]></partial>
-			<name><![CDATA[south bend / michiana]]></name>
-		</location>
-		<location>
-			<state>IN</state>
-			<type>indiana</type>
-			<url><![CDATA[http://terrehaute.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[terrehaute.craigslist.org]]></partial>
-			<name><![CDATA[terre haute]]></name>
-		</location>
-		<location>
-			<state>IN</state>
-			<type>indiana</type>
-			<url><![CDATA[http://chicago.craigslist.org/search/jjj/nwi?]]></url>
-			<partial><![CDATA[chicago.craigslist.org+nwi]]></partial>
-			<name><![CDATA[northwest indiana]]></name>
-		</location>
-		<location>
-			<state>AZ</state>
-			<type>arizona</type>
-			<url><![CDATA[http://flagstaff.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[flagstaff.craigslist.org]]></partial>
-			<name><![CDATA[flagstaff / sedona]]></name>
-		</location>
-		<location>
-			<state>AZ</state>
-			<type>arizona</type>
-			<url><![CDATA[http://mohave.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[mohave.craigslist.org]]></partial>
-			<name><![CDATA[mohave county]]></name>
-		</location>
-		<location>
-			<state>AZ</state>
-			<type>arizona</type>
-			<url><![CDATA[http://phoenix.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[phoenix.craigslist.org]]></partial>
-			<name><![CDATA[phoenix]]></name>
-		</location>
-		<location>
-			<state>AZ</state>
-			<type>arizona</type>
-			<url><![CDATA[http://prescott.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[prescott.craigslist.org]]></partial>
-			<name><![CDATA[prescott]]></name>
-		</location>
-		<location>
-			<state>AZ</state>
-			<type>arizona</type>
-			<url><![CDATA[http://showlow.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[showlow.craigslist.org]]></partial>
-			<name><![CDATA[show low]]></name>
-		</location>
-		<location>
-			<state>AZ</state>
-			<type>arizona</type>
-			<url><![CDATA[http://sierravista.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[sierravista.craigslist.org]]></partial>
-			<name><![CDATA[sierra vista]]></name>
-		</location>
-		<location>
-			<state>AZ</state>
-			<type>arizona</type>
-			<url><![CDATA[http://tucson.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[tucson.craigslist.org]]></partial>
-			<name><![CDATA[tucson]]></name>
-		</location>
-		<location>
-			<state>AZ</state>
-			<type>arizona</type>
-			<url><![CDATA[http://yuma.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[yuma.craigslist.org]]></partial>
-			<name><![CDATA[yuma]]></name>
-		</location>
-		<location>
-			<state>CT</state>
-			<type>connecticut</type>
-			<url><![CDATA[http://newlondon.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[newlondon.craigslist.org]]></partial>
-			<name><![CDATA[eastern CT]]></name>
-		</location>
-		<location>
-			<state>CT</state>
-			<type>connecticut</type>
-			<url><![CDATA[http://hartford.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[hartford.craigslist.org]]></partial>
-			<name><![CDATA[hartford]]></name>
-		</location>
-		<location>
-			<state>CT</state>
-			<type>connecticut</type>
-			<url><![CDATA[http://newhaven.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[newhaven.craigslist.org]]></partial>
-			<name><![CDATA[new haven]]></name>
-		</location>
-		<location>
-			<state>CT</state>
-			<type>connecticut</type>
-			<url><![CDATA[http://nwct.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[nwct.craigslist.org]]></partial>
-			<name><![CDATA[northwest CT]]></name>
-		</location>
-		<location>
-			<state>CT</state>
-			<type>connecticut</type>
-			<url><![CDATA[http://newyork.craigslist.org/search/jjj/fct?]]></url>
-			<partial><![CDATA[newyork.craigslist.org+fct]]></partial>
-			<name><![CDATA[fairfield county]]></name>
-		</location>
-
-		<location>
-			<state>CO</state>
-			<type>colorado</type>
-			<url><![CDATA[http://boulder.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[boulder.craigslist.org]]></partial>
-			<name><![CDATA[boulder]]></name>
-		</location>
-		<location>
-			<state>CO</state>
-			<type>colorado</type>
-			<url><![CDATA[http://cosprings.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[cosprings.craigslist.org]]></partial>
-			<name><![CDATA[colorado springs]]></name>
-		</location>
-		<location>
-			<state>CO</state>
-			<type>colorado</type>
-			<url><![CDATA[http://denver.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[denver.craigslist.org]]></partial>
-			<name><![CDATA[denver]]></name>
-		</location>
-		<location>
-			<state>CO</state>
-			<type>colorado</type>
-			<url><![CDATA[http://eastco.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[eastco.craigslist.org]]></partial>
-			<name><![CDATA[eastern CO]]></name>
-		</location>
-		<location>
-			<state>CO</state>
-			<type>colorado</type>
-			<url><![CDATA[http://fortcollins.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[fortcollins.craigslist.org]]></partial>
-			<name><![CDATA[fort collins / north CO]]></name>
-		</location>
-		<location>
-			<state>CO</state>
-			<type>colorado</type>
-			<url><![CDATA[http://rockies.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[rockies.craigslist.org]]></partial>
-			<name><![CDATA[high rockies]]></name>
-		</location>
-		<location>
-			<state>CO</state>
-			<type>colorado</type>
-			<url><![CDATA[http://pueblo.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[pueblo.craigslist.org]]></partial>
-			<name><![CDATA[pueblo]]></name>
-		</location>
-		<location>
-			<state>CO</state>
-			<type>colorado</type>
-			<url><![CDATA[http://westslope.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[westslope.craigslist.org]]></partial>
-			<name><![CDATA[western slope]]></name>
-		</location>
-		<location>
-			<state>NJ</state>
-			<type>newjersey</type>
-			<url><![CDATA[http://cnj.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[cnj.craigslist.org]]></partial>
-			<name><![CDATA[central NJ]]></name>
-		</location>
-		<location>
-			<state>NJ</state>
-			<type>newjersey</type>
-			<url><![CDATA[http://jerseyshore.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[jerseyshore.craigslist.org]]></partial>
-			<name><![CDATA[jersey shore]]></name>
-		</location>
-		<location>
-			<state>NJ</state>
-			<type>newjersey</type>
-			<url><![CDATA[http://newjersey.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[newjersey.craigslist.org]]></partial>
-			<name><![CDATA[north jersey]]></name>
-		</location>
-		<location>
-			<state>NJ</state>
-			<type>newjersey</type>
-			<url><![CDATA[http://southjersey.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[southjersey.craigslist.org]]></partial>
-			<name><![CDATA[south jersey]]></name>
-		</location>
-		<location>
-			<state>NJ</state>
-			<type>newjersey</type>
-			<url><![CDATA[http://newyork.craigslist.org/jsy/search/jjj?]]></url>
-			<partial><![CDATA[newyork.craigslist.org]]></partial>
-			<name><![CDATA[NJ suburbs of NYC]]></name>
-		</location>
-		<location>
-			<state>OH</state>
-			<type>ohio</type>
-			<url><![CDATA[http://akroncanton.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[akroncanton.craigslist.org]]></partial>
-			<name><![CDATA[akron / canton]]></name>
-		</location>
-		<location>
-			<state>OH</state>
-			<type>ohio</type>
-			<url><![CDATA[http://ashtabula.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[ashtabula.craigslist.org]]></partial>
-			<name><![CDATA[ashtabula]]></name>
-		</location>
-		<location>
-			<state>OH</state>
-			<type>ohio</type>
-			<url><![CDATA[http://athensohio.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[athensohio.craigslist.org]]></partial>
-			<name><![CDATA[athens]]></name>
-		</location>
-		<location>
-			<state>OH</state>
-			<type>ohio</type>
-			<url><![CDATA[http://chillicothe.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[chillicothe.craigslist.org]]></partial>
-			<name><![CDATA[chillicothe]]></name>
-		</location>
-		<location>
-			<state>OH</state>
-			<type>ohio</type>
-			<url><![CDATA[http://cincinnati.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[cincinnati.craigslist.org]]></partial>
-			<name><![CDATA[cincinnati]]></name>
-		</location>
-		<location>
-			<state>OH</state>
-			<type>ohio</type>
-			<url><![CDATA[http://cleveland.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[cleveland.craigslist.org]]></partial>
-			<name><![CDATA[cleveland]]></name>
-		</location>
-		<location>
-			<state>OH</state>
-			<type>ohio</type>
-			<url><![CDATA[http://columbus.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[columbus.craigslist.org]]></partial>
-			<name><![CDATA[columbus]]></name>
-		</location>
-		<location>
-			<state>OH</state>
-			<type>ohio</type>
-			<url><![CDATA[http://dayton.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[dayton.craigslist.org]]></partial>
-			<name><![CDATA[dayton / springfield]]></name>
-		</location>
-		<location>
-			<state>OH</state>
-			<type>ohio</type>
+			<state>WV</state>
+			<type>west_virginia</type>
 			<url><![CDATA[http://huntington.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[huntington.craigslist.org]]></partial>
 			<name><![CDATA[huntington-ashland]]></name>
 		</location>
 		<location>
-			<state>OH</state>
-			<type>ohio</type>
-			<url><![CDATA[http://limaohio.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[limaohio.craigslist.org]]></partial>
-			<name><![CDATA[lima / findlay]]></name>
+			<state>WV</state>
+			<type>west_virginia</type>
+			<url><![CDATA[http://morgantown.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[morgantown.craigslist.org]]></partial>
+			<name><![CDATA[morgantown]]></name>
 		</location>
 		<location>
-			<state>OH</state>
-			<type>ohio</type>
-			<url><![CDATA[http://mansfield.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[mansfield.craigslist.org]]></partial>
-			<name><![CDATA[mansfield]]></name>
-		</location>
-		<location>
-			<state>OH</state>
-			<type>ohio</type>
+			<state>WV</state>
+			<type>west_virginia</type>
 			<url><![CDATA[http://wheeling.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[wheeling.craigslist.org]]></partial>
 			<name><![CDATA[northern panhandle]]></name>
 		</location>
 		<location>
-			<state>OH</state>
-			<type>ohio</type>
+			<state>WV</state>
+			<type>west_virginia</type>
 			<url><![CDATA[http://parkersburg.craigslist.org/search/jjj?]]></url>
 			<partial><![CDATA[parkersburg.craigslist.org]]></partial>
 			<name><![CDATA[parkersburg-marietta]]></name>
 		</location>
 		<location>
-			<state>OH</state>
-			<type>ohio</type>
-			<url><![CDATA[http://sandusky.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[sandusky.craigslist.org]]></partial>
-			<name><![CDATA[sandusky]]></name>
+			<state>WV</state>
+			<type>west_virginia</type>
+			<url><![CDATA[http://swv.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[swv.craigslist.org]]></partial>
+			<name><![CDATA[southern WV]]></name>
 		</location>
 		<location>
-			<state>OH</state>
-			<type>ohio</type>
-			<url><![CDATA[http://toledo.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[toledo.craigslist.org]]></partial>
-			<name><![CDATA[toledo]]></name>
+			<state>WV</state>
+			<type>west_virginia</type>
+			<url><![CDATA[http://wv.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[wv.craigslist.org]]></partial>
+			<name><![CDATA[west virginia (old)]]></name>
 		</location>
 		<location>
-			<state>OH</state>
-			<type>ohio</type>
-			<url><![CDATA[http://tuscarawas.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[tuscarawas.craigslist.org]]></partial>
-			<name><![CDATA[tuscarawas co]]></name>
+			<state>WI</state>
+			<type>wisconsin</type>
+			<url><![CDATA[http://appleton.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[appleton.craigslist.org]]></partial>
+			<name><![CDATA[appleton-oshkosh-FDL]]></name>
 		</location>
 		<location>
-			<state>OH</state>
-			<type>ohio</type>
-			<url><![CDATA[http://youngstown.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[youngstown.craigslist.org]]></partial>
-			<name><![CDATA[youngstown]]></name>
+			<state>WI</state>
+			<type>wisconsin</type>
+			<url><![CDATA[http://eauclaire.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[eauclaire.craigslist.org]]></partial>
+			<name><![CDATA[eau claire]]></name>
 		</location>
 		<location>
-			<state>OH</state>
-			<type>ohio</type>
-			<url><![CDATA[http://zanesville.craigslist.org/search/jjj?]]></url>
-			<partial><![CDATA[zanesville.craigslist.org]]></partial>
-			<name><![CDATA[zanesville / cambridge]]></name>
+			<state>WI</state>
+			<type>wisconsin</type>
+			<url><![CDATA[http://greenbay.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[greenbay.craigslist.org]]></partial>
+			<name><![CDATA[green bay]]></name>
 		</location>
 		<location>
-			<state>PA</state>
-			<type>pennsylvania</type>
-			<url><![CDATA[http://altoona.craigslist.org/search/jjj?]]></url>
-			<partial>altoona.craigslist.org</partial>
-			<name><![CDATA[altoona-johnstown]]></name>
+			<state>WI</state>
+			<type>wisconsin</type>
+			<url><![CDATA[http://janesville.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[janesville.craigslist.org]]></partial>
+			<name><![CDATA[janesville]]></name>
 		</location>
 		<location>
-			<state>PA</state>
-			<type>pennsylvania</type>
-			<url><![CDATA[http://chambersburg.craigslist.org/search/jjj?]]></url>
-			<partial>chambersburg.craigslist.org</partial>
-			<name><![CDATA[cumberland valley]]></name>
+			<state>WI</state>
+			<type>wisconsin</type>
+			<url><![CDATA[http://racine.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[racine.craigslist.org]]></partial>
+			<name><![CDATA[kenosha-racine]]></name>
 		</location>
 		<location>
-			<state>PA</state>
-			<type>pennsylvania</type>
-			<url><![CDATA[http://erie.craigslist.org/search/jjj?]]></url>
-			<partial>erie.craigslist.org</partial>
-			<name><![CDATA[erie]]></name>
+			<state>WI</state>
+			<type>wisconsin</type>
+			<url><![CDATA[http://lacrosse.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[lacrosse.craigslist.org]]></partial>
+			<name><![CDATA[la crosse]]></name>
 		</location>
 		<location>
-			<state>PA</state>
-			<type>pennsylvania</type>
-			<url><![CDATA[http://harrisburg.craigslist.org/search/jjj?]]></url>
-			<partial>harrisburg.craigslist.org</partial>
-			<name><![CDATA[harrisburg]]></name>
+			<state>WI</state>
+			<type>wisconsin</type>
+			<url><![CDATA[http://madison.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[madison.craigslist.org]]></partial>
+			<name><![CDATA[madison]]></name>
 		</location>
 		<location>
-			<state>PA</state>
-			<type>pennsylvania</type>
-			<url><![CDATA[http://lancaster.craigslist.org/search/jjj?]]></url>
-			<partial>lancaster.craigslist.org</partial>
-			<name><![CDATA[lancaster]]></name>
+			<state>WI</state>
+			<type>wisconsin</type>
+			<url><![CDATA[http://milwaukee.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[milwaukee.craigslist.org]]></partial>
+			<name><![CDATA[milwaukee]]></name>
 		</location>
 		<location>
-			<state>PA</state>
-			<type>pennsylvania</type>
-			<url><![CDATA[http://allentown.craigslist.org/search/jjj?]]></url>
-			<partial>allentown.craigslist.org</partial>
-			<name><![CDATA[lehigh valley]]></name>
+			<state>WI</state>
+			<type>wisconsin</type>
+			<url><![CDATA[http://northernwi.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[northernwi.craigslist.org]]></partial>
+			<name><![CDATA[northern WI]]></name>
 		</location>
 		<location>
-			<state>PA</state>
-			<type>pennsylvania</type>
-			<url><![CDATA[http://meadville.craigslist.org/search/jjj?]]></url>
-			<partial>meadville.craigslist.org</partial>
-			<name><![CDATA[meadville]]></name>
+			<state>WI</state>
+			<type>wisconsin</type>
+			<url><![CDATA[http://sheboygan.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[sheboygan.craigslist.org]]></partial>
+			<name><![CDATA[sheboygan]]></name>
 		</location>
 		<location>
-			<state>PA</state>
-			<type>pennsylvania</type>
-			<url><![CDATA[http://philadelphia.craigslist.org/search/jjj?]]></url>
-			<partial>philadelphia.craigslist.org</partial>
-			<name><![CDATA[philadelphia]]></name>
+			<state>WI</state>
+			<type>wisconsin</type>
+			<url><![CDATA[http://wausau.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[wausau.craigslist.org]]></partial>
+			<name><![CDATA[wausau]]></name>
 		</location>
 		<location>
-			<state>PA</state>
-			<type>pennsylvania</type>
-			<url><![CDATA[http://pittsburgh.craigslist.org/search/jjj?]]></url>
-			<partial>pittsburgh.craigslist.org</partial>
-			<name><![CDATA[pittsburgh]]></name>
-		</location>
-		<location>
-			<state>PA</state>
-			<type>pennsylvania</type>
-			<url><![CDATA[http://poconos.craigslist.org/search/jjj?]]></url>
-			<partial>poconos.craigslist.org</partial>
-			<name><![CDATA[poconos]]></name>
-		</location>
-		<location>
-			<state>PA</state>
-			<type>pennsylvania</type>
-			<url><![CDATA[http://reading.craigslist.org/search/jjj?]]></url>
-			<partial>reading.craigslist.org</partial>
-			<name><![CDATA[reading]]></name>
-		</location>
-		<location>
-			<state>PA</state>
-			<type>pennsylvania</type>
-			<url><![CDATA[http://scranton.craigslist.org/search/jjj?]]></url>
-			<partial>scranton.craigslist.org</partial>
-			<name><![CDATA[scranton / wilkes-barre]]></name>
-		</location>
-		<location>
-			<state>PA</state>
-			<type>pennsylvania</type>
-			<url><![CDATA[http://pennstate.craigslist.org/search/jjj?]]></url>
-			<partial>pennstate.craigslist.org</partial>
-			<name><![CDATA[state college]]></name>
-		</location>
-		<location>
-			<state>PA</state>
-			<type>pennsylvania</type>
-			<url><![CDATA[http://twintiers.craigslist.org/search/jjj?]]></url>
-			<partial>twintiers.craigslist.org</partial>
-			<name><![CDATA[twin tiers NY/PA]]></name>
-		</location>
-		<location>
-			<state>PA</state>
-			<type>pennsylvania</type>
-			<url><![CDATA[http://williamsport.craigslist.org/search/jjj?]]></url>
-			<partial>williamsport.craigslist.org</partial>
-			<name><![CDATA[williamsport]]></name>
-		</location>
-		<location>
-			<state>PA</state>
-			<type>pennsylvania</type>
-			<url><![CDATA[http://york.craigslist.org/search/jjj?]]></url>
-			<partial>york.craigslist.org</partial>
-			<name><![CDATA[york]]></name>
-		</location>
-		<location>
-			<state>FL</state>
-			<type>florida</type>
-			<url><![CDATA[http://daytona.craigslist.org/search/jjj?]]></url>
-			<partial>daytona.craigslist.org</partial>
-			<name><![CDATA[daytona beach]]></name>
-		</location>
-		<location>
-			<state>FL</state>
-			<type>florida</type>
-			<url><![CDATA[http://keys.craigslist.org/search/jjj?]]></url>
-			<partial>keys.craigslist.org</partial>
-			<name><![CDATA[florida keys]]></name>
-		</location>
-		<location>
-			<state>FL</state>
-			<type>florida</type>
-			<url><![CDATA[http://fortmyers.craigslist.org/search/jjj?]]></url>
-			<partial>fortmyers.craigslist.org</partial>
-			<name><![CDATA[ft myers / SW florida]]></name>
-		</location>
-		<location>
-			<state>FL</state>
-			<type>florida</type>
-			<url><![CDATA[http://gainesville.craigslist.org/search/jjj?]]></url>
-			<partial>gainesville.craigslist.org</partial>
-			<name><![CDATA[gainesville]]></name>
-		</location>
-		<location>
-			<state>FL</state>
-			<type>florida</type>
-			<url><![CDATA[http://cfl.craigslist.org/search/jjj?]]></url>
-			<partial>cfl.craigslist.org</partial>
-			<name><![CDATA[heartland florida]]></name>
-		</location>
-		<location>
-			<state>FL</state>
-			<type>florida</type>
-			<url><![CDATA[http://jacksonville.craigslist.org/search/jjj?]]></url>
-			<partial>jacksonville.craigslist.org</partial>
-			<name><![CDATA[jacksonville]]></name>
-		</location>
-		<location>
-			<state>FL</state>
-			<type>florida</type>
-			<url><![CDATA[http://lakeland.craigslist.org/search/jjj?]]></url>
-			<partial>lakeland.craigslist.org</partial>
-			<name><![CDATA[lakeland]]></name>
-		</location>
-		<location>
-			<state>FL</state>
-			<type>florida</type>
-			<url><![CDATA[http://lakecity.craigslist.org/search/jjj?]]></url>
-			<partial>lakecity.craigslist.org</partial>
-			<name><![CDATA[north central FL]]></name>
-		</location>
-		<location>
-			<state>FL</state>
-			<type>florida</type>
-			<url><![CDATA[http://ocala.craigslist.org/search/jjj?]]></url>
-			<partial>ocala.craigslist.org</partial>
-			<name><![CDATA[ocala]]></name>
-		</location>
-		<location>
-			<state>FL</state>
-			<type>florida</type>
-			<url><![CDATA[http://okaloosa.craigslist.org/search/jjj?]]></url>
-			<partial>okaloosa.craigslist.org</partial>
-			<name><![CDATA[okaloosa / walton]]></name>
-		</location>
-		<location>
-			<state>FL</state>
-			<type>florida</type>
-			<url><![CDATA[http://orlando.craigslist.org/search/jjj?]]></url>
-			<partial>orlando.craigslist.org</partial>
-			<name><![CDATA[orlando]]></name>
-		</location>
-		<location>
-			<state>FL</state>
-			<type>florida</type>
-			<url><![CDATA[http://panamacity.craigslist.org/search/jjj?]]></url>
-			<partial>panamacity.craigslist.org</partial>
-			<name><![CDATA[panama city]]></name>
-		</location>
-		<location>
-			<state>FL</state>
-			<type>florida</type>
-			<url><![CDATA[http://pensacola.craigslist.org/search/jjj?]]></url>
-			<partial>pensacola.craigslist.org</partial>
-			<name><![CDATA[pensacola]]></name>
-		</location>
-		<location>
-			<state>FL</state>
-			<type>florida</type>
-			<url><![CDATA[http://sarasota.craigslist.org/search/jjj?]]></url>
-			<partial>sarasota.craigslist.org</partial>
-			<name><![CDATA[sarasota-bradenton]]></name>
-		</location>
-		<location>
-			<state>FL</state>
-			<type>florida</type>
-			<url><![CDATA[http://miami.craigslist.org/search/jjj?]]></url>
-			<partial>miami.craigslist.org</partial>
-			<name><![CDATA[south florida]]></name>
-		</location>
-		<location>
-			<state>FL</state>
-			<type>florida</type>
-			<url><![CDATA[http://spacecoast.craigslist.org/search/jjj?]]></url>
-			<partial>spacecoast.craigslist.org</partial>
-			<name><![CDATA[space coast]]></name>
-		</location>
-		<location>
-			<state>FL</state>
-			<type>florida</type>
-			<url><![CDATA[http://staugustine.craigslist.org/search/jjj?]]></url>
-			<partial>staugustine.craigslist.org</partial>
-			<name><![CDATA[st augustine]]></name>
-		</location>
-		<location>
-			<state>FL</state>
-			<type>florida</type>
-			<url><![CDATA[http://tallahassee.craigslist.org/search/jjj?]]></url>
-			<partial>tallahassee.craigslist.org</partial>
-			<name><![CDATA[tallahassee]]></name>
-		</location>
-		<location>
-			<state>FL</state>
-			<type>florida</type>
-			<url><![CDATA[http://tampa.craigslist.org/search/jjj?]]></url>
-			<partial>tampa.craigslist.org</partial>
-			<name><![CDATA[tampa bay area]]></name>
-		</location>
-		<location>
-			<state>FL</state>
-			<type>florida</type>
-			<url><![CDATA[http://treasure.craigslist.org/search/jjj?]]></url>
-			<partial>treasure.craigslist.org</partial>
-			<name><![CDATA[treasure coast]]></name>
-		</location>
-		<location>
-			<state>MI</state>
-			<type>michigan</type>
-			<url><![CDATA[http://annarbor.craigslist.org/search/jjj?]]></url>
-			<partial>annarbor.craigslist.org</partial>
-			<name><![CDATA[ann arbor]]></name>
-		</location>
-		<location>
-			<state>MI</state>
-			<type>michigan</type>
-			<url><![CDATA[http://battlecreek.craigslist.org/search/jjj?]]></url>
-			<partial>battlecreek.craigslist.org</partial>
-			<name><![CDATA[battle creek]]></name>
-		</location>
-		<location>
-			<state>MI</state>
-			<type>michigan</type>
-			<url><![CDATA[http://centralmich.craigslist.org/search/jjj?]]></url>
-			<partial>centralmich.craigslist.org</partial>
-			<name><![CDATA[central michigan]]></name>
-		</location>
-		<location>
-			<state>MI</state>
-			<type>michigan</type>
-			<url><![CDATA[http://detroit.craigslist.org/search/jjj?]]></url>
-			<partial>detroit.craigslist.org</partial>
-			<name><![CDATA[detroit metro]]></name>
-		</location>
-		<location>
-			<state>MI</state>
-			<type>michigan</type>
-			<url><![CDATA[http://flint.craigslist.org/search/jjj?]]></url>
-			<partial>flint.craigslist.org</partial>
-			<name><![CDATA[flint]]></name>
-		</location>
-		<location>
-			<state>MI</state>
-			<type>michigan</type>
-			<url><![CDATA[http://grandrapids.craigslist.org/search/jjj?]]></url>
-			<partial>grandrapids.craigslist.org</partial>
-			<name><![CDATA[grand rapids]]></name>
-		</location>
-		<location>
-			<state>MI</state>
-			<type>michigan</type>
-			<url><![CDATA[http://holland.craigslist.org/search/jjj?]]></url>
-			<partial>holland.craigslist.org</partial>
-			<name><![CDATA[holland]]></name>
-		</location>
-		<location>
-			<state>MI</state>
-			<type>michigan</type>
-			<url><![CDATA[http://jxn.craigslist.org/search/jjj?]]></url>
-			<partial>jxn.craigslist.org</partial>
-			<name><![CDATA[jackson]]></name>
-		</location>
-		<location>
-			<state>MI</state>
-			<type>michigan</type>
-			<url><![CDATA[http://kalamazoo.craigslist.org/search/jjj?]]></url>
-			<partial>kalamazoo.craigslist.org</partial>
-			<name><![CDATA[kalamazoo]]></name>
-		</location>
-		<location>
-			<state>MI</state>
-			<type>michigan</type>
-			<url><![CDATA[http://lansing.craigslist.org/search/jjj?]]></url>
-			<partial>lansing.craigslist.org</partial>
-			<name><![CDATA[lansing]]></name>
-		</location>
-		<location>
-			<state>MI</state>
-			<type>michigan</type>
-			<url><![CDATA[http://monroemi.craigslist.org/search/jjj?]]></url>
-			<partial>monroemi.craigslist.org</partial>
-			<name><![CDATA[monroe]]></name>
-		</location>
-		<location>
-			<state>MI</state>
-			<type>michigan</type>
-			<url><![CDATA[http://muskegon.craigslist.org/search/jjj?]]></url>
-			<partial>muskegon.craigslist.org</partial>
-			<name><![CDATA[muskegon]]></name>
-		</location>
-		<location>
-			<state>MI</state>
-			<type>michigan</type>
-			<url><![CDATA[http://nmi.craigslist.org/search/jjj?]]></url>
-			<partial>nmi.craigslist.org</partial>
-			<name><![CDATA[northern michigan]]></name>
-		</location>
-		<location>
-			<state>MI</state>
-			<type>michigan</type>
-			<url><![CDATA[http://porthuron.craigslist.org/search/jjj?]]></url>
-			<partial>porthuron.craigslist.org</partial>
-			<name><![CDATA[port huron]]></name>
-		</location>
-		<location>
-			<state>MI</state>
-			<type>michigan</type>
-			<url><![CDATA[http://saginaw.craigslist.org/search/jjj?]]></url>
-			<partial>saginaw.craigslist.org</partial>
-			<name><![CDATA[saginaw-midland-baycity]]></name>
-		</location>
-		<location>
-			<state>MI</state>
-			<type>michigan</type>
-			<url><![CDATA[http://southbend.craigslist.org/search/jjj?]]></url>
-			<partial>southbend.craigslist.org</partial>
-			<name><![CDATA[south bend / michiana]]></name>
-		</location>
-		<location>
-			<state>MI</state>
-			<type>michigan</type>
-			<url><![CDATA[http://swmi.craigslist.org/search/jjj?]]></url>
-			<partial>swmi.craigslist.org</partial>
-			<name><![CDATA[southwest michigan]]></name>
-		</location>
-		<location>
-			<state>MI</state>
-			<type>michigan</type>
-			<url><![CDATA[http://thumb.craigslist.org/search/jjj?]]></url>
-			<partial>thumb.craigslist.org</partial>
-			<name><![CDATA[the thumb]]></name>
-		</location>
-		<location>
-			<state>MI</state>
-			<type>michigan</type>
-			<url><![CDATA[http://up.craigslist.org/search/jjj?]]></url>
-			<partial>up.craigslist.org</partial>
-			<name><![CDATA[upper peninsula]]></name>
-		</location>
-		<location>
-			<state>MA</state>
-			<type>massachusetts</type>
-			<url><![CDATA[http://boston.craigslist.org/search/jjj?]]></url>
-			<partial>boston.craigslist.org</partial>
-			<name><![CDATA[boston]]></name>
-		</location>
-		<location>
-			<state>MA</state>
-			<type>massachusetts</type>
-			<url><![CDATA[http://capecod.craigslist.org/search/jjj?]]></url>
-			<partial>capecod.craigslist.org</partial>
-			<name><![CDATA[cape cod / islands]]></name>
-		</location>
-		<location>
-			<state>MA</state>
-			<type>massachusetts</type>
-			<url><![CDATA[http://southcoast.craigslist.org/search/jjj?]]></url>
-			<partial>southcoast.craigslist.org</partial>
-			<name><![CDATA[south coast]]></name>
-		</location>
-		<location>
-			<state>MA</state>
-			<type>massachusetts</type>
-			<url><![CDATA[http://westernmass.craigslist.org/search/jjj?]]></url>
-			<partial>westernmass.craigslist.org</partial>
-			<name><![CDATA[western massachusetts]]></name>
-		</location>
-		<location>
-			<state>MA</state>
-			<type>massachusetts</type>
-			<url><![CDATA[http://worcester.craigslist.org/search/jjj?]]></url>
-			<partial>worcester.craigslist.org</partial>
-			<name><![CDATA[worcester / central MA]]></name>
-		</location>
-		<location>
-			<state>IA</state>
-			<type>iowa</type>
-			<url><![CDATA[http://ames.craigslist.org/search/jjj?]]></url>
-			<partial>ames.craigslist.org</partial>
-			<name><![CDATA[ames]]></name>
-		</location>
-		<location>
-			<state>IA</state>
-			<type>iowa</type>
-			<url><![CDATA[http://cedarrapids.craigslist.org/search/jjj?]]></url>
-			<partial>cedarrapids.craigslist.org</partial>
-			<name><![CDATA[cedar rapids]]></name>
-		</location>
-		<location>
-			<state>IA</state>
-			<type>iowa</type>
-			<url><![CDATA[http://desmoines.craigslist.org/search/jjj?]]></url>
-			<partial>desmoines.craigslist.org</partial>
-			<name><![CDATA[des moines]]></name>
-		</location>
-		<location>
-			<state>IA</state>
-			<type>iowa</type>
-			<url><![CDATA[http://dubuque.craigslist.org/search/jjj?]]></url>
-			<partial>dubuque.craigslist.org</partial>
-			<name><![CDATA[dubuque]]></name>
-		</location>
-		<location>
-			<state>IA</state>
-			<type>iowa</type>
-			<url><![CDATA[http://fortdodge.craigslist.org/search/jjj?]]></url>
-			<partial>fortdodge.craigslist.org</partial>
-			<name><![CDATA[fort dodge]]></name>
-		</location>
-		<location>
-			<state>IA</state>
-			<type>iowa</type>
-			<url><![CDATA[http://iowacity.craigslist.org/search/jjj?]]></url>
-			<partial>iowacity.craigslist.org</partial>
-			<name><![CDATA[iowa city]]></name>
-		</location>
-		<location>
-			<state>IA</state>
-			<type>iowa</type>
-			<url><![CDATA[http://masoncity.craigslist.org/search/jjj?]]></url>
-			<partial>masoncity.craigslist.org</partial>
-			<name><![CDATA[mason city]]></name>
-		</location>
-		<location>
-			<state>IA</state>
-			<type>iowa</type>
-			<url><![CDATA[http://omaha.craigslist.org/search/jjj?]]></url>
-			<partial>omaha.craigslist.org</partial>
-			<name><![CDATA[omaha / council bluffs]]></name>
-		</location>
-		<location>
-			<state>IA</state>
-			<type>iowa</type>
-			<url><![CDATA[http://quadcities.craigslist.org/search/jjj?]]></url>
-			<partial>quadcities.craigslist.org</partial>
-			<name><![CDATA[quad cities, IA/IL]]></name>
-		</location>
-		<location>
-			<state>IA</state>
-			<type>iowa</type>
-			<url><![CDATA[http://siouxcity.craigslist.org/search/jjj?]]></url>
-			<partial>siouxcity.craigslist.org</partial>
-			<name><![CDATA[sioux city]]></name>
-		</location>
-		<location>
-			<state>IA</state>
-			<type>iowa</type>
-			<url><![CDATA[http://ottumwa.craigslist.org/search/jjj?]]></url>
-			<partial>ottumwa.craigslist.org</partial>
-			<name><![CDATA[southeast IA]]></name>
-		</location>
-		<location>
-			<state>IA</state>
-			<type>iowa</type>
-			<url><![CDATA[http://waterloo.craigslist.org/search/jjj?]]></url>
-			<partial>waterloo.craigslist.org</partial>
-			<name><![CDATA[waterloo / cedar falls]]></name>
-		</location>
-		<location>
-			<state>LA</state>
-			<type>louisiana</type>
-			<url><![CDATA[http://batonrouge.craigslist.org/search/jjj?]]></url>
-			<partial>batonrouge.craigslist.org</partial>
-			<name><![CDATA[baton rouge]]></name>
-		</location>
-		<location>
-			<state>LA</state>
-			<type>louisiana</type>
-			<url><![CDATA[http://cenla.craigslist.org/search/jjj?]]></url>
-			<partial>cenla.craigslist.org</partial>
-			<name><![CDATA[central louisiana]]></name>
-		</location>
-		<location>
-			<state>LA</state>
-			<type>louisiana</type>
-			<url><![CDATA[http://houma.craigslist.org/search/jjj?]]></url>
-			<partial>houma.craigslist.org</partial>
-			<name><![CDATA[houma]]></name>
-		</location>
-		<location>
-			<state>LA</state>
-			<type>louisiana</type>
-			<url><![CDATA[http://lafayette.craigslist.org/search/jjj?]]></url>
-			<partial>lafayette.craigslist.org</partial>
-			<name><![CDATA[lafayette]]></name>
-		</location>
-		<location>
-			<state>LA</state>
-			<type>louisiana</type>
-			<url><![CDATA[http://lakecharles.craigslist.org/search/jjj?]]></url>
-			<partial>lakecharles.craigslist.org</partial>
-			<name><![CDATA[lake charles]]></name>
-		</location>
-		<location>
-			<state>LA</state>
-			<type>louisiana</type>
-			<url><![CDATA[http://monroe.craigslist.org/search/jjj?]]></url>
-			<partial>monroe.craigslist.org</partial>
-			<name><![CDATA[monroe]]></name>
-		</location>
-		<location>
-			<state>LA</state>
-			<type>louisiana</type>
-			<url><![CDATA[http://neworleans.craigslist.org/search/jjj?]]></url>
-			<partial>neworleans.craigslist.org</partial>
-			<name><![CDATA[new orleans]]></name>
-		</location>
-		<location>
-			<state>LA</state>
-			<type>louisiana</type>
-			<url><![CDATA[http://shreveport.craigslist.org/search/jjj?]]></url>
-			<partial>shreveport.craigslist.org</partial>
-			<name><![CDATA[shreveport]]></name>
+			<state>WY</state>
+			<type>wyoming</type>
+			<url><![CDATA[http://wyoming.craigslist.org/search/jjj?]]></url>
+			<partial><![CDATA[wyoming.craigslist.org]]></partial>
+			<name><![CDATA[wyoming]]></name>
 		</location>
 	</locations>
 </clrepo>
