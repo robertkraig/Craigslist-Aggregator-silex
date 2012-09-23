@@ -2,13 +2,14 @@
     "minimum-stability": "dev",
     "require": {
         "silex/silex": "1.0.*",
-        "twig/twig": ">=1.8,<2.0-dev"
+        "twig/twig": ">=1.8,<2.0-dev",
+		"guzzle/guzzle": "*"
     },
     "autoload":
-    {   
+    {
         "psr-0":
-        {   
+        {
             "CLAgg":"lib/"
-        }   
-    }   
+        }
+    }
 }

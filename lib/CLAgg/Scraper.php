@@ -41,7 +41,7 @@ class Scraper {
 		$args = http_build_query($tmp_arr);
 		foreach($array as $key=>$val)
 		{
-			$array[$key]['url'].="&amp;{$args}";
+			$array[$key]['url'].="{$args}";
 		}
 
 		return $array;
