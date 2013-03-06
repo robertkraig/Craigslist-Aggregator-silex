@@ -7,6 +7,14 @@
     RewriteRule ^ index.php [L]
 </IfModule>
 
+#this is needed by zend session
+php_value session.auto_start 0
+
+#E_ALL | E_STRICT
+php_value error_reporting 32767
+
+php_value error_log /home/robertkraig/Craigslist-Aggregator-silex/web/php_errors.log
+
 # MIME Type Fixes
 AddType image/x-icon .ico
 AddType text/javascript .js
