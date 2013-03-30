@@ -11,7 +11,7 @@
 	{
 		"psr-0":
 		{
-			"CLAgg":"lib/"
+			"App":"lib/"
 		}
 	}
 }

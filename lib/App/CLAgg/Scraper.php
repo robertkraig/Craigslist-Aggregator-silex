@@ -1,8 +1,8 @@
 <?php
 
-namespace CLAgg;
+namespace App\CLAgg;
 
-use CLAgg\Utils;
+use App\CLAgg\Utils;
 
 /**
  * @author Robert S Kraig
