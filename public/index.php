@@ -2,13 +2,13 @@
 
 set_time_limit(60*3);
 error_reporting(E_ALL);
-ini_set('error_log', './php_errors.log');
+//ini_set('error_log', './php_errors.log');
 
 require_once './../vendor/autoload.php';
 use \Symfony\Component\HttpFoundation\Request;
-use CLAgg\ReadConfig;
-use CLAgg\Scraper;
-use CLAgg\Utils;
+use App\CLAgg\ReadConfig;
+use App\CLAgg\Scraper;
+use App\CLAgg\Utils;
 use Silex\Application;
 use Silex\Provider\TwigServiceProvider;
 
@@ -27,7 +27,8 @@ $sites = array(
 $app->register(new TwigServiceProvider(), array(
     'twig.path'		=> './../views',
 	'twig.options'	=> array(
-		'cache'=> './../cache/twig/'
+//		'cache'=> './../cache/twig/',
+		'cache'=>false,
 	)
 ));
 

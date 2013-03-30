@@ -1,6 +1,6 @@
 <?php
 
-namespace CLAgg;
+namespace App\CLAgg;
 use Guzzle\Http\Client;
 
 class Utils

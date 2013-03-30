@@ -1,6 +1,7 @@
 <?php
 
-namespace CLAgg;
+namespace App\CLAgg;
+
 use \Exception;
 
 class CLAggException extends Exception {}

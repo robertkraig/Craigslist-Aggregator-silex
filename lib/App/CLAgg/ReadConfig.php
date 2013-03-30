@@ -1,8 +1,8 @@
 <?php
 
-namespace CLAgg;
+namespace App\CLAgg;
 
-use CLAgg\CLAggException;
+use App\CLAgg\CLAggException;
 
 class ReadConfig
 {
