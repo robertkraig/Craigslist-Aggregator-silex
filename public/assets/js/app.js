@@ -409,6 +409,9 @@ $(function()
 			$('#content').show().html('Loading...');
 			$('#search_btn').val('searching');
 			$('#link_content, #buttons').hide();
+
+			_gaq.push(['_trackEvent', 'Search', window.SEARCH_SITE, $('#site').val()]);
+
 			$.ajax({
 				type: "POST",
 				url: '/',
