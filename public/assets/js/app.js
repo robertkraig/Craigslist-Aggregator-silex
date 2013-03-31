@@ -412,23 +412,10 @@ $(function()
 
 			_gaq.push(['_trackEvent', 'Search', window.SEARCH_SITE, $('#site').val()]);
 
-			$.ajax({
-				type: "POST",
-				url: '/',
-				data: $('#find_items').serialize(),
-				dataType: 'json',
-				success: function(json)
-				{
-					process_data(json);
-
-				},
-				error: function(XMLHttpRequest, textStatus, errorThrown){
-					try{
-						console.log(XMLHttpRequest, textStatus, errorThrown);
-					}
-					catch(e){}
-				}
-			});
+			$('#ws_id').val(CLAgg.conn._session_id);
+			
+			CLAgg.send_data($('#find_items').toArray());
+			
 			return false;
 		});
 

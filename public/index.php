@@ -82,8 +82,21 @@ $app->post('/', function(Request $req) use ($app, $sites)
 
 	if($search_field !== false)
 	{
-		$scraper = new Scraper($_POST, $include, $locations, $fields);
-		return $app->json($scraper->getRecords());
+	    $context = new ZMQContext();
+
+		$socket = $context->getSocket(ZMQ::SOCKET_PUSH, 'my pusher');
+		$socket->connect("tcp://localhost:5555");
+		$socket->send(json_encode(array(
+			'_POST'		=>$_POST,
+			'include'	=>$include,
+			'locations'	=>$locations,
+			'fields'	=>$fields
+		)));
+
+		$app->json(array(
+			'status'=>true,
+			'message'=>'zeromq processing'
+		));
 	}
 
 	$app->json (array(
