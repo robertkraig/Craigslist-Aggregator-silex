@@ -2,7 +2,7 @@
 
 {% block content %}
 <script>
-	window.SEARCH_SITE = {{site}};
+	window.SEARCH_SITE = '{{site}}';
 	$(function(){
 		$.getJSON('/sites/data',{site:window.SEARCH_SITE}, function(json)
 		{
