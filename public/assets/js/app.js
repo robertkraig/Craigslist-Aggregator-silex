@@ -271,7 +271,7 @@ $(document)
 		$('#toggle_disp').hide();
 		$('title').text($(document).data().title+' : '+$(this).attr('info'));
 	})
-	.on('click', '#open_windows a.windowLink span',function()
+	.on('click', '#open_windows a.windowLink span',function(event)
 	{
 		event.preventDefault();
 		var $parent = $(this).parent();
