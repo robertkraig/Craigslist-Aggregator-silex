@@ -83,7 +83,12 @@ class ReadConfig
 				$args       = explode('|', $argList[1]);
 				$select     = explode('|', $argList[2]);
 
-				$array['radio'] = array();
+				$array['radios'] = array();
+
+				unset($array['argId']);
+				unset($array['argKey']);
+				unset($array['argTitle']);
+
 				for($i = 0; $i < count($titles); $i++)
 				{
 					$array['radios'][] = array(
@@ -99,6 +104,12 @@ class ReadConfig
 			{
 				list($title, $value) = explode(':', $array['argTitle']);
 				$arg_name = str_replace(' ', '_', $array['argName']);
+
+				unset($array['argId']);
+				unset($array['argKey']);
+				unset($array['argName']);
+				unset($array['argTitle']);
+
 				$array['checkbox'] = array(
 					'value'		=>$value,
 					'title'		=>$title,

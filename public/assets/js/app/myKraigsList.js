@@ -92,6 +92,8 @@ app.controller('pageCtrlr',[
 		function($scope, $http, Session)
 		{
 			$scope.isLoaded = false;
+			$scope.form = {};
+
 			console.log(Session.site);
 			$http.post('/sites/data',{
 				site:Session.site
@@ -120,14 +122,36 @@ app.controller('pageCtrlr',[
 				$scope.isAreaListOpen = !$scope.isAreaListOpen;
 			};
 
-			$scope.selectAreas = function($element)
+			$scope.selectAreas = function(region)
 			{
-				console.log($element);
+				console.log(region);
+
+				region.selected = typeof region.selected === 'undefined' ? true : !region.selected;
+
+				_.each($scope.area_list, function(obj)
+				{
+					if(obj.type == region.type)
+						obj.selected = region.selected;
+				});
 			};
 
 			$scope.submit = function()
 			{
-
+				var model = _.extend({
+					includes: _.map(_.where($scope.area_list,{
+						selected:true
+					}),function(obj)
+					{
+						return obj.partial;
+					}),
+					regions: _.map(_.where($scope.region_list,{
+						selected:true
+					}),function(obj)
+					{
+						return obj.type;
+					})
+				}, $scope.form);
+				console.log(model);
 			};
 		}
 ]);
