@@ -1,0 +1,51 @@
+<div ng-show="isLoaded">
+	<form ng-submit="submit()" id="find_items">
+		<div id="change_size_container">
+			<div style="font-size: 20px;">{{pagetitle}}</div>
+			<div ng-repeat="field in fields">
+				<div ng-switch="field.argType">
+					<div ng-switch-when="text">
+						<label class="fields" for="{{field.argId}}">{{field.argTitle}}</label>
+						<input class="fields" type="text" name="{{field.argName}}" id="{{field.argId}}" />
+						<br style="margin:0;padding:0; height:1px; clear: left;" />
+					</div>
+					<div ng-switch-when="radio">
+						<div ng-repeat="radio in radios">
+							<label class="fields" for="{{radio.arg_name_id}}">{{radio.arg_name}}</label>
+							<input ng-checked="radio.checked" class="fields" type="radio" name="{{field.argName}}" value="{{radio.arg}}" id="{{radio.arg_name_id}}" />
+							<br style="margin:0;padding:0; height:1px; clear: left;" />
+						</div>
+					</div>
+					<div ng-switch-when="checkbox">
+						<label class="fields" for="{{field.checkbox.arg_name}}">{{field.checkbox.title}}</label>
+						<input class="fields" type="checkbox" name="{{field.argName}}" value="{{field.checkbox.value}}" id="{{field.checkbox.arg_name}}" />
+						<br style="margin:0;padding:0; height:1px; clear: left;" />
+					</div>
+				</div>
+			</div>
+
+			<cite>{{pagesearchexample}}</cite>
+			<div id="locations_container">
+				Region:&nbsp;&nbsp;<a ng-click="openRegions()" data-toggle="region_list">open</a>
+				<div ng-class="{open:isRegionListOpen}" id="region_list">
+					<label ng-repeat="region in region_list" for="{{region.type}}">
+						<input ng-click="selectAreas()" class="regions" type="checkbox" name="region[]" id="{{region.type}}" value="{{region.type}}" />{{region.name}}
+					</label>
+				</div><br />
+				Areas:&nbsp;&nbsp;<a ng-click="openAreas()" data-toggle="areas_list">open</a>
+				<div ng-class="{open:isAreaListOpen}" id="areas_list">
+					<label ng-repeat="area in area_list" for="{{area.partial}}">
+						<input class="region {{area.type}} location" type="checkbox" name="include[]" id="{{area.partial}}" value="{{area.partial}}" />{{area.name}}, {{area.state}}
+					</label>
+				</div>
+			</div>
+			<a id="search_btn">Search</a>
+			<input type="submit" style="display:none;" />
+			<img alt="loader" id="loader" style="display:none; position: absolute; bottom: 0; right: 0; margin:10px; margin-bottom: 35px;" src="/assets/img/loading.gif" />
+		</div>
+	</form>
+
+	<div id="content-container" ng-controller="myContentCtrlr">
+		<div style="display:none;" id="link_content"></div>
+	</div>
+</div>

@@ -70,10 +70,9 @@ class ReadConfig
 		if($this->_fields_array != null)
 			return $this->_fields_array;
 
-		$fields = $this->getFields();
-		array_walk($fields, function(&$array)
+		$this->_fields_array = array_map(function($array)
 		{
-			if(preg_match('/(string|int)/', $array['argType']))
+			if(in_array($array['argType'], array('string','int')))
 			{
 				$array['argType'] = 'text';
 			}
@@ -87,7 +86,7 @@ class ReadConfig
 				$array['radio'] = array();
 				for($i = 0; $i < count($titles); $i++)
 				{
-					$array['radio'][] = array(
+					$array['radios'][] = array(
 						'checked'		=>($select[$i] == '1'),
 						'arg_name'		=>$titles[$i],
 						'arg_name_id'	=>str_replace(' ', '_', $titles[$i]),
@@ -106,8 +105,8 @@ class ReadConfig
 					'arg_name'	=>$arg_name
 				);
 			}
-		});
-		$this->_fields_array = $fields;
+			return $array;
+		}, $this->getFields());
 
 		return $this->_fields_array;
 	}

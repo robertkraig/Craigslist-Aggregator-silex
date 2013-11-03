@@ -50,6 +50,7 @@ form button:focus,form input[type="text"]:focus,form input[type="password"]:focu
 
 #areas_list label:nth-child(even),
 #region_list label:nth-child(even) {background-color: rgba(0, 0, 0, 0.2);}
+
 #areas_list label:nth-child(odd),
 #region_list label:nth-child(odd) {background-color: rgba(0, 0, 0, 0.07);}
 
@@ -59,9 +60,11 @@ a#donate:focus{color: red;}
 .linkhover {color:red; font-weight: bold;}
 #header {    background-color: #d8ebec;position: absolute;top:0px;left:0px;right:0px;z-index: 1000;}
 #header ul {display: block;margin:0px;padding:0px;}
-#header,#header ul,#header ul li,#header ul li a{line-height: 25px;height: 25px;font-size: 14px;}
+#header, #header ul,#header ul li,#header ul li a{line-height: 25px;height: 25px;font-size: 14px;}
 #header ul li {float: left;}
 #header ul li a {padding: 0px 5px; font-weight: bold; display:block; text-decoration: none;}
+#header ul li a.active {color:red;}
+#header ul li a.inactive {color:black;}
 #header ul li a:hover {color:red;}
 #open_windows a.windowLink,#show_search{text-decoration: none;color:black;}
 #open_windows a.windowLink {position: relative;padding-right: 40px;text-align: center;}
@@ -73,5 +76,9 @@ a.button.hover {border-bottom: solid 4px red;}
 #link_content iframe {margin-top: 20px;}
 #buttons {display:none;}
 a.button {margin: 0px;margin-right: 5px; margin-bottom: 5px;padding:0px 4px;outline:none;border: solid 1px #D8EBEC;float:left;font-size: 14px;line-height: 20px;height: 20px;border-bottom: solid 4px #D8EBEC;text-decoration: none;background-color: white;text-align: center;-webkit-border-radius: 4px;-moz-border-radius: 4px; -moz-box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5);}
+
 #region_list ,
 #areas_list {display: none; border: 1px solid gainsboro;}
+
+#region_list.open ,
+#areas_list.open {display: block;}

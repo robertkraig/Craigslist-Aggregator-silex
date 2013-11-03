@@ -1,11 +1,19 @@
 <?php
 
+$filename = __DIR__.preg_replace('#(\?.*)$#', '', $_SERVER['REQUEST_URI']);
+if (php_sapi_name() === 'cli-server' && is_file($filename)) {
+    return false;
+}
+
 set_time_limit(60*3);
 error_reporting(E_ALL);
-//ini_set('error_log', './php_errors.log');
+ini_set('error_log', './php_errors.log');
+
+date_default_timezone_set('America/Los_Angeles');
 
 require_once './../vendor/autoload.php';
-use \Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\ParameterBag;
 use App\CLAgg\ReadConfig;
 use App\CLAgg\Scraper;
 use App\CLAgg\Utils;
@@ -31,6 +39,15 @@ $app->register(new TwigServiceProvider(), array(
 		'cache'=>false,
 	)
 ));
+
+$app->before(function (Request $request)
+{
+	if (0 === strpos($request->headers->get('Content-Type'), 'application/json'))
+	{
+		$data = json_decode($request->getContent(), true);
+		$request->request->replace(is_array($data) ? $data : array());
+	}
+});
 
 $app->get('/', function(Request $req) use ($app, $sites)
 {
@@ -62,7 +79,7 @@ $app->get('/site', function(Request $req) use ($app, $sites)
 
 });
 
-$app->post('/', function(Request $req) use ($app, $sites)
+$app->post('/sites/fetch', function(Request $req) use ($app, $sites)
 {
 	$site = $req->get('site','findjobs');
 	$include = $req->get('include', false);
@@ -93,9 +110,10 @@ $app->post('/', function(Request $req) use ($app, $sites)
 
 });
 
-$app->get('/sites/data', function(Request $req) use ($app, $sites)
+$app->post('/sites/data', function(Request $req) use ($app, $sites)
 {
-	$site = $req->get('site','findjobs');
+	$site = $req->get('site','jobs');
+	$site = 'find'.$site;
 
 	if(!isset($sites[$site]))
 	{
@@ -110,7 +128,7 @@ $app->get('/sites/data', function(Request $req) use ($app, $sites)
 		'page_info'		=>$config->getInfo(),
 		'region_list'	=>$config->getRegions(),
 		'area_list'		=>$config->getAreas(),
-		'form_fields'	=>$config->getFields()
+		'fields'		=>$config->getFieldsArray()
 	));
 });
 
@@ -119,7 +137,7 @@ $app->error(function (Exception $e, $code) use ($app)
     switch ($code)
 	{
         case 404:
-            $message = 'The requested page could not be found.';
+			return $app->redirect('/');
             break;
         default:
             $message = 'We are sorry, but something went terribly wrong.';

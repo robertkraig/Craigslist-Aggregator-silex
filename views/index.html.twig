@@ -1,86 +1,26 @@
-{% spaceless %}
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html ng-app="myKraigsList">
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-		<title>{{title}}</title>
+		<title>sample</title>
 		<link rel="stylesheet" type="text/css" href="/assets/css/body.css" />
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="/assets/js/ICanHaz.js"></script>
-		<script src="/assets/js/app.js"></script>
-		<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-12896175-10']);
-		_gaq.push(['_trackPageview']);
-
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-		</script>
-
-		{% verbatim %}
-		<script id="window_frame_tmpl" type="text/html">
-			<div class="window" id="window_{{incrementor}}">
-				<iframe border="0" id="iframe_{{incrementor}}" src="{{_url}}" title="{{_title}}"></iframe>
-			</div>
-		</script>
-
-		<script id="window_frame_btn_tmpl" type="text/html">
-			<a id="link_{{incrementor}}" info="{{_title}}" rel="{{incrementor}}" class="windowLink button">Window&nbsp;{{incrementor}}&nbsp;<span>X</span></a>
-		</script>
-
-		<script id="render_display_date_tmpl" type="text/html">
-			<h1>{{date}}</h1>
-		</script>
-
-		<script id="render_display_date_group_tmpl" type="text/html">
-			<div class="date"></div>
-		</script>
-
-		<script id="render_display_date_group_location_tmpl" type="text/html">
-			<div group="{{group}}">
-				<h2>{{group}}</h2>
-				<ul class="locationItems" group="{{group}}"></ul>
-			</div>
-		</script>
-
-		<script id="render_display_date_group_location_node_tmpl" type="text/html">
-			<li>
-				<a class="jobsite" info="{{title}}" target="_blank" href="{{href}}">
-					<span>{{title}}</span>
-				</a>
-			</li>
-		</script>
-		
-		<script id="area_list_tmpl" type="text/html">
-			<label for="{{partial}}">
-				<input class="region {{type}} location" type="checkbox" name="include[]" id="{{partial}}" value="{{partial}}" />{{name}}, {{state}}
-			</label>
-		</script>
-
-		<script id="region_list_tmpl" type="text/html">
-			<label for="{{type}}">
-				<input class="regions" type="checkbox" name="region[]" id="{{type}}" value="{{type}}" />{{name}}
-			</label>
-		</script>
-		{% endverbatim %}
-
+		<script src="/assets/js/lib/angular.js"></script>
+		<script src="/assets/js/lib/angular-route.js"></script>
+		<script src="/assets/js/lib/angular-resource.js"></script>
+		<script src="/assets/js/app/myKraigsList.js"></script>
 	</head>
+
 	<body>
-		<div id="header">
+		<div id="header" ng-controller="headerCtrlr">
 			<ul>
-				<li><a {% if site.findstuff %}style="color:red;"{%else%}style="color:black;"{% endif %} href="http://{{server_name}}/site?site=findstuff">Stuff</a></li>
-				<li><a {% if site.findjobs %}style="color:red;"{%else%}style="color:black;"{% endif %} href="http://{{server_name}}/site?site=findjobs">Jobs</a></li>
-				<li><a {% if site.findgigs %}style="color:red;"{%else%}style="color:black;"{% endif %} href="http://{{server_name}}/site?site=findgigs">Gigs</a></li>
-				<li><a {% if site.findplaces %}style="color:red;"{%else%}style="color:black;"{% endif %} href="http://{{server_name}}/site?site=findplaces">Places</a></li>
-				<li><a {% if site.findservices %}style="color:red;"{%else%}style="color:black;"{% endif %} href="http://{{server_name}}/site?site=findservices">Services</a></li>
+				<li><a ng-click="gotoStuff()" ng-class="{active:site == 'stuff', inactive: site != 'stuff'}" href="/stuff">Stuff</a></li>
+				<li><a ng-click="gotoJobs()" ng-class="{active:site == 'jobs', inactive: site != 'jobs'}" href="/jobs">Jobs</a></li>
+				<li><a ng-click="gotoGigs()" ng-class="{active:site == 'gigs', inactive: site != 'gigs'}" href="/gigs">Gigs</a></li>
+				<li><a ng-click="gotoPlaces()" ng-class="{active:site == 'places', inactive: site != 'places'}" href="/places">Places</a></li>
+				<li><a ng-click="gotoServices()" ng-class="{active:site == 'services', inactive: site != 'services'}" href="/services">Services</a></li>
 			</ul>
-			<div style="clear: both;"></div>
 		</div>
-		{% block content %}{% endblock %}
+		<div ng-view=""></div>
 	</body>
 </html>
-{% endspaceless %}
