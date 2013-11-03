@@ -1,0 +1,17 @@
+<div id="content-container" ng-controller="myContentCtrlr">
+	<div ng-show="isRendered" id="link_content">
+		<h1>{{date}}</h1>
+		<div class="date">
+			<div group="{{group}}">
+				<h2>{{group}}</h2>
+				<ul class="locationItems" group="{{group}}">
+					<li>
+						<a class="jobsite" info="{{title}}" target="_blank" href="{{href}}">
+							<span>{{title}}</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
