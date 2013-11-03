@@ -92,9 +92,10 @@ app.controller('pageCtrlr',[
 		function($scope, $http, Session)
 		{
 			$scope.isLoaded = false;
-			$scope.form = {};
+			$scope.form = {
+				site:Session.site
+			};
 
-			console.log(Session.site);
 			$http.post('/sites/data',{
 				site:Session.site
 			}).success(function(json)
@@ -137,7 +138,7 @@ app.controller('pageCtrlr',[
 
 			$scope.submit = function()
 			{
-				var model = _.extend({
+				var data = _.extend({
 					includes: _.map(_.where($scope.area_list,{
 						selected:true
 					}),function(obj)
@@ -151,7 +152,7 @@ app.controller('pageCtrlr',[
 						return obj.type;
 					})
 				}, $scope.form);
-				console.log(model);
+				console.log(data);
 			};
 		}
 ]);

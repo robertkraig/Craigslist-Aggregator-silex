@@ -29,17 +29,17 @@
 				Region:&nbsp;&nbsp;<a ng-click="openRegions()">open</a>
 				<div ng-class="{open:isRegionListOpen}" id="region_list">
 					<label ng-repeat="region in region_list" for="{{region.type}}">
-						<input ng-click="selectAreas(region);" ng-checked="region.selected" ng-model="region.value" class="regions" type="checkbox" id="{{region.type}}" value="{{region.type}}" />{{region.name}}
+						<input ng-click="selectAreas(region);" ng-checked="region.selected" class="regions" type="checkbox" id="{{region.type}}" value="{{region.type}}" />{{region.name}}
 					</label>
 				</div><br />
 				Areas:&nbsp;&nbsp;<a ng-click="openAreas()">open</a>
 				<div ng-class="{open:isAreaListOpen}" id="areas_list">
 					<label ng-repeat="area in area_list" for="{{area.partial}}">
-						<input class="region {{area.type}} location" ng-checked="area.selected" ng-model="area.value" type="checkbox" id="{{area.partial}}" value="{{area.partial}}" />{{area.name}}, {{area.state}}
+						<input class="region {{area.type}} location" ng-checked="area.selected" type="checkbox" id="{{area.partial}}" value="{{area.partial}}" />{{area.name}}, {{area.state}}
 					</label>
 				</div>
 			</div>
-			<button id="search_btn" ng-click="submit()" type="submit">Search</button>
+			<button id="search_btn" type="submit">Search</button>
 		</div>
 	</form>
 
