@@ -3,35 +3,6 @@ var app = angular.module("myKraigsList", [
 	'ngResource'
 ]);
 
-app.config([
-	'$routeProvider','$locationProvider',
-		function($routeProvider, $locationProvider)
-		{
-			var routeHandler = {
-				templateUrl: 'assets/templates/sites.html',
-				controller: 'pageCtrlr'
-			}
-			$routeProvider.
-				when('/stuff', routeHandler).
-				when('/jobs', routeHandler).
-				when('/gigs', routeHandler).
-				when('/places', routeHandler).
-				when('/services', routeHandler).
-				otherwise({
-					redirectTo: '/'
-				});
-			$locationProvider.html5Mode(true)
-		}
-]);
-
-app.filter('filterdotname', function()
-{
-	return function(input)
-	{
-		return input.split('.')[0];
-	};
-});
-
 app.factory('mySessionService', function($rootScope)
 {
 	var service = {};
@@ -69,6 +40,36 @@ app.factory('mySessionService', function($rootScope)
 
 	return service;
 });
+
+app.config([
+	'$routeProvider','$locationProvider',
+		function($routeProvider, $locationProvider)
+		{
+			var routeHandler = {
+				templateUrl: 'assets/templates/sites.html',
+				controller: 'pageCtrlr'
+			}
+			$routeProvider.
+				when('/stuff', routeHandler).
+				when('/jobs', routeHandler).
+				when('/gigs', routeHandler).
+				when('/places', routeHandler).
+				when('/services', routeHandler).
+				otherwise({
+					redirectTo: '/'
+				});
+			$locationProvider.html5Mode(true)
+		}
+]);
+
+app.filter('filterdotname', function()
+{
+	return function(input)
+	{
+		return input.split('.')[0];
+	};
+});
+
 
 app.controller('headerCtrlr',[
 	'$scope', '$location', 'mySessionService',
@@ -132,6 +133,7 @@ app.controller('pageCtrlr',[
 	'$scope','$http','mySessionService',
 		function($scope, $http, mySessionService)
 		{
+			mySessionService.emptySearch();
 			var self = this;
 
 			var loader = new CanvasLoader('canvasloader-container');
@@ -162,7 +164,6 @@ app.controller('pageCtrlr',[
 					$scope.area_list = json.area_list;
 					$scope.region_list = json.region_list;
 					$scope.isLoaded = true;
-					mySessionService.emptySearch();
 				});
 
 			$scope.isAreaListOpen = false;
