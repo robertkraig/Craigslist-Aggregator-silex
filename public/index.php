@@ -81,7 +81,9 @@ $app->get('/site', function(Request $req) use ($app, $sites)
 
 $app->post('/sites/fetch', function(Request $req) use ($app, $sites)
 {
-	$site = $req->get('site','findjobs');
+	$site = $req->get('site','jobs');
+	$site = 'find'.$site;
+
 	$include = $req->get('include', false);
 
 	if(!isset($sites[$site]))
@@ -99,7 +101,9 @@ $app->post('/sites/fetch', function(Request $req) use ($app, $sites)
 
 	if($search_field !== false)
 	{
-		$scraper = new Scraper($_POST, $include, $locations, $fields);
+		// $_POST IS NO LONGER USED, POST-BODY IS AS JSON
+		$data = json_decode($req->getContent(), true);
+		$scraper = new Scraper($data, $include, $locations, $fields);
 		return $app->json($scraper->getRecords());
 	}
 

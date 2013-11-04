@@ -26,7 +26,10 @@ app.config([
 
 app.factory('Session',function()
 {
-	return {title:'My Kraigs List'};
+	return {
+		title:'My Kraigs List',
+		search_data:[]
+	};
 });
 
 app.controller('headerCtrlr',[
@@ -66,7 +69,7 @@ app.controller('headerCtrlr',[
 
 			$scope.gotoJobs = function()
 			{
-				$location.path('/jogs');
+				$location.path('/jobs');
 			};
 
 			$scope.gotoGigs = function()
@@ -91,24 +94,29 @@ app.controller('pageCtrlr',[
 	'$scope','$http','Session',
 		function($scope, $http, Session)
 		{
+			var self = this;
+
 			$scope.isLoaded = false;
 			$scope.form = {
 				site:Session.site
 			};
 
-			$http.post('/sites/data',{
-				site:Session.site
-			}).success(function(json)
-			{
-				console.log(json);
-				$scope.title = json.page_info.title;
-				$scope.pagetitle = json.page_info.pagetitle;
-				$scope.fields = json.fields;
-				$scope.pagesearchexample = json.page_info.pagesearchexample;
-				$scope.area_list = json.area_list;
-				$scope.region_list = json.region_list;
-				$scope.isLoaded = true;
-			});
+			$http
+				.post('/sites/data',{
+					site:Session.site
+				})
+				.success(function(json)
+				{
+					console.log(json);
+					$scope.title = json.page_info.title;
+					$scope.pagetitle = json.page_info.pagetitle;
+					$scope.fields = json.fields;
+					$scope.pagesearchexample = json.page_info.pagesearchexample;
+					$scope.area_list = json.area_list;
+					$scope.region_list = json.region_list;
+					$scope.isLoaded = true;
+					Session.search_data = [];
+				});
 
 			$scope.isAreaListOpen = false;
 			$scope.isRegionListOpen = false;
@@ -136,10 +144,29 @@ app.controller('pageCtrlr',[
 				});
 			};
 
+			self._setDefaults = function()
+			{
+				var areas = _.where($scope.area_list, {selected:true});
+				if(!areas.length)
+				{
+					_.each($scope.region_list, function(obj)
+					{
+						if(obj.type == 'socal') obj.selected = true;
+					});
+
+					_.each($scope.area_list, function(obj)
+					{
+						if(obj.type == 'socal') obj.selected = true;
+					});
+				}
+			};
+
 			$scope.submit = function()
 			{
+				self._setDefaults();
+
 				var data = _.extend({
-					includes: _.map(_.where($scope.area_list,{
+					include: _.map(_.where($scope.area_list,{
 						selected:true
 					}),function(obj)
 					{
@@ -152,15 +179,31 @@ app.controller('pageCtrlr',[
 						return obj.type;
 					})
 				}, $scope.form);
-				console.log(data);
+
+				$http({
+					url:'/sites/fetch',
+					method:'post',
+					data:data
+				})
+				.success(function(json)
+				{
+					Session.search_data = json;
+				});
 			};
 		}
 ]);
 
 app.controller('myContentCtrlr',[
-	'$scope',
-		function($scope)
+	'$scope','Session',
+		function($scope, Session)
 		{
-			$scope.closeAll = function(){};
-			$scope.showSearch = function(){};
+			$scope.data = Session.search_data;
+			if(!Session.data)
+			{
+				$scope.isRendered = true;
+			}
+			else
+			{
+				$scope.isRendered = false;
+			}
 		}]);
