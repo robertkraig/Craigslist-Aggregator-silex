@@ -104,7 +104,7 @@ $app->post('/sites/fetch', function(Request $req) use ($app, $sites)
 		// $_POST IS NO LONGER USED, POST-BODY IS AS JSON
 		$data = json_decode($req->getContent(), true);
 		$scraper = new Scraper($data, $include, $locations, $fields);
-		return $app->json($scraper->getRecords());
+		return $app->json(array_values($scraper->getRecords()));
 	}
 
 	$app->json (array(

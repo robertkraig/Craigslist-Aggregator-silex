@@ -32,10 +32,10 @@
 						<input ng-click="selectAreas(region);" ng-checked="region.selected" class="regions" type="checkbox" id="{{region.type}}" value="{{region.type}}" />{{region.name}}
 					</label>
 				</div><br />
-				Areas:&nbsp;&nbsp;<a ng-click="openAreas()">open</a>
+				Areas:&nbsp;&nbsp;<a ng-click="openAreas()">open</a> selected: {{totalAreas()}}
 				<div ng-class="{open:isAreaListOpen}" id="areas_list">
 					<label ng-repeat="area in area_list" for="{{area.partial}}">
-						<input class="region {{area.type}} location" ng-checked="area.selected" type="checkbox" id="{{area.partial}}" value="{{area.partial}}" />{{area.name}}, {{area.state}}
+						<input ng-click="area.selected=!area.selected" class="region {{area.type}} location" ng-checked="area.selected" type="checkbox" id="{{area.partial}}" value="{{area.partial}}" />{{area.name}}, {{area.state}}
 					</label>
 				</div>
 			</div>

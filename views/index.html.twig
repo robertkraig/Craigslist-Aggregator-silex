@@ -1,3 +1,4 @@
+{% verbatim %}
 <!DOCTYPE html>
 <html ng-app="myKraigsList">
 	<head>
@@ -9,6 +10,7 @@
 		<script src="/assets/js/lib/underscore.js"></script>
 		<script src="/assets/js/lib/angular-route.js"></script>
 		<script src="/assets/js/lib/angular-resource.js"></script>
+		<script src="/assets/js/lib/heartcode-canvasloader.js"></script>
 		<script src="/assets/js/app/myKraigsList.js"></script>
 	</head>
 
@@ -23,5 +25,29 @@
 			</ul>
 		</div>
 		<div ng-view=""></div>
+		<div id="content-container" ng-controller="contentCtrlr">
+			<div id="link_content">
+				<div id="canvasloader-container"></div>
+				<div ng-show="isRendered">
+					<div ng-repeat="rec in results">
+						<h1>{{rec.date}}</h1>
+						<div class="date">
+							<div ng-repeat="loc in rec.records">
+								<h2>{{loc.location | filterdotname}}</h2>
+								<ul class="locationItems">
+									<li>
+										<a class="jobsite" title="{{loc.title}}" target="_blank" href="{{loc.link}}">
+											<span>{{loc.title}}</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
+{% endverbatim %}

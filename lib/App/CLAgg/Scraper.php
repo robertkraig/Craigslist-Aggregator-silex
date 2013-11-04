@@ -67,10 +67,9 @@ class Scraper {
 			$dc = get_object_vars($dc_nodes);
 			$data = $info + $dc;
 			unset($data['description']);
-			$search_items[] = array(
-				'location'=>$location['partial'],
-				'info'=>$data
-			);
+			$search_items[] = array_merge($data, array(
+				'location'=>$location['partial']
+			));
 		}
 
 		return $search_items;
@@ -110,7 +109,7 @@ class Scraper {
 		$data = array();
 		foreach($search_items as $item)
 		{
-			$date = $item['info']['date'];
+			$date = $item['date'];
 			$date_timestamp = strtotime($date);
 			$uniqu_group_hash = $date_timestamp;
 			$data[$uniqu_group_hash] = $item;

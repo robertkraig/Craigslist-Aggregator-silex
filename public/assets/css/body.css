@@ -45,7 +45,7 @@ a#search_btn {margin:5px;padding:2px;color:red;border:solid 1px gray;background-
 form button:focus,form input[type="text"]:focus,form input[type="password"]:focus,form input[type="file"]:focus,form select:focus,form textarea:focus,a#search_btn:focus,a#search_btn:hover{ background-color: #FFF;border: 1px solid #508FCF; -moz-box-shadow: 0px 0px 2px #999; -webkit-box-shadow: 0px 0px 2px #999;}
 #locations_container {height:250px; overflow: auto; -moz-box-shadow:0 1px 3px #000000;padding:2px;margin:0px; margin-bottom: 10px;}
 #content-container {position: absolute; top: 25px; right: 0px; bottom: 0px;padding-top: 10px; padding-left: 10px; left: 270px;}
-#link_content, #content {overflow-y: scroll; display:block;}
+#link_content, #content {overflow-y: scroll;display: block;position: absolute;top: 0;left: 0;right: 0;bottom: 0; padding: 10px 20px;}
 #find_items {position: relative; top: 25px; left:0px; width: 250px; background-color: #fff; border: solid 1px #999; padding:10px; border-left: none; border-top: none; margin: 0px; -moz-box-shadow:0px 1px 3px #000; -webkit-box-shadow:0px 1px 3px #000;}
 #change_size_container {display:block;}
 
@@ -83,3 +83,5 @@ a.button {margin: 0px;margin-right: 5px; margin-bottom: 5px;padding:0px 4px;outl
 
 #region_list.open ,
 #areas_list.open {display: block;}
+#canvasloader-container {display: block;width: 84px;height: 84px;margin: auto;position: absolute;top: 0;bottom: 0;right: 0;left: 0;}
+#canvasloader-container #canvasLoader {display: block;margin: 0 auto;width: 84px;}
