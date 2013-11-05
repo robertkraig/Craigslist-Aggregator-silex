@@ -150,6 +150,21 @@ app.controller('pageCtrlr',[
 				site:mySessionService.getData().site
 			};
 
+
+			self._build_area_list = function(area_list)
+			{
+				var proxy_area = [];
+				_.each(area_list, function(state)
+				{
+					_.each(state, function(rec)
+					{
+						rec.selected = false;
+						proxy_area.push(rec);
+					});
+				});
+				return proxy_area;
+			};
+
 			$http
 				.post('/sites/data',{
 					site:mySessionService.getData().site
@@ -161,7 +176,7 @@ app.controller('pageCtrlr',[
 					$scope.pagetitle = json.page_info.pagetitle;
 					$scope.fields = json.fields;
 					$scope.pagesearchexample = json.page_info.pagesearchexample;
-					$scope.area_list = json.area_list;
+					$scope.area_list = self._build_area_list(json.area_list);
 					$scope.region_list = json.region_list;
 					$scope.isLoaded = true;
 				});
@@ -192,11 +207,23 @@ app.controller('pageCtrlr',[
 				});
 			};
 
-			$scope.totalAreas = function()
+			$scope.selectedAreas = function()
 			{
 				return _.where($scope.area_list,{
 					selected:true
-				}).length;
+				});
+			};
+
+			$scope.unselectedAreas = function()
+			{
+				return _.where($scope.area_list,{
+					selected:false
+				});
+			};
+
+			$scope.totalAreas = function()
+			{
+				return $scope.selectedAreas().length;
 			};
 
 			self._setDefaults = function()

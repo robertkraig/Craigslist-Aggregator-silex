@@ -141,13 +141,14 @@ class ReadConfig
 		foreach($locations as $location)
 		{
 			$this->_locations[] = $location;
-			$this->_areas[$location['partial']] = array(
+			$this->_areas[$location['state']][] = array(
 				'type'		=>$location['type'],
 				'partial'	=>$location['partial'],
 				'name'		=>ucwords($location['name']),
 				'state'		=>$location['state']
 			);
 		}
+		ksort($this->_areas);
 	}
 
 	private function _build_regions()
