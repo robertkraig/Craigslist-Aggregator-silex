@@ -17,11 +17,11 @@
 	<body>
 		<div id="header" ng-controller="headerCtrlr">
 			<ul>
-				<li><a ng-click="gotoStuff()" ng-class="{active:site == 'stuff', inactive: site != 'stuff'}" href="/stuff">Stuff</a></li>
-				<li><a ng-click="gotoJobs()" ng-class="{active:site == 'jobs', inactive: site != 'jobs'}" href="/jobs">Jobs</a></li>
-				<li><a ng-click="gotoGigs()" ng-class="{active:site == 'gigs', inactive: site != 'gigs'}" href="/gigs">Gigs</a></li>
-				<li><a ng-click="gotoPlaces()" ng-class="{active:site == 'places', inactive: site != 'places'}" href="/places">Places</a></li>
-				<li><a ng-click="gotoServices()" ng-class="{active:site == 'services', inactive: site != 'services'}" href="/services">Services</a></li>
+				<li><a ng-class="{active:site == 'stuff', inactive: site != 'stuff'}" href="/stuff">Stuff</a></li>
+				<li><a ng-class="{active:site == 'jobs', inactive: site != 'jobs'}" href="/jobs">Jobs</a></li>
+				<li><a ng-class="{active:site == 'gigs', inactive: site != 'gigs'}" href="/gigs">Gigs</a></li>
+				<li><a ng-class="{active:site == 'places', inactive: site != 'places'}" href="/places">Places</a></li>
+				<li><a ng-class="{active:site == 'services', inactive: site != 'services'}" href="/services">Services</a></li>
 			</ul>
 		</div>
 		<div ng-view=""></div>

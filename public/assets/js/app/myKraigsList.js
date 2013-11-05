@@ -101,31 +101,6 @@ app.controller('headerCtrlr',[
 				mySessionService.getData().title = $scope.title;
 			});
 
-			$scope.gotoStuff = function()
-			{
-				$location.path('/stuff');
-			};
-
-			$scope.gotoJobs = function()
-			{
-				$location.path('/jobs');
-			};
-
-			$scope.gotoGigs = function()
-			{
-				$location.path('/gigs');
-			};
-
-			$scope.gotoPlaces = function()
-			{
-				$location.path('/places');
-			};
-
-			$scope.gotoServices = function()
-			{
-				$location.path('/services');
-			};
-
 		}
 ]);
 
