@@ -29,21 +29,20 @@
 			<div id="link_content">
 				<div id="canvasloader-container"></div>
 				<div ng-show="isRendered">
-					<div ng-repeat="rec in results">
-						<h1>{{rec.date}}</h1>
+					<div ng-repeat="dates in results">
+						<h1>{{dates.date}}</h1>
 						<div class="date">
-							<div ng-repeat="loc in rec.records">
-								<h2>{{loc.location | filterdotname}}</h2>
+							<div ng-repeat="(location, records) in dates.records">
+								<h2>{{location | filterdotname}}</h2>
 								<ul class="locationItems">
-									<li>
-										<a class="jobsite" title="{{loc.title}}" target="_blank" href="{{loc.link}}">
-											<span>{{loc.title}}</span>
+									<li ng-repeat="rec in records">
+										<a class="jobsite" title="{{rec.title}}" target="_blank" href="{{rec.link}}">
+											<span>{{rec.title}}</span>
 										</a>
 									</li>
 								</ul>
 							</div>
 						</div>
-
 					</div>
 				</div>
 			</div>

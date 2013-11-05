@@ -127,7 +127,7 @@ class Scraper {
 			$group_hash = date('M-j-y', $date_timestamp);
 			$regroup_list[$group_hash]['timestamp'] = $date_timestamp;
 			$regroup_list[$group_hash]['date'] = date('M jS', $date_timestamp);
-			$regroup_list[$group_hash]['records'][] = $item;
+			$regroup_list[$group_hash]['records'][$item['location']][] = $item;
 		}
 
 		return array_reverse($regroup_list);
