@@ -11,14 +11,16 @@ ini_set('error_log', './php_errors.log');
 
 date_default_timezone_set('America/Los_Angeles');
 
-require_once './../vendor/autoload.php';
+require_once __DIR__.'/../vendor/autoload.php';
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\ParameterBag;
+use Silex\Application;
+use Silex\Provider\TwigServiceProvider;
+
 use App\CLAgg\ReadConfig;
 use App\CLAgg\Scraper;
 use App\CLAgg\Utils;
-use Silex\Application;
-use Silex\Provider\TwigServiceProvider;
 
 Utils::$cache_url = './../cache/data/';
 
@@ -56,6 +58,22 @@ $app->get('/', function(Request $req) use ($app, $sites)
 		'server_name'	=>$_SERVER['SERVER_NAME'],
 		'sites'			=>$sites,
 	));
+});
+
+$app->get('/assets/{type}', function(Request $req, $type) use ($app, $sites)
+{
+	switch($type)
+	{
+		case 'css':
+			return new Response(file_get_contents(__DIR__.'/../assets/compiled/css/application.css'), 200, array(
+				'Content-Type'=>'text/css'
+			));
+
+		case 'js':
+			return new Response(file_get_contents(__DIR__.'/../assets/compiled/js/application.js'), 200, array(
+				'Content-Type'=>'text/javascript'
+			));
+	}
 });
 
 $app->get('/site', function(Request $req) use ($app, $sites)
@@ -146,6 +164,8 @@ $app->error(function (Exception $e, $code) use ($app)
         default:
             $message = 'We are sorry, but something went terribly wrong.';
     }
+
+	file_put_contents('./error.log', $e->getMessage(), FILE_APPEND);
 
     return $app->json(array(
 		'status'=>false,

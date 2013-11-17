@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "0eb692a91cc4cf26de2d3028280341cf",
+    "hash": "05255e380fe4f433be7a0d82c8214723",
     "packages": [
         {
             "name": "guzzle/guzzle",
@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "57e96c16fecc32f07736dc9645fdfe1b0160a07c"
+                "reference": "d2e8ac50742672ca0947e3f5459a4163eb5f9cbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/57e96c16fecc32f07736dc9645fdfe1b0160a07c",
-                "reference": "57e96c16fecc32f07736dc9645fdfe1b0160a07c",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/d2e8ac50742672ca0947e3f5459a4163eb5f9cbc",
+                "reference": "d2e8ac50742672ca0947e3f5459a4163eb5f9cbc",
                 "shasum": ""
             },
             "require": {
@@ -95,7 +95,119 @@
                 "rest",
                 "web service"
             ],
-            "time": "2013-10-30 02:57:15"
+            "time": "2013-11-14 20:23:30"
+        },
+        {
+            "name": "kriswallsmith/assetic",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kriswallsmith/assetic.git",
+                "reference": "a826e4b96f5c607ff47ef61caf3826b2b1e840ec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/a826e4b96f5c607ff47ef61caf3826b2b1e840ec",
+                "reference": "a826e4b96f5c607ff47ef61caf3826b2b1e840ec",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.1",
+                "symfony/process": "~2.1"
+            },
+            "require-dev": {
+                "cssmin/cssmin": "*",
+                "joliclic/javascript-packer": "*",
+                "kamicane/packager": "*",
+                "leafo/lessphp": "*",
+                "leafo/scssphp": "*",
+                "leafo/scssphp-compass": "*",
+                "mrclay/minify": "*",
+                "phpunit/phpunit": "~3.7",
+                "ptachoire/cssembed": "*",
+                "twig/twig": "~1.6"
+            },
+            "suggest": {
+                "leafo/lessphp": "Assetic provides the integration with the lessphp LESS compiler",
+                "leafo/scssphp": "Assetic provides the integration with the scssphp SCSS compiler",
+                "leafo/scssphp-compass": "Assetic provides the integration with the SCSS compass plugin",
+                "ptachoire/cssembed": "Assetic provides the integration with phpcssembed to embed data uris",
+                "twig/twig": "Assetic provides the integration with the Twig templating engine"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Assetic": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kris Wallsmith",
+                    "email": "kris.wallsmith@gmail.com",
+                    "homepage": "http://kriswallsmith.net/"
+                }
+            ],
+            "description": "Asset Management for PHP",
+            "homepage": "https://github.com/kriswallsmith/assetic",
+            "keywords": [
+                "assets",
+                "compression",
+                "minification"
+            ],
+            "time": "2013-06-01 22:13:43"
+        },
+        {
+            "name": "leafo/lessphp",
+            "version": "v0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leafo/lessphp.git",
+                "reference": "51f3f06f0fe78a722dabfd14578444bdd078d9de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/leafo/lessphp/zipball/51f3f06f0fe78a722dabfd14578444bdd078d9de",
+                "reference": "51f3f06f0fe78a722dabfd14578444bdd078d9de",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "lessc.inc.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Leaf Corcoran",
+                    "email": "leafot@gmail.com",
+                    "homepage": "http://leafo.net"
+                }
+            ],
+            "description": "lessphp is a compiler for LESS written in PHP.",
+            "homepage": "http://leafo.net/lessphp/",
+            "time": "2013-08-09 17:09:19"
         },
         {
             "name": "pimple/pimple",
@@ -103,12 +215,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Pimple.git",
-                "reference": "471c7d7c52ad6594e17b8ec33efdd1be592b5d83"
+                "reference": "9cb15c608ff9283a7017ce33c4a64d09cf27cb12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Pimple/zipball/471c7d7c52ad6594e17b8ec33efdd1be592b5d83",
-                "reference": "471c7d7c52ad6594e17b8ec33efdd1be592b5d83",
+                "url": "https://api.github.com/repos/fabpot/Pimple/zipball/9cb15c608ff9283a7017ce33c4a64d09cf27cb12",
+                "reference": "9cb15c608ff9283a7017ce33c4a64d09cf27cb12",
                 "shasum": ""
             },
             "require": {
@@ -117,7 +229,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1.x-dev"
+                    "dev-master": "2.0.x-dev"
                 }
             },
             "autoload": {
@@ -141,7 +253,7 @@
                 "container",
                 "dependency injection"
             ],
-            "time": "2013-09-19 04:53:08"
+            "time": "2013-11-14 08:09:47"
         },
         {
             "name": "psr/log",
@@ -186,13 +298,13 @@
             "version": "1.0.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fabpot/Silex.git",
-                "reference": "6e4b5ff9e8e325882ec4b1a7e717cdbfd41d5e38"
+                "url": "https://github.com/silexphp/Silex.git",
+                "reference": "89d5ed3cbfebc83145c9c345e286fee190a271b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Silex/zipball/6e4b5ff9e8e325882ec4b1a7e717cdbfd41d5e38",
-                "reference": "6e4b5ff9e8e325882ec4b1a7e717cdbfd41d5e38",
+                "url": "https://api.github.com/repos/silexphp/Silex/zipball/89d5ed3cbfebc83145c9c345e286fee190a271b7",
+                "reference": "89d5ed3cbfebc83145c9c345e286fee190a271b7",
                 "shasum": ""
             },
             "require": {
@@ -261,7 +373,7 @@
             "keywords": [
                 "microframework"
             ],
-            "time": "2013-09-23 10:35:22"
+            "time": "2013-10-30 08:45:28"
         },
         {
             "name": "symfony/debug",
@@ -270,12 +382,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Debug.git",
-                "reference": "10236d7c34e135a9e0879b62a443e3870ce639c6"
+                "reference": "d0677a68259c45b0ef737dd726f9a2962e01746b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Debug/zipball/10236d7c34e135a9e0879b62a443e3870ce639c6",
-                "reference": "10236d7c34e135a9e0879b62a443e3870ce639c6",
+                "url": "https://api.github.com/repos/symfony/Debug/zipball/d0677a68259c45b0ef737dd726f9a2962e01746b",
+                "reference": "d0677a68259c45b0ef737dd726f9a2962e01746b",
                 "shasum": ""
             },
             "require": {
@@ -316,7 +428,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "http://symfony.com",
-            "time": "2013-10-16 11:59:56"
+            "time": "2013-10-30 08:31:46"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -379,12 +491,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation.git",
-                "reference": "8f383fa5e4b66b66ba2d09e502e8bf73bdd04901"
+                "reference": "1c4b897064f4f621031a0e3bc19fd7054d5e0315"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/8f383fa5e4b66b66ba2d09e502e8bf73bdd04901",
-                "reference": "8f383fa5e4b66b66ba2d09e502e8bf73bdd04901",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/1c4b897064f4f621031a0e3bc19fd7054d5e0315",
+                "reference": "1c4b897064f4f621031a0e3bc19fd7054d5e0315",
                 "shasum": ""
             },
             "require": {
@@ -420,7 +532,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2013-10-17 11:48:01"
+            "time": "2013-11-13 21:27:40"
         },
         {
             "name": "symfony/http-kernel",
@@ -429,12 +541,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel.git",
-                "reference": "dce9c5096d8f1460af901e3899f88e9d3c1cec1b"
+                "reference": "9d45e71824fae3d02d0725c7eaeaebe019c54827"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/dce9c5096d8f1460af901e3899f88e9d3c1cec1b",
-                "reference": "dce9c5096d8f1460af901e3899f88e9d3c1cec1b",
+                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/9d45e71824fae3d02d0725c7eaeaebe019c54827",
+                "reference": "9d45e71824fae3d02d0725c7eaeaebe019c54827",
                 "shasum": ""
             },
             "require": {
@@ -491,7 +603,54 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
-            "time": "2013-10-28 14:46:04"
+            "time": "2013-11-14 09:43:43"
+        },
+        {
+            "name": "symfony/process",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/Process",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Process.git",
+                "reference": "88ccdd7a1fb67a23fe81355c66a09d6908ebcd80"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/88ccdd7a1fb67a23fe81355c66a09d6908ebcd80",
+                "reference": "88ccdd7a1fb67a23fe81355c66a09d6908ebcd80",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Process\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-11-09 12:03:12"
         },
         {
             "name": "symfony/routing",
@@ -557,12 +716,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "5d31b14cbf2986aec8fbd91d6429ee08bae4b452"
+                "reference": "39eb50c00e2c0b8174dbcd63e0ed45815ff7babf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/5d31b14cbf2986aec8fbd91d6429ee08bae4b452",
-                "reference": "5d31b14cbf2986aec8fbd91d6429ee08bae4b452",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/39eb50c00e2c0b8174dbcd63e0ed45815ff7babf",
+                "reference": "39eb50c00e2c0b8174dbcd63e0ed45815ff7babf",
                 "shasum": ""
             },
             "require": {
@@ -571,7 +730,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.14-dev"
+                    "dev-master": "1.15-dev"
                 }
             },
             "autoload": {
@@ -598,7 +757,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2013-10-28 13:44:04"
+            "time": "2013-11-14 08:08:49"
         }
     ],
     "packages-dev": [

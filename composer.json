@@ -3,7 +3,9 @@
 	"require": {
 		"silex/silex": "1.0.*",
 		"twig/twig": ">=1.8,<2.0-dev",
-		"guzzle/guzzle": "*"
+		"guzzle/guzzle": "*",
+		"kriswallsmith/assetic": "v1.1.1",
+		"leafo/lessphp": "v0.4.0"
 	},
 	"autoload":
 	{
